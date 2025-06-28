@@ -15,16 +15,10 @@ body {
   padding: 48px;
 }
 
-
+zz main
 .site-header,
 .site-footer {
   padding: 24px 0;
-}
-
-.site-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .site-header .logo {
@@ -32,10 +26,6 @@ body {
   font-weight: 700;
   text-decoration: none;
   font-size: 24px;
-}
-
-.main-nav {
-  margin-left: auto;
 }
 
 .main-nav ul {
@@ -53,7 +43,6 @@ body {
 }
 
 .hero {
-  /* Background image: assets/images/hero-bg.jpg (16:9) */
   background: url('../assets/images/hero-bg.jpg') center/cover no-repeat;
   min-height: 100vh;
   display: flex;
@@ -62,33 +51,6 @@ body {
   text-align: center;
   color: white;
   position: relative;
-}
-
-.hero-small {
-  /* Background image: assets/images/hero-generic.jpg (16:9) */
-  background: url('../assets/images/hero-generic.jpg') center/cover no-repeat;
-  min-height: 40vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-}
-
-.hero-small::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 42, 34, 0.7), rgba(0, 42, 34, 0.2));
-}
-
-.hero-small h1 {
-  position: relative;
-  z-index: 1;
-  color: #67F1B4;
 }
 
 .hero::before {
