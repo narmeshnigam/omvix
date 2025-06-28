@@ -1,5 +1,4 @@
-# Content for main README.md
-readme_main_content = """# Livintiq Website
+# Livintiq Website
 
 _Description: Main project overview and GitHub setup_
 
@@ -66,3 +65,69 @@ Main pages:
 1. **Clone the Repository**
 ```bash
 git clone https://github.com/yourusername/livintiq-website.git
+```
+
+2. **Navigate to Folder**
+```bash
+cd livintiq-website
+```
+
+3. **Start Coding**
+- Open in VS Code
+- Use Live Server extension to preview locally
+
+4. **Commit & Push Changes**
+```bash
+git add .
+git commit -m "Initial commit or changes"
+git push origin main
+```
+
+5. **Enable GitHub Pages**
+- Go to repo → Settings → Pages → Source → main branch
+
+---
+
+## 📦 Assets
+
+- Fonts: Inter (Google Fonts)
+- Icons: Custom neon-green line icons
+- Color palette and components defined in `README_Theme.md`
+- UI references in `README_HomePage.md` and `README_AboutUs.md`
+
+---
+
+## 🗂 Directory Suggestion
+
+```
+/Livintiq-Website
+│
+├── index.html
+├── about.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── assets/
+│   └── images/
+│   └── icons/
+└── README.md
+```
+
+---
+
+## 📞 Conversion & CTAs
+
+- “Book Your Free Demo” (Hero banner)
+- “Schedule Your Consultation” (Testimonials section)
+- “Become a Partner” (B2B section)
+- Floating WhatsApp button across all pages
+
+---
+
+## 🧠 Next Steps
+
+- Implement Home Page layout
+- Build About Us page
+- Set up Solutions structure and link content
+- Style with consistent branding from `README_Theme.md`
