@@ -1,40 +1,112 @@
+<!-- Livintiq Solutions Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Solutions | Livintiq</title>
-  <meta name="description" content="Explore smart home solutions from Livintiq." />
-  <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Livintiq’s luxury smart home solutions—lighting, security, Wi-Fi, and more for Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida & Delhi NCR.">
+  <meta name="keywords" content="smart lighting control, automated curtains, smart door locks, smart cameras, Wi-Fi mesh networks, smart home Delhi NCR">
+  <title>Livintiq Smart Home Solutions | Delhi NCR</title>
+  <link rel="stylesheet" href="/styles/global.css">
 </head>
 <body>
-  <main>
-    <section class="hero-small">
-      <h1>Our Solutions</h1>
-    </section>
-    <section class="section">
-      <div class="container">
-        <ul>
-          <li><a href="solutions-smart-lighting.html">Smart Lighting</a></li>
-          <li><a href="solutions-smart-curtains.html">Smart Curtains</a></li>
-          <li><a href="solutions-smart-switches.html">Smart Switches</a></li>
-          <li><a href="solutions-smart-door-locks.html">Smart Door Locks</a></li>
-          <li><a href="solutions-video-door.html">Video Door Systems</a></li>
-          <li><a href="solutions-smart-cameras.html">Smart Cameras</a></li>
-          <li><a href="solutions-sensors-alarms.html">Sensors & Alarms</a></li>
-          <li><a href="solutions-gate-automation.html">Gate Automation</a></li>
-          <li><a href="solutions-wifi-mesh.html">Wi-Fi Mesh</a></li>
-          <li><a href="solutions-water-controller.html">Water Controller</a></li>
-          <li><a href="solutions-scenes.html">Integrated Scenes</a></li>
-        </ul>
+
+  <!-- Include Header -->
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('/components/header.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('header-placeholder').innerHTML = html);
+  </script>
+
+  <main style="background-color: #002A22; color: #B2EEDC; font-family: 'Inter', sans-serif;">
+    <!-- Section 1: Hero Banner -->
+    <section style="position: relative; height: 60vh; background-image: url('/assets/solutions-hero.jpg'); background-size: cover; background-position: center;">
+      <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 24px;">
+        <h1 style="font-size: 48px; font-weight: 700; color: #67F1B4; margin-bottom: 16px;">Explore Livintiq Smart Home Solutions</h1>
+        <p style="font-size: 18px; font-weight: 400; max-width: 720px;">Smart Home Automation that Enhances Your Comfort, Security, and Lifestyle.</p>
       </div>
     </section>
+
+    <!-- Section 2: Solutions Grid -->
+    <section style="padding: 96px 24px; text-align: center;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; max-width: 1200px; margin: auto;">
+        <a href="/solutions/lighting"><div class="tile"><img src="/icons/bulb-icon.svg" alt="Lighting"><h3>Smart Lighting Control</h3><p>Effortless ambiance, energy savings, and control.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/curtains"><div class="tile"><img src="/icons/curtains-icon.svg" alt="Curtains"><h3>Smart Curtains & Blinds</h3><p>Automated privacy, convenience, and elegance.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/switches"><div class="tile"><img src="/icons/panel-icon.svg" alt="Switches"><h3>Smart Switches & Control Panels</h3><p>Control traditional appliances with smart elegance.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/door-locks"><div class="tile"><img src="/icons/lock-icon.svg" alt="Door Locks"><h3>Smart Door Locks</h3><p>Secure, convenient, keyless entry solutions.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/video-door"><div class="tile"><img src="/icons/doorbell-icon.svg" alt="Video Door"><h3>Smart Video Door Systems</h3><p>Secure your entrance with advanced video interaction.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/cameras"><div class="tile"><img src="/icons/camera-icon.svg" alt="Cameras"><h3>Smart Cameras</h3><p>Real-time monitoring and security solutions.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/sensors"><div class="tile"><img src="/icons/sensor-icon.svg" alt="Sensors"><h3>Sensors & Alarms</h3><p>Automated alerts and safety for your peace of mind.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/gate-automation"><div class="tile"><img src="/icons/gate-icon.svg" alt="Gate Automation"><h3>Smart Gate Automation</h3><p>Convenient vehicle and pedestrian access control.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/wifi-mesh"><div class="tile"><img src="/icons/wifi-icon.svg" alt="Wi-Fi"><h3>Wi-Fi Mesh Networks</h3><p>Stable, fast, home-wide internet connectivity.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/water-controller"><div class="tile"><img src="/icons/water-icon.svg" alt="Water Controller"><h3>Smart Water Controller</h3><p>Automatic water management and overflow protection.</p><span>Explore More →</span></div></a>
+        <a href="/solutions/integrated-scenes"><div class="tile"><img src="/icons/scene-icon.svg" alt="Scenes"><h3>Integrated Scenes & Modes</h3><p>Custom scenes integrating multiple smart devices.</p><span>Explore More →</span></div></a>
+      </div>
+    </section>
+
+    <!-- Section 3: Consultation Prompt -->
+    <section style="padding: 96px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px; background: rgba(255,255,255,0.02);">
+      <div style="flex: 1 1 60%; min-width: 300px;">
+        <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 24px; color: #67F1B4;">Not Sure What Fits Your Home?</h2>
+        <p style="font-size: 16px; color: #B2EEDC; margin-bottom: 24px;">Our experts are here to help you choose the perfect smart-home solutions tailored specifically to your home and lifestyle.</p>
+        <a href="/book-demo" style="background-color: #A4F4CB; color: #002A22; padding: 16px 32px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Book a Free Consultation</a>
+      </div>
+      <div style="flex: 1 1 35%; min-width: 280px;">
+        <img src="/assets/consultation-home.jpg" alt="Consultation Scene" style="width: 100%; border-radius: 16px;">
+      </div>
+    </section>
+
+    <!-- Sticky WhatsApp CTA -->
+    <a href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." target="_blank" aria-label="Chat on WhatsApp"
+       style="position: fixed; bottom: 24px; right: 24px; background-color: #67F1B4; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
+      <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" style="height: 24px;">
+    </a>
   </main>
+
+  <!-- Include Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('/components/footer.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('footer-placeholder').innerHTML = html);
+  </script>
+
+  <style>
+    .tile {
+      background: rgba(255,255,255,0.04);
+      padding: 24px;
+      border-radius: 16px;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+    .tile img {
+      height: 48px;
+      margin-bottom: 16px;
+      transition: transform 0.3s ease;
+    }
+    .tile:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 20px rgba(103, 241, 180, 0.2);
+    }
+    .tile:hover img {
+      transform: scale(1.05);
+    }
+    .tile h3 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #67F1B4;
+      margin-bottom: 8px;
+    }
+    .tile p {
+      color: #B2EEDC;
+      margin-bottom: 12px;
+    }
+    .tile span {
+      color: #67F1B4;
+      font-weight: 500;
+    }
+  </style>
+
 </body>
-<!--
-Images needed:
-- assets/images/solutions-hero.jpg (16:9)
-- icons under assets/images/icons/*.svg (1:1)
--->
 </html>
