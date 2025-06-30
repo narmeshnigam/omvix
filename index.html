@@ -102,19 +102,7 @@
 
 </main>
   
-  <!-- Include Footer -->
-  <div id="footer-placeholder"></div>
-  <script>
-    fetch('/components/footer.html')
-      .then(res => res.text())
-      .then(html => document.getElementById('footer-placeholder').innerHTML = html);
-  </script>
-
-</body>
-</html>
-
-
-<style>
+  <style>
   .card {
     background: rgba(255,255,255,0.04);
     padding: 24px;
@@ -130,3 +118,14 @@
 </style>
 
   
+
+  <!-- Include Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('/components/footer.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('footer-placeholder').innerHTML = html);
+  </script>
+
+</body>
+</html>
