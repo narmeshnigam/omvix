@@ -1,30 +1,70 @@
-<header class="site-header" role="navigation">
-  <div class="container">
-    <a href="index.html" class="logo" aria-label="Livintiq home">
-      <img src="assets/images/livintiq_logo.png" alt="Livintiq logo" height="48" />
+<!-- Livintiq Website Header -->
+<header id="site-header" style="position: fixed; top: 0; left: 0; width: 100%; height: 80px; background-color: #002A22; padding: 24px 48px; display: flex; align-items: center; justify-content: space-between; z-index: 1000; transition: all 0.3s ease-in-out;">
+  <!-- Left: Brand Logo -->
+  <div style="display: flex; align-items: center;">
+    <img src="/assets/logo.png" alt="Livintiq Logo" style="height: 48px; padding: 8px 12px;">
+  </div>
+
+  <!-- Center: Navigation Links -->
+  <nav class="desktop-nav" role="navigation" style="display: flex; gap: 32px; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 18px; color: #67F1B4;">
+    <a href="/" style="color: #67F1B4; text-decoration: none;">Home</a>
+    <a href="/solutions" style="color: #67F1B4; text-decoration: none;">Solutions</a>
+    <a href="/projects" style="color: #67F1B4; text-decoration: none;">Projects</a>
+    <a href="/learn" style="color: #67F1B4; text-decoration: none;">Learn</a>
+    <a href="/for-homeowners" style="color: #67F1B4; text-decoration: none;">For Homeowners</a>
+    <a href="/for-professionals" style="color: #67F1B4; text-decoration: none;">For Professionals</a>
+    <a href="/contact" style="color: #67F1B4; text-decoration: none;">Contact</a>
+  </nav>
+
+  <!-- Right: CTA Buttons -->
+  <div class="cta-buttons" style="display: flex; align-items: center; gap: 16px;">
+    <a href="/book-demo" style="background-color: #A4F4CB; color: #002A22; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Book a Demo</a>
+    <a href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." target="_blank" aria-label="WhatsApp Contact">
+      <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" style="height: 24px; width: 24px;">
     </a>
-    <button class="nav-toggle" aria-label="Toggle navigation menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <nav class="main-nav">
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="solutions.html">Solutions</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="learn.html">Learn</a></li>
-        <li><a href="homeowners.html">For Homeowners</a></li>
-        <li><a href="professionals.html">For Professionals</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <a href="book-demo.html" class="btn book-demo">Book a Demo</a>
-      <a href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." class="whatsapp-link" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
-        <img src="assets/images/whatsapp.svg" alt="WhatsApp" />
-      </a>
-    </nav>
+  </div>
+
+  <!-- Mobile: Hamburger Icon -->
+  <div class="mobile-menu-icon" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu" style="display: none; cursor: pointer;">
+    <img src="/assets/hamburger-icon.svg" alt="Menu" style="height: 24px;">
   </div>
 </header>
-<a href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." class="whatsapp-floating" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
-  <img src="assets/images/whatsapp.svg" alt="WhatsApp" />
-</a>
+
+<!-- Mobile Slide-out Drawer -->
+<div id="mobile-drawer" style="display: none; position: fixed; top: 0; right: 0; width: 280px; height: 100vh; background-color: #002A22; padding: 24px; font-family: 'Inter', sans-serif; font-size: 18px; color: #67F1B4; z-index: 9999; transition: transform 0.3s ease-in-out;">
+  <nav style="display: flex; flex-direction: column; gap: 16px;">
+    <a href="/">Home</a>
+    <a href="/solutions">Solutions</a>
+    <a href="/projects">Projects</a>
+    <a href="/learn">Learn</a>
+    <a href="/for-homeowners">For Homeowners</a>
+    <a href="/for-professionals">For Professionals</a>
+    <a href="/contact">Contact</a>
+    <a href="/book-demo" style="margin-top: 16px; background-color: #A4F4CB; color: #002A22; padding: 12px 24px; border-radius: 12px; text-align: center; text-decoration: none; font-weight: 600;">Book a Demo</a>
+    <a href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." target="_blank" aria-label="WhatsApp Contact" style="margin-top: auto;">
+      <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" style="height: 24px; width: 24px;">
+    </a>
+  </nav>
+</div>
+
+<script>
+  function toggleMobileMenu() {
+    const drawer = document.getElementById('mobile-drawer');
+    drawer.style.display = drawer.style.display === 'block' ? 'none' : 'block';
+  }
+
+  document.addEventListener('click', function (e) {
+    const drawer = document.getElementById('mobile-drawer');
+    const icon = document.querySelector('.mobile-menu-icon');
+    if (!drawer.contains(e.target) && !icon.contains(e.target)) {
+      drawer.style.display = 'none';
+    }
+  });
+</script>
+
+<style>
+  @media (max-width: 768px) {
+    .desktop-nav { display: none; }
+    .mobile-menu-icon { display: block; }
+  }
+</style>
