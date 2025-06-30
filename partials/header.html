@@ -1,41 +1,41 @@
 <!-- Livintiq Website Header -->
-<header id="site-header" style="position: fixed; top: 0; left: 0; width: 100%; height: 80px; background-color: #002A22; padding: 24px 48px; display: flex; align-items: center; justify-content: space-between; z-index: 1000; transition: all 0.3s ease-in-out;">
-  <!-- Left: Brand Logo -->
-  <div style="display: flex; align-items: center;">
-    <img src="/assets/logo.png" alt="Livintiq Logo" style="height: 48px; padding: 8px 12px;">
-  </div>
+<header id="site-header">
+  <div class="header-inner">
+    <!-- Left: Logo -->
+    <div class="logo">
+      <img src="/assets/logo.png" alt="Livintiq Logo" />
+    </div>
 
-  <!-- Center: Navigation Links -->
-  <nav class="desktop-nav" role="navigation" style="display: flex; gap: 32px; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 18px; color: #67F1B4;">
-    <a href="/index.html" style="color: #67F1B4; text-decoration: none;">Home</a>
-    <a href="/solutions.html" style="color: #67F1B4; text-decoration: none;">Solutions</a>
-    <a href="/projects.html" style="color: #67F1B4; text-decoration: none;">Projects</a>
-    <a href="/learn.html" style="color: #67F1B4; text-decoration: none;">Learn</a>
-    <a href="/homeowners.html" style="color: #67F1B4; text-decoration: none;">For Homeowners</a>
-    <a href="/professionals.html" style="color: #67F1B4; text-decoration: none;">For Professionals</a>
-    <a href="/contact.html" style="color: #67F1B4; text-decoration: none;">Contact</a>
-  </nav>
+    <!-- Center: Desktop Navigation -->
+    <nav class="desktop-nav" role="navigation">
+      <a href="/index.html">Home</a>
+      <a href="/solutions.html">Solutions</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/learn.html">Learn</a>
+      <a href="/homeowners.html">For Homeowners</a>
+      <a href="/professionals.html">For Professionals</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
 
-  <!-- Right: CTA Buttons -->
-  <div class="cta-buttons" style="display: flex; align-items: center; gap: 16px;">
-    <a href="/book-demo.html" style="background-color: #A4F4CB; color: #002A22; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Book a Demo</a>
-    <a href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." target="_blank" aria-label="WhatsApp Contact">
-      <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" style="height: 24px; width: 24px;">
-    </a>
-  </div>
-
-  <!-- Mobile: Hamburger Icon -->
-  <div class="mobile-menu-icon" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu" style="display: none; cursor: pointer;">
-    <img src="/assets/hamburger-icon.svg" alt="Menu" style="height: 24px;">
+    <!-- Right: CTA -->
+    <div class="cta-buttons">
+      <a href="/book-demo.html" class="btn">Book a Demo</a>
+      <a href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." target="_blank" aria-label="WhatsApp Contact">
+        <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" />
+      </a>
+      <div class="mobile-menu-icon" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu">
+        <img src="/assets/hamburger-icon.svg" alt="Menu" />
+      </div>
+    </div>
   </div>
 </header>
 
-<!-- Overlay for mobile drawer -->
-<div id="drawer-overlay" onclick="toggleMobileMenu()" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 9998;"></div>
+<!-- Mobile Menu Overlay -->
+<div id="drawer-overlay" onclick="toggleMobileMenu()"></div>
 
-<!-- Mobile Slide-out Drawer -->
-<div id="mobile-drawer" style="position: fixed; top: 0; right: 0; width: 280px; height: 100vh; background-color: #002A22; padding: 24px; font-family: 'Inter', sans-serif; font-size: 18px; color: #67F1B4; z-index: 9999; transform: translateX(100%); transition: transform 0.3s ease-in-out;">
-  <nav style="display: flex; flex-direction: column; gap: 16px;">
+<!-- Mobile Drawer -->
+<div id="mobile-drawer" role="navigation" aria-label="Mobile menu">
+  <nav>
     <a href="/index.html">Home</a>
     <a href="/solutions.html">Solutions</a>
     <a href="/projects.html">Projects</a>
@@ -43,38 +43,201 @@
     <a href="/homeowners.html">For Homeowners</a>
     <a href="/professionals.html">For Professionals</a>
     <a href="/contact.html">Contact</a>
-    <a href="/book-demo.html" style="margin-top: 16px; background-color: #A4F4CB; color: #002A22; padding: 12px 24px; border-radius: 12px; text-align: center; text-decoration: none; font-weight: 600;">Book a Demo</a>
-    <a href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." target="_blank" aria-label="WhatsApp Contact" style="margin-top: auto;">
-      <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" style="height: 24px; width: 24px;">
+    <a href="/book-demo.html" class="btn">Book a Demo</a>
+    <a href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." target="_blank" aria-label="Chat on WhatsApp">
+      <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" />
     </a>
   </nav>
 </div>
 
+<!-- Floating WhatsApp Icon -->
+<a class="floating-whatsapp" href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." target="_blank" aria-label="Chat on WhatsApp">
+  <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" />
+</a>
+
+<!-- Styles -->
+<style>
+  :root {
+    --primary-bg: #002A22;
+    --accent: #67F1B4;
+    --btn-bg: #A4F4CB;
+    --btn-text: #002A22;
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
+
+  #site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--primary-bg);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header-inner {
+    max-width: 1280px;
+    margin: auto;
+    padding: 24px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    height: 48px;
+  }
+
+  .desktop-nav {
+    display: flex;
+    gap: 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .desktop-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .desktop-nav a:hover {
+    text-decoration: underline;
+    color: #A4F4CB;
+  }
+
+  .cta-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .cta-buttons .btn {
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .cta-buttons .btn:hover {
+    filter: brightness(110%);
+    transform: scale(1.02);
+  }
+
+  .cta-buttons img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .mobile-menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  #drawer-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+  }
+
+  #mobile-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: var(--primary-bg);
+    padding: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: var(--accent);
+    z-index: 9999;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #mobile-drawer.open {
+    transform: translateX(0);
+  }
+
+  #mobile-drawer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  #mobile-drawer .btn {
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .floating-whatsapp {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000;
+  }
+
+  .floating-whatsapp img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width: 768px) {
+    .desktop-nav {
+      display: none;
+    }
+
+    .mobile-menu-icon {
+      display: block;
+    }
+
+    .header-inner {
+      padding: 16px 24px;
+    }
+  }
+</style>
+
+<!-- Script -->
 <script>
   function toggleMobileMenu() {
     const drawer = document.getElementById('mobile-drawer');
     const overlay = document.getElementById('drawer-overlay');
     const isOpen = drawer.classList.contains('open');
+
     drawer.classList.toggle('open');
     overlay.style.display = isOpen ? 'none' : 'block';
+    document.body.classList.toggle('menu-open', !isOpen);
   }
-
-  document.addEventListener('click', function (e) {
-    const drawer = document.getElementById('mobile-drawer');
-    const icon = document.querySelector('.mobile-menu-icon');
-    const overlay = document.getElementById('drawer-overlay');
-    if (!drawer.contains(e.target) && !icon.contains(e.target)) {
-      drawer.classList.remove('open');
-      overlay.style.display = 'none';
-    }
-  });
 
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
-      const drawer = document.getElementById('mobile-drawer');
-      const overlay = document.getElementById('drawer-overlay');
+      document.getElementById('mobile-drawer').classList.remove('open');
+      document.getElementById('drawer-overlay').style.display = 'none';
+      document.body.classList.remove('menu-open');
+    }
+  });
+
+  document.addEventListener('click', function (e) {
+    const drawer = document.getElementById('mobile-drawer');
+    const overlay = document.getElementById('drawer-overlay');
+    const icon = document.querySelector('.mobile-menu-icon');
+
+    if (!drawer.contains(e.target) && !icon.contains(e.target)) {
       drawer.classList.remove('open');
       overlay.style.display = 'none';
+      document.body.classList.remove('menu-open');
     }
   });
 
@@ -83,25 +246,3 @@
     header.classList.toggle('shrink', window.scrollY > 50);
   });
 </script>
-
-<style>
-  @media (max-width: 768px) {
-    .desktop-nav { display: none; }
-    .mobile-menu-icon { display: block; }
-  }
-
-  #mobile-drawer.open {
-    transform: translateX(0);
-  }
-
-  #site-header.shrink {
-    height: 64px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-</style>
-
-<!-- Floating WhatsApp Icon -->
-<a id="whatsapp-floating" href="https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation." target="_blank" aria-label="Chat on WhatsApp" style="position: fixed; bottom: 24px; right: 24px; z-index: 1000;">
-  <img src="/assets/whatsapp-icon.svg" alt="WhatsApp" style="height: 48px; width: 48px; border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.3);">
-</a>
