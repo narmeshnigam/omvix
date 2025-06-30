@@ -1,6 +1,26 @@
 <!-- Livintiq Home Page -->
-<main style="background-color: #002A22; color: #B2EEDC; font-family: 'Inter', sans-serif;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Livintiq delivers premium smart home solutions—smart lighting, security, curtains, and Wi-Fi mesh—for luxurious living in Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida & Delhi NCR.">
+  <meta name="keywords" content="smart home automation, luxury smart home, smart lighting, home security, smart curtains, home Wi-Fi solutions, Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida">
+  <title>Luxury Smart Home Automation | Livintiq in Delhi NCR</title>
+  <link rel="stylesheet" href="/styles/global.css">
+</head>
+<body>
 
+  <!-- Include Header -->
+  <div id="header-placeholder"></div>
+  <script>
+    fetch('/components/header.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('header-placeholder').innerHTML = html);
+  </script>
+
+  <main style="background-color: #002A22; color: #B2EEDC; font-family: 'Inter', sans-serif;">
+    
   <!-- Section 1: Hero Banner -->
   <section class="hero" style="position: relative; height: 100vh; background-image: url('/assets/hero-luxury-living-room.jpg'); background-size: cover; background-position: center;">
     <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,42,34,0.7), rgba(0,42,34,0.95)); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 24px;">
@@ -81,6 +101,18 @@
   </a>
 
 </main>
+  
+  <!-- Include Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch('/components/footer.html')
+      .then(res => res.text())
+      .then(html => document.getElementById('footer-placeholder').innerHTML = html);
+  </script>
+
+</body>
+</html>
+
 
 <style>
   .card {
@@ -96,3 +128,5 @@
     box-shadow: 0 4px 20px rgba(103, 241, 180, 0.2);
   }
 </style>
+
+  
