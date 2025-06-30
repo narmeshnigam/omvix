@@ -14,7 +14,7 @@
   <!-- Include Header -->
   <div id="header-placeholder"></div>
   <script>
-    fetch('/components/header.html')
+    fetch('/partials/header.html')
       .then(res => res.text())
       .then(html => document.getElementById('header-placeholder').innerHTML = html);
   </script>
@@ -103,7 +103,7 @@
   <!-- Include Footer -->
   <div id="footer-placeholder"></div>
   <script>
-    fetch('/components/footer.html')
+    fetch('/partials/footer.html')
       .then(res => res.text())
       .then(html => document.getElementById('footer-placeholder').innerHTML = html);
   </script>
