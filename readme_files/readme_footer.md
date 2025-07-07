@@ -1,4 +1,4 @@
-# 📌 Livintiq Website Structural Document – Footer
+# 📌 Omvix Website Structural Document – Footer
 
 ## ✅ 1. Component Title
 **Website Footer**
@@ -45,8 +45,8 @@ To serve as the closing section of each webpage, offering essential navigation, 
 
 | Element | Spec |
 |--------|------|
-| Logo   | Livintiq logo (height: 36px, top margin: 4px) |
-| Text   | “Livintiq delivers luxury smart home automation across Delhi NCR. From consultation to installation, we simplify intelligent living.” |
+| Logo   | Omvix logo (height: 36px, top margin: 4px) |
+| Text   | “Omvix delivers luxury smart home automation across Delhi NCR. From consultation to installation, we simplify intelligent living.” |
 
 ---
 
@@ -76,7 +76,7 @@ To serve as the closing section of each webpage, offering essential navigation, 
 **Heading:** Get in Touch
 
 - 📞 +91 98765 43210  
-- ✉️ contact@livintiq.com  
+- ✉️ contact@omvix.com  
 - 📍 Sector 62, Noida, Uttar Pradesh – 201301  
 - 🕒 Mon–Sat, 10AM to 7PM  
 
@@ -100,7 +100,7 @@ To serve as the closing section of each webpage, offering essential navigation, 
 - Text alignment: center
 
 **Text:**  
-© 2025 Livintiq. All rights reserved. • Powered by SecureIndia Automations
+© 2025 Omvix. All rights reserved. • Powered by SecureIndia Automations
 
 ---
 

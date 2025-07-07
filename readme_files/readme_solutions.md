@@ -1,25 +1,25 @@
-# Solutions Page – Livintiq Website
+# Solutions Page – Omvix Website
 
-_Description: Structure and UX details for Livintiq’s Smart Home Solutions page_
+_Description: Structure and UX details for Omvix’s Smart Home Solutions page_
 
 ---
 
 ## 🧭 Page Purpose
 
-Present all smart home automation categories offered by Livintiq in a clear, engaging, and navigable format. Help users explore offerings and navigate deeper into specific subpages.
+Present all smart home automation categories offered by Omvix in a clear, engaging, and navigable format. Help users explore offerings and navigate deeper into specific subpages.
 
 ---
 
 ## 👥 Target Audience
 
 - **Primary**: Homeowners (30–70), exploring solutions for home upgrades
-- **Secondary**: Interior designers and architects evaluating Livintiq’s capabilities
+- **Secondary**: Interior designers and architects evaluating Omvix’s capabilities
 
 ---
 
 ## 🔑 Key Messages
 
-- Livintiq offers a wide range of smart automation solutions under one roof
+- Omvix offers a wide range of smart automation solutions under one roof
 - Each solution enhances comfort, safety, luxury, or connectivity
 - Users can consult with experts if unsure what to choose
 
@@ -32,7 +32,7 @@ Present all smart home automation categories offered by Livintiq in a clear, eng
 - **Background**: Hyper-realistic luxury smart home interior
 - **Overlay**: Semi-transparent #002A22
 - **Text**:
-  - **H1**: “Explore Livintiq Smart Home Solutions”
+  - **H1**: “Explore Omvix Smart Home Solutions”
   - **Body**: “Smart Home Automation that Enhances Your Comfort, Security, and Lifestyle.”
 
 ---
@@ -77,7 +77,7 @@ Present all smart home automation categories offered by Livintiq in a clear, eng
 - **Heading**: “Not Sure What Fits Your Home?”
 - **Body**: Guidance for customers unsure about what to select
 - **CTA Button**: “Book a Free Consultation”
-- **Image Prompt**: Livintiq consultant demonstrating solutions at a luxury home via tablet
+- **Image Prompt**: Omvix consultant demonstrating solutions at a luxury home via tablet
 
 ---
 
@@ -95,15 +95,15 @@ Present all smart home automation categories offered by Livintiq in a clear, eng
 ## 💻 Interaction & UX Notes
 
 - All solution cards are clickable and include smooth fade-in on scroll
-- Hover animations per Livintiq UI Guide
+- Hover animations per Omvix UI Guide
 - Sticky WhatsApp button present on bottom-right
 
 ---
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Livintiq Smart Home Solutions | Delhi NCR & Nearby
-- **Meta Description**: Discover Livintiq’s smart solutions—lighting, locks, curtains, Wi-Fi, and more. Trusted across Delhi NCR.
+- **Meta Title**: Omvix Smart Home Solutions | Delhi NCR & Nearby
+- **Meta Description**: Discover Omvix’s smart solutions—lighting, locks, curtains, Wi-Fi, and more. Trusted across Delhi NCR.
 - **Keywords**: smart lighting, curtains, smart lock, smart Wi-Fi, home automation Delhi
 
 ---
@@ -120,4 +120,4 @@ Present all smart home automation categories offered by Livintiq in a clear, eng
 
 - Icons must follow neon-green futuristic line style
 - Ensure full responsiveness
-- Animations to be subtle, elegant, and aligned with Livintiq’s luxury branding
+- Animations to be subtle, elegant, and aligned with Omvix’s luxury branding

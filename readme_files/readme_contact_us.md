@@ -1,4 +1,4 @@
-# Contact Us Page – Livintiq Website
+# Contact Us Page – Omvix Website
 
 _Description: Central communication page providing multiple contact methods and easy-to-use UI_
 
@@ -6,19 +6,19 @@ _Description: Central communication page providing multiple contact methods and 
 
 ## 🎯 Page Purpose
 
-Offer users an easy and reliable way to get in touch with Livintiq—whether through direct calls, emails, WhatsApp, or a form submission—ensuring smooth communication across devices.
+Offer users an easy and reliable way to get in touch with Omvix—whether through direct calls, emails, WhatsApp, or a form submission—ensuring smooth communication across devices.
 
 ---
 
 ## 👥 Intended Audience
 
-- Website visitors seeking to ask a question, schedule a service, or locate Livintiq’s office
+- Website visitors seeking to ask a question, schedule a service, or locate Omvix’s office
 
 ---
 
 ## 🔑 Key Messages
 
-- Livintiq is easy to reach
+- Omvix is easy to reach
 - All queries are welcome—big or small
 - Multiple contact options available for user convenience
 
@@ -41,7 +41,7 @@ Offer users an easy and reliable way to get in touch with Livintiq—whether thr
 |------------------------------|-----------------------------------------------|
 | Location                     | XYZ Tower, Sector 62, Noida, UP – 201301     |
 | Phone                        | +91 98765 43210                              |
-| Email                        | contact@livintiq.com                         |
+| Email                        | contact@omvix.com                         |
 | Working Hours                | Mon–Sat: 10 AM – 7 PM                        |
 
 - **Right Side**: Embedded Google Map (styled, centered pin)
@@ -105,9 +105,9 @@ Offer users an easy and reliable way to get in touch with Livintiq—whether thr
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Contact Livintiq | Smart Home Experts in Delhi NCR
-- **Meta Description**: Connect with Livintiq for consultations and smart home queries via call, email, WhatsApp, or location visit.
-- **Keywords**: smart home contact, automation consultation, Livintiq Noida office, Delhi smart home experts
+- **Meta Title**: Contact Omvix | Smart Home Experts in Delhi NCR
+- **Meta Description**: Connect with Omvix for consultations and smart home queries via call, email, WhatsApp, or location visit.
+- **Keywords**: smart home contact, automation consultation, Omvix Noida office, Delhi smart home experts
 
 ---
 
