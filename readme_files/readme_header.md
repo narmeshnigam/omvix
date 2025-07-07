@@ -1,4 +1,4 @@
-# 📌 Livintiq Website Structural Document – Header Navigation
+# 📌 Omvix Website Structural Document – Header Navigation
 
 ## ✅ 1. Component Title
 **Website Header / Navigation Bar**
@@ -6,7 +6,7 @@
 ---
 
 ## ✅ 2. Component Purpose
-To provide seamless and intuitive access to all major sections of the Livintiq website, while reinforcing the brand identity through consistent styling and presence across all pages (desktop and mobile).
+To provide seamless and intuitive access to all major sections of the Omvix website, while reinforcing the brand identity through consistent styling and presence across all pages (desktop and mobile).
 
 ---
 
@@ -21,7 +21,7 @@ To provide seamless and intuitive access to all major sections of the Livintiq w
 
 ## ✅ 4. Key Functions
 - Serve as the fixed access point to major page links.
-- Reinforce Livintiq branding.
+- Reinforce Omvix branding.
 - Provide immediate CTAs (e.g. “Book Demo” and WhatsApp).
 - Mobile-responsive with minimal visual clutter.
 
@@ -43,7 +43,7 @@ To provide seamless and intuitive access to all major sections of the Livintiq w
 
 | Section       | Element Details                                         |
 |---------------|----------------------------------------------------------|
-| Left          | **Brand Logo** (Livintiq logo, height: 48px)             |
+| Left          | **Brand Logo** (Omvix logo, height: 48px)             |
 | Center        | **Navigation Links**: Home, Solutions, Projects, Learn, For Homeowners, For Professionals, Contact |
 | Right         | **Primary CTA Button**: “Book a Demo” → styled button <br> **WhatsApp Icon CTA** → always visible (popup or direct link) |
 
@@ -93,7 +93,7 @@ To provide seamless and intuitive access to all major sections of the Livintiq w
 
 ### 🔹 WhatsApp CTA (Floating/Inline Button)
 - Label: Icon-only (WhatsApp logo or "+")
-- Target: `https://wa.me/919876543210?text=Hi, I'm interested in Livintiq smart home automation.`
+- Target: `https://wa.me/919876543210?text=Hi, I'm interested in Omvix smart home automation.`
 - Placement:
   - Inline in desktop nav bar (top-right beside demo button)
   - Floating sticky button (bottom-right) on scroll/mobile

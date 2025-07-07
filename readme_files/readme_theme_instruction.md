@@ -1,6 +1,6 @@
-# Livintiq Theme & UI Guidelines
+# Omvix Theme & UI Guidelines
 
-_Description: UI theme, color palette, typography, and component styling for Livintiq Website_
+_Description: UI theme, color palette, typography, and component styling for Omvix Website_
 
 ---
 

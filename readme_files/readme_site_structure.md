@@ -1,6 +1,6 @@
-# Livintiq Website Structure & Content Plan
+# Omvix Website Structure & Content Plan
 
-_Description: Sitemap, audiences, and purpose of each page in the Livintiq website_
+_Description: Sitemap, audiences, and purpose of each page in the Omvix website_
 
 ---
 

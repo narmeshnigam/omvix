@@ -1,19 +1,19 @@
-# Home Page – Livintiq Website
+# Home Page – Omvix Website
 
-_Description: Structure, purpose, and UI/UX guidelines for the Livintiq homepage_
+_Description: Structure, purpose, and UI/UX guidelines for the Omvix homepage_
 
 ---
 
 ## 🏡 Page Purpose
 
-To create a luxurious and persuasive first impression for Livintiq, clearly communicating its smart home automation solutions, and guiding users toward lead conversion through demos and consultations.
+To create a luxurious and persuasive first impression for Omvix, clearly communicating its smart home automation solutions, and guiding users toward lead conversion through demos and consultations.
 
 ---
 
 ## 👥 Target Audience
 
 - **Primary**: Homeowners (30–70 years), interested in luxury, convenience, and security
-- **Secondary**: Interior designers, architects, and professionals evaluating Livintiq as a partner
+- **Secondary**: Interior designers, architects, and professionals evaluating Omvix as a partner
 
 ---
 
@@ -48,7 +48,7 @@ To create a luxurious and persuasive first impression for Livintiq, clearly comm
 
 ### 🔹 Section 3: Lifestyle Benefits (4-Column Icons)
 
-- **Heading**: “Why Homeowners Choose Livintiq”
+- **Heading**: “Why Homeowners Choose Omvix”
 - **Layout**: 4 horizontal icons with text
 - **Icons**: Minimal neon-green icons on dark background
 
@@ -76,10 +76,10 @@ To create a luxurious and persuasive first impression for Livintiq, clearly comm
 - **Auto-scroll**: 7 seconds per slide
 - **Manual Nav**: Dots below
 - **Testimonials**:
-  > "Livintiq changed the way we experience our home. Luxurious, intuitive, and safe."  
+  > "Omvix changed the way we experience our home. Luxurious, intuitive, and safe."  
   — *Mrs. Shruti Kapoor, Homeowner, Gurgaon*
 
-  > "Reliable and innovative—Livintiq makes automation seamlessly easy for our projects."  
+  > "Reliable and innovative—Omvix makes automation seamlessly easy for our projects."  
   — *Mr. Aniket Malhotra, Architect, Noida*
 
 - **CTA Below Slider**: “Schedule Your Consultation”
@@ -88,9 +88,9 @@ To create a luxurious and persuasive first impression for Livintiq, clearly comm
 
 ### 🔹 Section 6: Partner Callout (Horizontal Highlight Card)
 
-- **Heading**: “Partner with Livintiq”
+- **Heading**: “Partner with Omvix”
 - **Text**: Invite architects, designers, and builders for collaboration
-- **Image**: Elegant meeting scene with Livintiq rep and architect reviewing plans
+- **Image**: Elegant meeting scene with Omvix rep and architect reviewing plans
 - **CTA**: “Become a Partner”
 
 ---
@@ -134,7 +134,7 @@ To create a luxurious and persuasive first impression for Livintiq, clearly comm
 
 ## 🔍 SEO Metadata
 
-- **Meta Title**: Luxury Smart Home Automation | Livintiq in Delhi NCR
-- **Meta Description**: Livintiq offers premium automation for lighting, security, and comfort across Delhi NCR
+- **Meta Title**: Luxury Smart Home Automation | Omvix in Delhi NCR
+- **Meta Description**: Omvix offers premium automation for lighting, security, and comfort across Delhi NCR
 - **Keywords**: smart home, luxury automation, Delhi, Noida, Gurgaon, Wi-Fi mesh, smart locks
 

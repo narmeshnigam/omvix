@@ -1,4 +1,4 @@
-# For Homeowners Page – Livintiq Website
+# For Homeowners Page – Omvix Website
 
 _Description: Structure and messaging tailored to homeowners exploring smart home automation_
 
@@ -6,7 +6,7 @@ _Description: Structure and messaging tailored to homeowners exploring smart hom
 
 ## 🎯 Page Purpose
 
-To showcase how Livintiq enhances day-to-day life across apartments, villas, bungalows, and farmhouses. This page encourages homeowners to explore automation solutions personalized to their home type and lifestyle.
+To showcase how Omvix enhances day-to-day life across apartments, villas, bungalows, and farmhouses. This page encourages homeowners to explore automation solutions personalized to their home type and lifestyle.
 
 ---
 
@@ -19,7 +19,7 @@ To showcase how Livintiq enhances day-to-day life across apartments, villas, bun
 
 ## 🔑 Key Messages
 
-- Livintiq offers home-type-specific automation solutions
+- Omvix offers home-type-specific automation solutions
 - Suitable for any life stage (elderly, families, travelers)
 - Personalized, non-intrusive retrofitting and elegant new build setups
 
@@ -75,7 +75,7 @@ To showcase how Livintiq enhances day-to-day life across apartments, villas, bun
 ### 🔹 Section 5: Homeowner Testimonial
 
 - **Testimonial**:  
-  “As frequent travelers, Livintiq solutions have given us complete control over our home from anywhere in the world. Absolute peace of mind.”  
+  “As frequent travelers, Omvix solutions have given us complete control over our home from anywhere in the world. Absolute peace of mind.”  
   — *Mr. & Mrs. Vikram Singh, Greater Noida*
 
 ---
@@ -86,7 +86,7 @@ To showcase how Livintiq enhances day-to-day life across apartments, villas, bun
 - **CTA Buttons**:
   - Primary: “Book Your Free Demo”
   - Secondary: “Request a Quote”
-- **Visual Prompt**: Livintiq consultant explaining options to a family
+- **Visual Prompt**: Omvix consultant explaining options to a family
 
 ---
 
@@ -110,8 +110,8 @@ To showcase how Livintiq enhances day-to-day life across apartments, villas, bun
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Home Automation for Homeowners | Livintiq
-- **Meta Description**: Personalized smart-home automation for apartments, villas, farmhouses, and bungalows by Livintiq in Delhi NCR
+- **Meta Title**: Smart Home Automation for Homeowners | Omvix
+- **Meta Description**: Personalized smart-home automation for apartments, villas, farmhouses, and bungalows by Omvix in Delhi NCR
 - **Keywords**: smart home solutions, retrofit automation, automation for families, smart villas, Delhi smart homes
 
 ---
