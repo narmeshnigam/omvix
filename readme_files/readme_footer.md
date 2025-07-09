@@ -57,12 +57,12 @@ To serve as the closing section of each webpage, offering essential navigation, 
 
 - Home → `/`
 - Solutions → `/solutions`
-- Projects → `/projects`
-- Learn → `/learn`
-- Contact Us → `/contact`
-- For Homeowners → `/for-homeowners`
-- For Professionals → `/for-professionals`
-- Book a Demo → `/book-demo`
+- Projects → `/projects.html`
+- Learn → `/learn.html`
+- Contact Us → `/contact.html`
+- For Homeowners → `/homeowners.html`
+- For Professionals → `/professionals.html`
+- Book a Demo → `/book-demo.html`
 
 **Link Styling:**
 - Font size: 16px

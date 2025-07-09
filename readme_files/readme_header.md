@@ -70,12 +70,12 @@ To provide seamless and intuitive access to all major sections of the Omvix webs
 | Link Label         | Target URL                      |
 |--------------------|----------------------------------|
 | Home               | `/`                              |
-| Solutions          | `/solutions`                    |
-| Projects           | `/projects`                     |
-| Learn              | `/learn`                        |
-| For Homeowners     | `/for-homeowners`               |
-| For Professionals  | `/for-professionals`            |
-| Contact            | `/contact`                      |
+| Solutions          | `/solutions/`                    |
+| Projects           | `/projects.html`                     |
+| Learn              | `/learn.html`                        |
+| For Homeowners     | `/homeowners.html`               |
+| For Professionals  | `/professionals.html`            |
+| Contact            | `/contact.html`                      |
 
 ---
 
@@ -83,7 +83,7 @@ To provide seamless and intuitive access to all major sections of the Omvix webs
 
 ### 🔹 Book a Demo (Primary CTA Button)
 - Label: **“Book a Demo”**
-- Target URL: `/book-demo`
+- Target URL: `/book-demo.html`
 - Style:
   - Background: **#A4F4CB**
   - Text: **#002A22**
