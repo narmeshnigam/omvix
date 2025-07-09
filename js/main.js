@@ -1,8 +1,8 @@
 // Load header and footer and initialize navigation
 function loadPartials() {
   Promise.all([
-    fetch('partials/header.html').then(res => res.text()),
-    fetch('partials/footer.html').then(res => res.text())
+    fetch('/partials/header.html').then(res => res.text()),
+    fetch('/partials/footer.html').then(res => res.text())
   ]).then(([headerHTML, footerHTML]) => {
     document.body.insertAdjacentHTML('afterbegin', headerHTML);
     document.body.insertAdjacentHTML('beforeend', footerHTML);
