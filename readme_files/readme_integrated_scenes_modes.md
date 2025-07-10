@@ -1,12 +1,12 @@
-# Integrated Scenes & Modes – Livintiq Website
+# Integrated Scenes & Modes – Omvix Website
 
-_Description: Showcase how Livintiq combines multiple smart devices into customizable "Scenes" for effortless lifestyle automation._
+_Description: Showcase how Omvix combines multiple smart devices into customizable "Scenes" for effortless lifestyle automation._
 
 ---
 
 ## 🎯 Page Purpose
 
-Demonstrate how Livintiq enables users to automate routines like Morning, Goodnight, or Vacation by combining smart switches, curtains, lights, and more into single-tap commands.
+Demonstrate how Omvix enables users to automate routines like Morning, Goodnight, or Vacation by combining smart switches, curtains, lights, and more into single-tap commands.
 
 ---
 
@@ -30,7 +30,7 @@ Demonstrate how Livintiq enables users to automate routines like Morning, Goodni
 ### 🔹 Section 1: Hero Banner
 
 - **Heading (H1)**: “One Tap. Everything Changes.”
-- **Subtext**: “With Livintiq’s Scenes & Modes, control your entire home the way you want, when you want.”
+- **Subtext**: “With Omvix’s Scenes & Modes, control your entire home the way you want, when you want.”
 - **CTA**: “Explore Smart Scene Setups”
 - **Visual**: Lifestyle scene (lights dimming, curtains closing, TV turning on for “Movie Mode”)
 
@@ -72,7 +72,7 @@ Demonstrate how Livintiq enables users to automate routines like Morning, Goodni
 
 | Method             | Description                                       |
 |--------------------|---------------------------------------------------|
-| App Control        | Trigger scenes via Livintiq app                   |
+| App Control        | Trigger scenes via Omvix app                   |
 | Touch Panel Buttons| Wall-mounted panel with labeled scene buttons     |
 | Voice Assistants   | Use Alexa or Google Assistant                     |
 | Scheduling         | Automate scenes based on time or day              |
@@ -89,7 +89,7 @@ Demonstrate how Livintiq enables users to automate routines like Morning, Goodni
 
 ---
 
-### 🔹 Section 7: Integration with Livintiq Systems
+### 🔹 Section 7: Integration with Omvix Systems
 
 - **Heading (H2)**: “Scenes That Talk to Every Device”
 - Devices Included:
@@ -140,9 +140,9 @@ Demonstrate how Livintiq enables users to automate routines like Morning, Goodni
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Home Scenes & Modes | Livintiq Automation Integration Delhi NCR
-- **Meta Description**: Automate lights, curtains, locks, and sensors with Livintiq smart scenes. Available in Delhi, Noida, Gurgaon, Ghaziabad & Greater Noida.
-- **Keywords**: smart home scenes India, scene automation, smart routines setup, Livintiq modes control
+- **Meta Title**: Smart Home Scenes & Modes | Omvix Automation Integration Delhi NCR
+- **Meta Description**: Automate lights, curtains, locks, and sensors with Omvix smart scenes. Available in Delhi, Noida, Gurgaon, Ghaziabad & Greater Noida.
+- **Keywords**: smart home scenes India, scene automation, smart routines setup, Omvix modes control
 
 ---
 

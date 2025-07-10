@@ -1,4 +1,4 @@
-# Smart Door Locks – Livintiq Website
+# Smart Door Locks – Omvix Website
 
 _Description: Product landing page to showcase keyless smart locks, integrations, use cases, and convert through CTAs and trust elements._
 
@@ -6,7 +6,7 @@ _Description: Product landing page to showcase keyless smart locks, integrations
 
 ## 🎯 Page Purpose
 
-Highlight the security, convenience, and advanced access features of Livintiq’s smart door lock offerings. Prompt visitors to compare options, request quotes, or consult via WhatsApp.
+Highlight the security, convenience, and advanced access features of Omvix’s smart door lock offerings. Prompt visitors to compare options, request quotes, or consult via WhatsApp.
 
 ---
 
@@ -138,8 +138,8 @@ Highlight the security, convenience, and advanced access features of Livintiq’
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Door Locks for Homes | Livintiq Automation Delhi NCR
-- **Meta Description**: Explore smart locks with keyless entry, app control, and activity logs by Livintiq. Serving Delhi, Noida, Gurgaon, Ghaziabad & NCR.
+- **Meta Title**: Smart Door Locks for Homes | Omvix Automation Delhi NCR
+- **Meta Description**: Explore smart locks with keyless entry, app control, and activity logs by Omvix. Serving Delhi, Noida, Gurgaon, Ghaziabad & NCR.
 - **Keywords**: smart locks India, fingerprint lock, app-controlled lock, home security automation
 
 ---
