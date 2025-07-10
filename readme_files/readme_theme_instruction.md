@@ -1,124 +1,104 @@
-# Omvix Theme & UI Guidelines
+# Omvix Website Theme & UI Style Guide
 
-_Description: UI theme, color palette, typography, and component styling for Omvix Website_
+_Last Updated: 10 July 2025_  
+**Palette: Orange · Red · Yellow**
 
 ---
 
 ## 🎨 Color Palette
 
-| Purpose             | HEX Code   | Notes                                      |
-|---------------------|------------|--------------------------------------------|
-| Primary Background  | `#002A22`  | Dark theme base canvas                     |
-| Accent Green        | `#67F1B4`  | Used for highlights, icons, and headings   |
-| Subdued Text        | `#B2EEDC`  | Body text and muted elements               |
-| Button Background   | `#A4F4CB`  | Used in all CTA buttons                    |
-| Button Text Color   | `#002A22`  | Ensures high contrast in buttons           |
-| Overlay Box BG      | `rgba(255,255,255,0.04)` | Card and container backgrounds     |
-| Shadow Tint         | `rgba(103, 241, 180, 0.2)` | Card hover shadows               |
+| Purpose               | HEX Code     | Notes                                           |
+|-----------------------|--------------|-------------------------------------------------|
+| Primary Background    | `#FFF8F0`    | Soft cream tone, light and inviting             |
+| Primary Accent        | `#FF6F40`    | Orange – for headings, CTAs, and icon accents  |
+| Secondary Accent      | `#E25822`    | Deep Red – for hovers, alerts, outlines        |
+| Muted Text Color      | `#5A4033`    | For regular body copy and labels               |
+| Bright Highlight      | `#FFD447`    | Yellow – buttons, alerts, badges               |
+| Button Background     | `#FFB347`    | Warm orange for main CTA buttons               |
+| Button Text Color     | `#3B1F0F`    | Contrasting dark brown for button readability  |
+| Card/Overlay Background | `#FFF1E5`  | For card backgrounds and subtle blocks         |
+| Card Shadow Tint      | `rgba(255,111,64,0.2)` | Used on hover elevation                      |
 
 ---
 
-## 🔤 Typography
+## ✏️ Typography
 
-| Element       | Font  | Weight | Size (px) | Use Case                         |
-|---------------|-------|--------|-----------|----------------------------------|
-| H1            | Inter | 700    | 64        | Hero titles                      |
-| H2            | Inter | 600    | 36        | Section titles                   |
-| H3            | Inter | 600    | 22        | Card titles, headlines           |
-| Body Text     | Inter | 400–500| 16        | Paragraphs, descriptions         |
-| Button Text   | Inter | 600    | 16–18     | CTAs                             |
-| Small Text    | Inter | 400    | 14        | Footer, labels                   |
+| Element       | Font   | Weight | Size (px) | Use Case                        |
+|---------------|--------|--------|-----------|----------------------------------|
+| H1            | Inter  | 700    | 64        | Hero titles, page headers        |
+| H2            | Inter  | 600    | 36        | Section headers                  |
+| H3            | Inter  | 600    | 22        | Cards, small blocks              |
+| Body Text     | Inter  | 400–500| 16        | General descriptive text         |
+| Button Text   | Inter  | 600    | 16–18     | CTAs                             |
+| Small Text    | Inter  | 400    | 14        | Labels, footer items             |
 
-- Title Case for headings
-- Sentence case for body text
-- Line height: 1.4–1.6
-- No text shadows
+- Line height: approx 1.5  
+- Headings: Title Case  
+- Body Text & Buttons: Sentence case  
+- No text shadows allowed
 
 ---
 
-## 🔘 Buttons
+## 🎉 Button Styles
 
 ```css
-background: #A4F4CB;
-color: #002A22;
+background: #FFB347;
+color: #3B1F0F;
 padding: 16px 32px;
 border-radius: 12px;
 font-weight: 600;
 transition: all 0.3s ease;
 ```
 
-- Hover: Brightness ↑ + slight scale up
-- Disabled: Greyed with cursor `not-allowed`
+- **Hover**: Brightness boost + scale-up  
+- **Disabled**: Grayed with `cursor: not-allowed`
 
 ---
 
-## 🃏 Cards
+## 🏠 Cards
 
 ```css
-background: rgba(255,255,255,0.04);
+background: #FFF1E5;
 padding: 24px;
 border-radius: 16px;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 ```
 
-- Hover: Translate up & apply shadow
+- **Hover**:
+  ```css
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(255,111,64,0.2);
+  ```
 
 ---
 
-## 🖼 Image Styling
+## 🖼️ Images
 
-- Border-radius: 16px
-- Shadow: `0 8px 24px rgba(0,0,0,0.3)`
+- Border-radius: 16px  
+- Box Shadow: `0 8px 24px rgba(0,0,0,0.2)`  
+- Use warm lighting  
+- Margin-bottom: 32px  
 - Max-width: 100%
-- Margin-bottom: 32px
-- Use dark-tone or twilight-lit images with luxury decor
 
 ---
 
-## 📩 Form Inputs
-
-```css
-padding: 12px;
-border-radius: 8px;
-border: 1px solid #67F1B4;
-background-color: transparent;
-color: #67F1B4;
-```
-
-- Label spacing: `display: block`, `margin-bottom: 8px`
-- All inputs (text, select, textarea) match the color scheme
-
----
-
-## 📋 Tables
-
-```css
-border-collapse: collapse;
-border: 1px solid #67F1B4;
-padding: 12px;
-color: #B2EEDC;
-```
-
-Header row:
-```css
-background: rgba(255,255,255,0.04);
-color: #67F1B4;
-font-weight: 600;
-```
-
----
-
-## 📱 Dropdown Styling
+## 🔻 Custom Dropdowns
 
 ```css
 appearance: none;
-border: 1px solid #67F1B4;
-color: #67F1B4;
+border: 1px solid #FF6F40;
+color: #FF6F40;
 padding: 12px;
 border-radius: 8px;
 ```
 
-Avoid default OS styling. Use inline SVG or pseudo-elements for caret.
+---
+
+## 📊 Tables
+
+- Border: `1px solid #FF6F40`  
+- Header Row: `#FFF1E5` background, `#E25822` text  
+- Padding: 12px
 
 ---
 
@@ -126,35 +106,62 @@ Avoid default OS styling. Use inline SVG or pseudo-elements for caret.
 
 ```css
 border: 6px solid rgba(255,255,255,0.2);
-border-top: 6px solid #67F1B4;
+border-top: 6px solid #FF6F40;
 border-radius: 50%;
 animation: spin 1s linear infinite;
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
 ```
-
-Used for submissions, transitions, or background loading states.
 
 ---
 
-## 📐 Layout & Spacing
+## 🔢 Navigation Bar
 
-| Element            | Spec                   |
-|--------------------|------------------------|
-| Max Width          | 1280px (centered)      |
-| Page Padding       | 48px desktop, 24px mobile |
-| Section Spacing    | 96px vertical spacing  |
-| Card Margin Bottom | 24px                   |
+- **Background**: `#FFF8F0`  
+- **Font**: Inter 600  
+- **Text Color**: `#E25822`  
+- **CTA Button**: as per global style  
+- **Mobile**: hamburger drawer, same palette
+
+---
+
+## ✉️ Form Inputs
+
+- Border: 1px solid `#FF6F40`  
+- Radius: 8px  
+- Font Color: `#5A4033`  
+- Background: transparent  
+- Labels: block, margin-bottom: 8px
+
+---
+
+## ✨ Animation Rules
+
+- `transition: all 0.3s ease`  
+- Hover = brightness + light scale  
+- Avoid flashy/fast animations
+
+---
+
+## 📏 Spacing & Containers
+
+| Element        | Spec                |
+|----------------|---------------------|
+| Max Width      | 1280px centered     |
+| Page Padding   | 48px (desktop), 24px (mobile) |
+| Section Gap    | 96px vertical       |
+| Card Margin    | 24px bottom         |
 
 ---
 
 ## ❌ Don’ts
 
-- No light backgrounds
-- No default browser dropdowns or inputs
-- No boxy or sharp corners
-- No excessive shadows or animations
-- Do not mix fonts or style frameworks
+- No black/dark backgrounds  
+- No neon greens or previous green tones  
+- Avoid sharp corners and clutter  
+- Don’t mix fonts or use heavy shadows
+
+---
+
+## 📁 Assets Reference
+
+- Full implementation live in `Omvix UI Sample Webpage.html`  
+- UI behavior preview available via working prototype
