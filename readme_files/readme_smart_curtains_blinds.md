@@ -1,12 +1,12 @@
-# Smart Curtains & Blinds – Livintiq Website
+# Smart Curtains & Blinds – Omvix Website
 
-_Description: Showcase and conversion page for Livintiq’s motorized curtain and blind automation systems._
+_Description: Showcase and conversion page for Omvix’s motorized curtain and blind automation systems._
 
 ---
 
 ## 🎯 Page Purpose
 
-Present Livintiq’s motorized curtain and blind automation options, highlight lifestyle use cases and compatibility, and convert interest into consultations and demo bookings.
+Present Omvix’s motorized curtain and blind automation options, highlight lifestyle use cases and compatibility, and convert interest into consultations and demo bookings.
 
 ---
 
@@ -20,7 +20,7 @@ Present Livintiq’s motorized curtain and blind automation options, highlight l
 ## 🔑 Key Messages
 
 - Wake up naturally. Sleep securely. Create ambiance automatically.
-- Livintiq smart curtains move with your schedule or commands.
+- Omvix smart curtains move with your schedule or commands.
 - Designed for retrofit or new installations with stylish materials.
 
 ---
@@ -30,7 +30,7 @@ Present Livintiq’s motorized curtain and blind automation options, highlight l
 ### 🔹 Section 1: Hero Banner
 
 - **Heading (H1)**: “Curtains That Move With You”
-- **Subheading**: “Automate natural light, privacy, and luxury with Livintiq's motorized curtain & blind systems.”
+- **Subheading**: “Automate natural light, privacy, and luxury with Omvix's motorized curtain & blind systems.”
 - **CTA Button**: “Explore Curtain Solutions”
 - **Visual**: Luxury bedroom with morning sunlight filtering in and curtains opening automatically; app UI in foreground with “Good Morning” scene
 
@@ -125,9 +125,9 @@ Present Livintiq’s motorized curtain and blind automation options, highlight l
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Curtains & Blinds | Livintiq Home Automation Delhi NCR
-- **Meta Description**: Automate your curtains and blinds with voice or app-based control. Book a demo with Livintiq for Delhi, Gurgaon, Noida, Ghaziabad & Greater Noida homes.
-- **Keywords**: smart curtain India, motorized blinds, remote curtain control, wake-up curtain scene, Livintiq curtains automation
+- **Meta Title**: Smart Curtains & Blinds | Omvix Home Automation Delhi NCR
+- **Meta Description**: Automate your curtains and blinds with voice or app-based control. Book a demo with Omvix for Delhi, Gurgaon, Noida, Ghaziabad & Greater Noida homes.
+- **Keywords**: smart curtain India, motorized blinds, remote curtain control, wake-up curtain scene, Omvix curtains automation
 
 ---
 

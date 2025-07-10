@@ -1,4 +1,4 @@
-# Wi-Fi Mesh Network Solutions – Livintiq Website
+# Wi-Fi Mesh Network Solutions – Omvix Website
 
 _Description: Informational and lead-conversion page focused on solving poor Wi-Fi connectivity issues in large homes through Mesh Network solutions._
 
@@ -30,7 +30,7 @@ Educate users about Mesh Wi-Fi technology and demonstrate its superiority over e
 ### 🔹 Section 1: Hero Banner
 
 - **Heading (H1)**: “Unbreakable Wi-Fi in Every Room”
-- **Subheading**: “Livintiq Mesh Networks ensure high-speed internet in every corner—no matter the size of your home.”
+- **Subheading**: “Omvix Mesh Networks ensure high-speed internet in every corner—no matter the size of your home.”
 - **CTA Button**: “Book a Wi-Fi Optimization Visit”
 - **Visual Prompt**: Hyper-realistic villa/duplex with glowing nodes in all rooms
 
@@ -102,7 +102,7 @@ Educate users about Mesh Wi-Fi technology and demonstrate its superiority over e
 
 ### 🔹 Section 8: Testimonials
 
-> “We had multiple extenders and still faced slow speeds in bedrooms. Livintiq installed a mesh system—and now we get full bars everywhere, including the terrace.”  
+> “We had multiple extenders and still faced slow speeds in bedrooms. Omvix installed a mesh system—and now we get full bars everywhere, including the terrace.”  
 — *Mr. Sahil Mehra, Duplex Owner, Greater Noida*
 
 ---
@@ -137,9 +137,9 @@ Educate users about Mesh Wi-Fi technology and demonstrate its superiority over e
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Wi-Fi Mesh Network Setup | Livintiq Smart Home Connectivity Delhi NCR
-- **Meta Description**: Get seamless Wi-Fi across all rooms and floors with Livintiq Mesh Network Solutions. Setup and installation available in Delhi, Gurgaon, Noida, Ghaziabad & NCR.
-- **Keywords**: mesh Wi-Fi India, home mesh setup, fix Wi-Fi dead zones, smart home Wi-Fi network, best mesh system for home, Livintiq Wi-Fi automation
+- **Meta Title**: Wi-Fi Mesh Network Setup | Omvix Smart Home Connectivity Delhi NCR
+- **Meta Description**: Get seamless Wi-Fi across all rooms and floors with Omvix Mesh Network Solutions. Setup and installation available in Delhi, Gurgaon, Noida, Ghaziabad & NCR.
+- **Keywords**: mesh Wi-Fi India, home mesh setup, fix Wi-Fi dead zones, smart home Wi-Fi network, best mesh system for home, Omvix Wi-Fi automation
 
 ---
 

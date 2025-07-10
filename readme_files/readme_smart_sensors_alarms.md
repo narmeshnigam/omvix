@@ -1,12 +1,12 @@
-# Smart Sensors & Alarms – Livintiq Website
+# Smart Sensors & Alarms – Omvix Website
 
-_Description: Website page for Livintiq’s smart sensors and alarm system for safety, automation, and early alerting._
+_Description: Website page for Omvix’s smart sensors and alarm system for safety, automation, and early alerting._
 
 ---
 
 ## 🎯 Page Purpose
 
-Promote awareness and drive consultations or demo bookings for Livintiq’s range of smart sensors (motion, smoke, gas, water, etc.).
+Promote awareness and drive consultations or demo bookings for Omvix’s range of smart sensors (motion, smoke, gas, water, etc.).
 
 ---
 
@@ -30,7 +30,7 @@ Promote awareness and drive consultations or demo bookings for Livintiq’s rang
 ### 🔹 Section 1: Hero Banner
 
 - **Heading (H1)**: “Your Home’s Silent Guardians”
-- **Subtext**: “From motion to gas leaks, Livintiq’s smart sensors keep you alert and protected—wherever you are.”
+- **Subtext**: “From motion to gas leaks, Omvix’s smart sensors keep you alert and protected—wherever you are.”
 - **CTA Button**: “Get Your Home Sensor-Fitted”
 - **Visual Prompt**: Kitchen gas alert on phone + motion detection inset
 
@@ -125,9 +125,9 @@ Promote awareness and drive consultations or demo bookings for Livintiq’s rang
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Sensors & Alarms | Livintiq Home Safety Delhi NCR
-- **Meta Description**: Protect your home with Livintiq’s smart sensors for motion, gas leaks, fire, and more. Instant alerts & automation in Delhi NCR.
-- **Keywords**: smart motion sensor India, gas detector, water overflow alert, smart siren, Livintiq home safety
+- **Meta Title**: Smart Sensors & Alarms | Omvix Home Safety Delhi NCR
+- **Meta Description**: Protect your home with Omvix’s smart sensors for motion, gas leaks, fire, and more. Instant alerts & automation in Delhi NCR.
+- **Keywords**: smart motion sensor India, gas detector, water overflow alert, smart siren, Omvix home safety
 
 ---
 

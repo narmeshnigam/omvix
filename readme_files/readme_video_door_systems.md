@@ -1,4 +1,4 @@
-# Smart Video Door Systems (VDPs & VDBs) – Livintiq Website
+# Smart Video Door Systems (VDPs & VDBs) – Omvix Website
 
 _Description: Page to showcase smart entrance security using Video Door Phones (VDPs) and Video Door Bells (VDBs), their differences, real-life use cases, and lead conversion._
 
@@ -6,7 +6,7 @@ _Description: Page to showcase smart entrance security using Video Door Phones (
 
 ## 🎯 Page Purpose
 
-Present Livintiq’s entrance security solutions, highlight the use cases of VDPs vs VDBs, and convert interested visitors via demo booking and WhatsApp interactions.
+Present Omvix’s entrance security solutions, highlight the use cases of VDPs vs VDBs, and convert interested visitors via demo booking and WhatsApp interactions.
 
 ---
 
@@ -30,7 +30,7 @@ Present Livintiq’s entrance security solutions, highlight the use cases of VDP
 ### 🔹 Section 1: Hero Banner
 
 - **Heading**: “See, Speak, Secure—Before You Open the Door”
-- **Subtext**: “Livintiq’s smart door systems let you greet visitors with confidence, even when you're not home.”
+- **Subtext**: “Omvix’s smart door systems let you greet visitors with confidence, even when you're not home.”
 - **CTA**: “Request Video Door Consultation”
 - **Visual**: Split-screen of interior monitor + exterior camera with visitor
 
@@ -137,9 +137,9 @@ Present Livintiq’s entrance security solutions, highlight the use cases of VDP
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Video Door Phones & Door Bells | Livintiq Entrance Security Delhi NCR
-- **Meta Description**: Talk to visitors, watch live video, and secure your entryway with Livintiq’s VDPs and VDBs. Book your smart door system in Delhi, Gurgaon, Noida & more.
-- **Keywords**: video door phone India, smart doorbell, video intercom system, smart entrance solution, home door camera system, Livintiq VDP VDB
+- **Meta Title**: Smart Video Door Phones & Door Bells | Omvix Entrance Security Delhi NCR
+- **Meta Description**: Talk to visitors, watch live video, and secure your entryway with Omvix’s VDPs and VDBs. Book your smart door system in Delhi, Gurgaon, Noida & more.
+- **Keywords**: video door phone India, smart doorbell, video intercom system, smart entrance solution, home door camera system, Omvix VDP VDB
 
 ---
 
