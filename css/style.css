@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 body {
-  background-color: #002A22;
-  color: #B2EEDC;
+  background-color: #FFF8F0;
+  color: #5A4033;
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
@@ -42,7 +42,7 @@ body {
 }
 
 .main-nav a {
-  color: #B2EEDC;
+  color: #E25822;
   text-decoration: none;
   font-weight: 500;
 }
@@ -54,7 +54,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: #5A4033;
   position: relative;
 }
 
@@ -65,7 +65,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 42, 34, 0.7), rgba(0, 42, 34, 0.2));
+  background: linear-gradient(to bottom, rgba(255, 248, 240, 0.7), rgba(255, 248, 240, 0.2));
 }
 
 .hero-content {
@@ -75,7 +75,7 @@ body {
 
 .hero h1 {
   font-size: 64px;
-  color: #67F1B4;
+  color: #FF6F40;
   margin-bottom: 16px;
 }
 
@@ -85,8 +85,8 @@ body {
 }
 
 .btn {
-  background: #A4F4CB;
-  color: #002A22;
+  background: #FFB347;
+  color: #3B1F0F;
   padding: 16px 32px;
   border-radius: 12px;
   font-weight: 600;
@@ -111,7 +111,7 @@ body {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.04);
+  background: #FFF1E5;
   padding: 24px;
   border-radius: 16px;
   text-align: center;
@@ -120,7 +120,7 @@ body {
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(255, 111, 64, 0.2);
 }
 
 .card img {
@@ -129,7 +129,7 @@ body {
 }
 
 .card h3 {
-  color: #67F1B4;
+  color: #FF6F40;
   margin-bottom: 8px;
 }
 
@@ -139,8 +139,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: #002A22;
-  color: #67F1B4;
+  background: #FFF8F0;
+  color: #E25822;
   transition: all 0.3s ease-in-out;
   z-index: 1000;
   height: 80px;
@@ -168,7 +168,7 @@ body {
   display: block;
   width: 24px;
   height: 2px;
-  background: #67F1B4;
+  background: #E25822;
   margin: 5px 0;
   transition: all 0.3s ease-in-out;
 }
@@ -188,7 +188,7 @@ body {
 }
 
 .main-nav a {
-  color: #67F1B4;
+  color: #E25822;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
@@ -200,8 +200,8 @@ body {
 }
 
 .book-demo {
-  background: #A4F4CB;
-  color: #002A22;
+  background: #FFB347;
+  color: #3B1F0F;
   border-radius: 12px;
   padding: 12px 24px;
 }
@@ -217,7 +217,7 @@ body {
   position: fixed;
   bottom: 16px;
   right: 16px;
-  background: #A4F4CB;
+  background: #FFB347;
   border-radius: 50%;
   padding: 12px;
   z-index: 1000;
@@ -225,8 +225,8 @@ body {
 
 /* Footer Layout */
 .site-footer {
-  background: #002A22;
-  color: #B2EEDC;
+  background: #FFF8F0;
+  color: #5A4033;
   padding: 48px 0;
 }
 
@@ -251,7 +251,7 @@ body {
 
 .footer-links a,
 .footer-contact a {
-  color: #67F1B4;
+  color: #FF6F40;
   text-decoration: none;
   font-size: 16px;
   transition: all 0.3s ease-in-out;
@@ -293,7 +293,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding: 24px;
-    background: #002A22;
+    background: #FFF8F0;
     gap: 24px;
     transition: right 0.3s ease-in-out;
   }
