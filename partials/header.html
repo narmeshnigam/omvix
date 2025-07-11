@@ -130,6 +130,19 @@
     .cta-desktop {
       display: none !important;
     }
+
+    .logo img {
+      height: 36px !important;
+    }
+
+    #site-header {
+      transition: opacity 0.3s ease;
+    }
+
+    #site-header.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
   }
 
   #mobile-drawer.open {
@@ -179,7 +192,27 @@
 
   window.addEventListener('scroll', function () {
     const header = document.getElementById('site-header');
+    const isMobile = window.innerWidth <= 768;
+
+    // Always shrink on scroll
     header.classList.toggle('shrink', window.scrollY > 50);
+
+    // On mobile only: fade out on scroll down, fade in on scroll up
+    if (!isMobile) {
+      header.classList.remove('hidden');
+      return;
+    }
+
+    const currentScroll = window.scrollY || document.documentElement.scrollTop;
+    window.lastScrollTop = window.lastScrollTop || 0;
+
+    if (currentScroll > window.lastScrollTop) {
+      header.classList.add('hidden'); // Scrolling down
+    } else {
+      header.classList.remove('hidden'); // Scrolling up
+    }
+
+    window.lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
   });
 
   // Dynamic "More" menu handling
@@ -198,13 +231,19 @@
     moreMenu.innerHTML = '';
     moreDropdown.style.display = 'none';
 
-    let lastIndex = links.length - 1;
-    while (navLinks.scrollWidth > navLinks.clientWidth && lastIndex >= 0) {
-      const link = links[lastIndex];
-      moreDropdown.style.display = 'block';
-      moreMenu.prepend(link.cloneNode(true));
-      link.style.display = 'none';
-      lastIndex--;
+    const navWidth = nav.offsetWidth;
+    let usedWidth = moreDropdown.offsetWidth;
+
+    for (let i = 0; i < links.length; i++) {
+      const link = links[i];
+      usedWidth += link.offsetWidth + 32;
+
+      if (usedWidth > navWidth - 50) {
+        moreDropdown.style.display = 'block';
+        moreMenu.appendChild(link.cloneNode(true));
+        link.style.display = 'none';
+      }
+
     }
   }
 </script>
