@@ -22,41 +22,6 @@ function loadPartials() {
   ]).then(([headerHTML, footerHTML]) => {
     insertHTMLWithScripts('afterbegin', headerHTML);
     insertHTMLWithScripts('beforeend', footerHTML);
-    initMobileMenu();
-  });
-}
-
-function initMobileMenu() {
-  const drawer = document.getElementById('mobile-drawer');
-  const overlay = document.getElementById('drawer-overlay');
-  const icon = document.querySelector('.mobile-menu-icon');
-
-  if (!drawer || !overlay || !icon) return;
-
-  function toggle() {
-    const isOpen = drawer.classList.contains('open');
-    drawer.classList.toggle('open');
-    overlay.style.display = isOpen ? 'none' : 'block';
-    document.body.classList.toggle('menu-open', !isOpen);
-  }
-
-  icon.addEventListener('click', toggle);
-  overlay.addEventListener('click', toggle);
-
-  document.addEventListener('click', e => {
-    if (!drawer.contains(e.target) && !icon.contains(e.target)) {
-      drawer.classList.remove('open');
-      overlay.style.display = 'none';
-      document.body.classList.remove('menu-open');
-    }
-  });
-
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') {
-      drawer.classList.remove('open');
-      overlay.style.display = 'none';
-      document.body.classList.remove('menu-open');
-    }
   });
 }
 
