@@ -1,41 +1,51 @@
 <!-- Omvix Website Header -->
-<header id="site-header">
-  <div class="header-inner">
-    <!-- Left: Logo -->
+<header id="site-header" role="banner" style="position: fixed; top: 0; left: 0; width: 100%; background: #FFF8F0; z-index: 1000; transition: all 0.3s ease-in-out; font-family: 'Inter', sans-serif;">
+  <div class="header-inner" style="max-width: 1280px; margin: auto; padding: 24px 48px; display: flex; align-items: center; justify-content: space-between; position: relative;">
+    
+    <!-- Logo -->
     <div class="logo">
-      <img src="/assets/images/omvix_logo.png" alt="Omvix Logo" />
+      <img src="/assets/images/omvix_logo.png" alt="Omvix Logo" style="height: 48px;" />
     </div>
 
-    <!-- Center: Desktop Navigation -->
-    <nav class="desktop-nav" role="navigation">
-      <a href="/index.html">Home</a>
-      <a href="/solutions.html">Solutions</a>
-      <a href="/projects.html">Projects</a>
-      <a href="/learn.html">Learn</a>
-      <a href="/homeowners.html">For Homeowners</a>
-      <a href="/professionals.html">For Professionals</a>
-      <a href="/contact.html">Contact</a>
+    <!-- Desktop Navigation -->
+    <nav class="desktop-nav" role="navigation" aria-label="Main menu" style="display: flex; gap: 32px; font-weight: 600; font-size: 18px; overflow: hidden;">
+      <div class="nav-links" style="display: flex; gap: 32px; white-space: nowrap;">
+        <a href="/index.html">Home</a>
+        <a href="/solutions.html">Solutions</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/learn.html">Learn</a>
+        <a href="/homeowners.html">For Homeowners</a>
+        <a href="/professionals.html">For Professionals</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="more-dropdown" style="position: relative; display: none;">
+        <button style="background: none; border: none; font-weight: 600; cursor: pointer; color: #E25822;">More ▾</button>
+        <ul class="more-menu" style="display: none; position: absolute; top: 100%; left: 0; background: #FFF8F0; list-style: none; margin: 0; padding: 12px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1); z-index: 1000;">
+        </ul>
+      </div>
     </nav>
 
-    <!-- Right: CTA -->
-    <div class="cta-buttons">
-      <a href="/book-demo.html" class="btn">Book a Demo</a>
-      <a href="https://wa.me/919876543210?text=Hi, I'm interested in Omvix smart home automation." target="_blank" aria-label="WhatsApp Contact">
-        <img src="/assets/images/whatsapp.svg" alt="WhatsApp" />
+    <!-- CTA Buttons -->
+    <div class="cta-buttons" style="display: flex; align-items: center; gap: 16px;">
+      <a href="/book-demo.html" class="btn cta-desktop" style="background: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Book a Demo</a>
+      <a class="cta-desktop" href="https://wa.me/919876543210?text=Hi, I'm interested in Omvix smart home automation." target="_blank" aria-label="WhatsApp Contact">
+        <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px; width: 24px;">
       </a>
-      <div class="mobile-menu-icon" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu">
-        <img src="/assets/hamburger-icon.svg" alt="Menu" />
-      </div>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <div class="mobile-menu-icon" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu" style="display: none; position: absolute; right: 24px; top: 24px; cursor: pointer;">
+      <img src="/assets/hamburger-icon.svg" alt="Menu" style="height: 24px;">
     </div>
   </div>
 </header>
 
 <!-- Mobile Menu Overlay -->
-<div id="drawer-overlay" onclick="toggleMobileMenu()"></div>
+<div id="drawer-overlay" onclick="toggleMobileMenu()" style="display: none; position: fixed; inset: 0; background: rgba(0, 0, 0, 0.5); z-index: 9998;"></div>
 
 <!-- Mobile Drawer -->
-<div id="mobile-drawer" role="navigation" aria-label="Mobile menu">
-  <nav>
+<div id="mobile-drawer" role="navigation" aria-label="Mobile menu" style="position: fixed; top: 0; right: 0; width: 280px; height: 100vh; background-color: #FFF8F0; padding: 24px; font-size: 18px; color: #E25822; z-index: 9999; transform: translateX(100%); transition: transform 0.3s ease-in-out; overflow-y: auto;">
+  <nav style="display: flex; flex-direction: column; gap: 16px;">
     <a href="/index.html">Home</a>
     <a href="/solutions.html">Solutions</a>
     <a href="/projects.html">Projects</a>
@@ -43,173 +53,80 @@
     <a href="/homeowners.html">For Homeowners</a>
     <a href="/professionals.html">For Professionals</a>
     <a href="/contact.html">Contact</a>
-    <a href="/book-demo.html" class="btn">Book a Demo</a>
-    <a href="https://wa.me/919876543210?text=Hi, I'm interested in Omvix smart home automation." target="_blank" aria-label="Chat on WhatsApp">
-      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" />
+    <a href="/book-demo.html" class="btn" style="margin-top: 16px; background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; text-align: center; text-decoration: none; font-weight: 600;">Book a Demo</a>
+    <a href="https://wa.me/919876543210?text=Hi, I'm interested in Omvix smart home automation." target="_blank" aria-label="Chat on WhatsApp" style="margin-top: auto;">
+      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px; width: 24px;">
     </a>
   </nav>
 </div>
 
-<!-- Floating WhatsApp Icon -->
-<a class="floating-whatsapp" href="https://wa.me/919876543210?text=Hi, I'm interested in Omvix smart home automation." target="_blank" aria-label="Chat on WhatsApp">
-  <img src="/assets/images/whatsapp.svg" alt="WhatsApp" />
+<!-- Floating WhatsApp -->
+<a class="floating-whatsapp" href="https://wa.me/919876543210?text=Hi, I'm interested in Omvix smart home automation." target="_blank" aria-label="Chat on WhatsApp" style="position: fixed; bottom: 24px; right: 24px; z-index: 1000;">
+  <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 48px; width: 48px; border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.3);">
 </a>
 
-<!-- Styles -->
+<!-- CSS -->
 <style>
-  :root {
-    --primary-bg: #FFF8F0;
-    --accent: #E25822;
-    --btn-bg: #FFB347;
-    --btn-text: #3B1F0F;
-  }
-
-  body.menu-open {
-    overflow: hidden;
-  }
-
-  #site-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: var(--primary-bg);
-    z-index: 1000;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .header-inner {
-    max-width: 1280px;
-    margin: auto;
-    padding: 24px 48px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .logo img {
-    height: 48px;
-  }
-
-  .desktop-nav {
-    display: flex;
-    gap: 32px;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-  }
-
   .desktop-nav a {
-    color: var(--accent);
-    text-decoration: none;
-    transition: 0.3s;
-  }
-
-  .desktop-nav a:hover {
-    text-decoration: underline;
-    color: #FFB347;
-  }
-
-  .cta-buttons {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-
-  .cta-buttons .btn {
-    background: var(--btn-bg);
-    color: var(--btn-text);
-    padding: 12px 24px;
-    border-radius: 12px;
-    font-weight: 600;
+    color: #E25822;
     text-decoration: none;
     transition: all 0.3s ease;
   }
 
-  .cta-buttons .btn:hover {
-    filter: brightness(110%);
-    transform: scale(1.02);
+  .desktop-nav a:hover {
+    color: #FFB347;
+    text-decoration: underline;
   }
 
-  .cta-buttons img {
-    height: 24px;
-    width: 24px;
+  .more-menu a {
+    display: block;
+    padding: 8px 24px;
+    color: #E25822;
+    text-decoration: none;
+    white-space: nowrap;
   }
 
-  .mobile-menu-icon {
-    display: none;
-    cursor: pointer;
+  .more-menu a:hover {
+    background: #FFE6D5;
   }
 
-  #drawer-overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 9998;
+  #site-header.shrink .header-inner {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
   }
 
-  #mobile-drawer {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 280px;
-    height: 100vh;
-    background-color: var(--primary-bg);
-    padding: 24px;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    color: var(--accent);
-    z-index: 9999;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
+  @media (max-width: 768px) {
+    .desktop-nav {
+      display: none !important;
+    }
+
+    .mobile-menu-icon {
+      display: block !important;
+    }
+
+    .header-inner {
+      padding: 16px 24px !important;
+    }
+
+    .cta-desktop {
+      display: none !important;
+    }
   }
 
   #mobile-drawer.open {
     transform: translateX(0);
   }
 
-  #mobile-drawer nav {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  .more-dropdown:hover .more-menu {
+    display: block;
   }
 
-  #mobile-drawer .btn {
-    margin-top: 16px;
-    text-align: center;
-  }
-
-  .floating-whatsapp {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    z-index: 1000;
-  }
-
-  .floating-whatsapp img {
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  }
-
-  @media (max-width: 768px) {
-    .desktop-nav {
-      display: none;
-    }
-
-    .mobile-menu-icon {
-      display: block;
-    }
-
-    .header-inner {
-      padding: 16px 24px;
-    }
+  body.menu-open {
+    overflow: hidden;
   }
 </style>
 
-<!-- Script -->
+<!-- JS -->
 <script>
   function toggleMobileMenu() {
     const drawer = document.getElementById('mobile-drawer');
@@ -245,4 +162,35 @@
     const header = document.getElementById('site-header');
     header.classList.toggle('shrink', window.scrollY > 50);
   });
+
+  // Dynamic "More" menu handling
+  window.addEventListener('load', manageOverflowMenu);
+  window.addEventListener('resize', manageOverflowMenu);
+
+  function manageOverflowMenu() {
+    const nav = document.querySelector('.desktop-nav');
+    const navLinks = nav.querySelector('.nav-links');
+    const links = Array.from(navLinks.children);
+    const moreDropdown = nav.querySelector('.more-dropdown');
+    const moreMenu = nav.querySelector('.more-menu');
+
+    // Reset
+    links.forEach(link => link.style.display = 'inline-flex');
+    moreMenu.innerHTML = '';
+    moreDropdown.style.display = 'none';
+
+    const navWidth = nav.offsetWidth;
+    let usedWidth = moreDropdown.offsetWidth;
+
+    for (let i = 0; i < links.length; i++) {
+      const link = links[i];
+      usedWidth += link.offsetWidth + 32; // +gap
+
+      if (usedWidth > navWidth - 50) {
+        moreDropdown.style.display = 'block';
+        moreMenu.appendChild(link.cloneNode(true));
+        link.style.display = 'none';
+      }
+    }
+  }
 </script>
