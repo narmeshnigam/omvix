@@ -8,8 +8,8 @@
     </div>
 
     <!-- Desktop Navigation -->
-    <nav class="desktop-nav" role="navigation" aria-label="Main menu" style="display: flex; gap: 32px; font-weight: 600; font-size: 18px; overflow: hidden;">
-      <div class="nav-links" style="display: flex; gap: 32px; white-space: nowrap;">
+    <nav class="desktop-nav" role="navigation" aria-label="Main menu" style="display: flex; gap: 32px; font-weight: 600; font-size: 18px; flex: 1; min-width: 0; overflow: visible;">
+      <div class="nav-links" style="display: flex; gap: 32px; white-space: nowrap; flex: 1; min-width: 0; overflow: hidden;">
         <a href="/index.html">Home</a>
         <a href="/solutions.html">Solutions</a>
         <a href="/projects.html">Projects</a>
@@ -71,6 +71,25 @@
     color: #E25822;
     text-decoration: none;
     transition: all 0.3s ease;
+  }
+
+  .desktop-nav {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    gap: 32px;
+    font-weight: 600;
+    font-size: 18px;
+    overflow: visible;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 32px;
+    white-space: nowrap;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
   }
 
   .desktop-nav a:hover {
@@ -174,23 +193,18 @@
     const moreDropdown = nav.querySelector('.more-dropdown');
     const moreMenu = nav.querySelector('.more-menu');
 
-    // Reset
-    links.forEach(link => link.style.display = 'inline-flex');
+    // Reset state
+    links.forEach(link => (link.style.display = 'inline-flex'));
     moreMenu.innerHTML = '';
     moreDropdown.style.display = 'none';
 
-    const navWidth = nav.offsetWidth;
-    let usedWidth = moreDropdown.offsetWidth;
-
-    for (let i = 0; i < links.length; i++) {
-      const link = links[i];
-      usedWidth += link.offsetWidth + 32; // +gap
-
-      if (usedWidth > navWidth - 50) {
-        moreDropdown.style.display = 'block';
-        moreMenu.appendChild(link.cloneNode(true));
-        link.style.display = 'none';
-      }
+    let lastIndex = links.length - 1;
+    while (navLinks.scrollWidth > navLinks.clientWidth && lastIndex >= 0) {
+      const link = links[lastIndex];
+      moreDropdown.style.display = 'block';
+      moreMenu.prepend(link.cloneNode(true));
+      link.style.display = 'none';
+      lastIndex--;
     }
   }
 </script>
