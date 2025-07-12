@@ -26,3 +26,21 @@ function loadPartials() {
 }
 
 document.addEventListener('DOMContentLoaded', loadPartials);
+
+// Toggle the mobile navigation drawer
+function toggleMobileMenu() {
+  const drawer = document.getElementById('mobile-drawer');
+  const overlay = document.getElementById('drawer-overlay');
+  if (!drawer || !overlay) return;
+
+  const isOpen = drawer.classList.contains('open');
+  if (isOpen) {
+    drawer.classList.remove('open');
+    overlay.style.display = 'none';
+    document.body.classList.remove('menu-open');
+  } else {
+    drawer.classList.add('open');
+    overlay.style.display = 'block';
+    document.body.classList.add('menu-open');
+  }
+}
