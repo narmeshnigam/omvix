@@ -119,8 +119,15 @@ body {
 }
 
 .card:hover {
-  transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(255, 111, 64, 0.2);
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card span {
+  color: #C45A34;
+  font-weight: 500;
 }
 
 .card img {
@@ -413,3 +420,4 @@ body.menu-open {
   padding-top: 12px !important;
   padding-bottom: 12px !important;
 }
+
