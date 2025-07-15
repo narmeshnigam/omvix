@@ -15,10 +15,18 @@ function insertHTMLWithScripts(position, html) {
   });
 }
 
+function getPartialUrl(file) {
+  const depth = window.location.pathname
+    .split('/')
+    .filter(Boolean)
+    .length - 1;
+  return '../'.repeat(Math.max(0, depth)) + 'partials/' + file;
+}
+
 function loadPartials() {
   Promise.all([
-    fetch('partials/header.html').then(res => res.text()),
-    fetch('partials/footer.html').then(res => res.text())
+    fetch(getPartialUrl('header.html')).then(res => res.text()),
+    fetch(getPartialUrl('footer.html')).then(res => res.text())
   ]).then(([headerHTML, footerHTML]) => {
     insertHTMLWithScripts('afterbegin', headerHTML);
     insertHTMLWithScripts('beforeend', footerHTML);

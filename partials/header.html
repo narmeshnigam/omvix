@@ -34,17 +34,17 @@
     </div>
 
     <!-- Hamburger Icon -->
-    <div class="mobile-menu-icon" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu" style="display: none; position: absolute; right: 24px; top: 24px; cursor: pointer;">
+    <div class="mobile-menu-icon" aria-label="Toggle navigation menu">
       <img src="/assets/images/hamburger-icon.svg" alt="Menu" style="height: 24px;">
     </div>
   </div>
 </header>
 
 <!-- Mobile Menu Overlay -->
-<div id="drawer-overlay" onclick="toggleMobileMenu()" style="display: none; position: fixed; inset: 0; background: rgba(0, 0, 0, 0.5); z-index: 9998;"></div>
+<div id="drawer-overlay"></div>
 
 <!-- Mobile Drawer -->
-<div id="mobile-drawer" role="navigation" aria-label="Mobile menu" style="position: fixed; top: 0; right: 0; width: 280px; height: 100vh; background-color: #FFF8F0; padding: 24px; font-size: 18px; color: #E25822; z-index: 9999; transform: translateX(100%); transition: transform 0.3s ease-in-out; overflow-y: auto;">
+<div id="mobile-drawer" role="navigation" aria-label="Mobile menu">
   <nav style="display: flex; flex-direction: column; gap: 16px;">
     <a href="/index.html">Home</a>
     <a href="/solutions.html">Solutions</a>
