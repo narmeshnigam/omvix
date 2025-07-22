@@ -17,8 +17,8 @@ function insertHTMLWithScripts(position, html) {
 
 function loadPartials() {
   Promise.all([
-    fetch('partials/header.html').then(res => res.text()),
-    fetch('partials/footer.html').then(res => res.text())
+    fetch('/partials/header.html').then(res => res.text()),
+    fetch('/partials/footer.html').then(res => res.text())
   ]).then(([headerHTML, footerHTML]) => {
     insertHTMLWithScripts('afterbegin', headerHTML);
     insertHTMLWithScripts('beforeend', footerHTML);
