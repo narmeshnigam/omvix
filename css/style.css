@@ -84,6 +84,23 @@ body {
   margin-bottom: 32px;
 }
 
+.hero-small h1 {
+  color: #FF6F40;
+  font-size: 48px;
+}
+
+/* Smaller hero sections used on content pages */
+.hero-small {
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
 .btn {
   background: #FFB347;
   color: #3B1F0F;
