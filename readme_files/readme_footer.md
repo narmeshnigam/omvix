@@ -76,7 +76,7 @@ To serve as the closing section of each webpage, offering essential navigation, 
 **Heading:** Get in Touch
 
 - 📞 +91 98765 43210  
-- ✉️ contact@iSwift.com  
+- ✉️ contact@iswift.in  
 - 📍 Sector 62, Noida, Uttar Pradesh – 201301  
 - 🕒 Mon–Sat, 10AM to 7PM  
 

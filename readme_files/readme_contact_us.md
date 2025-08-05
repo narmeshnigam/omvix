@@ -41,7 +41,7 @@ Offer users an easy and reliable way to get in touch with iSwift—whether throu
 |------------------------------|-----------------------------------------------|
 | Location                     | XYZ Tower, Sector 62, Noida, UP – 201301     |
 | Phone                        | +91 98765 43210                              |
-| Email                        | contact@iSwift.com                         |
+| Email                        | contact@iswift.in                         |
 | Working Hours                | Mon–Sat: 10 AM – 7 PM                        |
 
 - **Right Side**: Embedded Google Map (styled, centered pin)

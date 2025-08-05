@@ -70,7 +70,7 @@ Each item is collapsible/expandable:
 
 6. **User Rights**
    - Request update or deletion of personal data
-   - Email: privacy@iSwift.com
+   - Email: privacy@iswift.in
 
 7. **Website Usage Terms**
    - No content redistribution or scraping allowed
@@ -86,7 +86,7 @@ Each item is collapsible/expandable:
 
 - **Heading**: “Need Clarification?”
 - **Body**: Direct users to email for data-related queries
-- **Email**: privacy@iSwift.com
+- **Email**: privacy@iswift.in
 - **Style**: Overlay box, clear and simple
 
 ---
@@ -129,5 +129,5 @@ Each item is collapsible/expandable:
 ## 🚫 CTA & Conversions
 
 - No primary CTA
-- Clickable email: privacy@iSwift.com
+- Clickable email: privacy@iswift.in
 - Optional sticky “Back to Top” anchor button
