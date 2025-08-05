@@ -1,4 +1,4 @@
-# For Professionals Page – Omvix Website
+# For Professionals Page – iSwift Website
 
 _Description: Structure and messaging designed for interior designers, architects, and builders_
 
@@ -6,20 +6,20 @@ _Description: Structure and messaging designed for interior designers, architect
 
 ## 🎯 Page Purpose
 
-Invite and engage professional collaborators by presenting Omvix as a trusted automation partner. The page communicates reliability, support, co-branding opportunities, and technical alignment.
+Invite and engage professional collaborators by presenting iSwift as a trusted automation partner. The page communicates reliability, support, co-branding opportunities, and technical alignment.
 
 ---
 
 ## 👥 Intended Audience
 
 - **Primary**: Interior designers, architects, and builders
-- Evaluating Omvix as an implementation partner for smart home projects
+- Evaluating iSwift as an implementation partner for smart home projects
 
 ---
 
 ## 🔑 Key Messages
 
-- Omvix is a multi-brand, reliable smart automation partner
+- iSwift is a multi-brand, reliable smart automation partner
 - Offers technical coordination, support, and project collaboration
 - Exclusive co-branding and MoU opportunities for professionals
 
@@ -31,7 +31,7 @@ Invite and engage professional collaborators by presenting Omvix as a trusted au
 
 - **H1**: “Your Trusted Automation Partner”
 - **Subtext**: “Reliable Smart Home Solutions Tailored for Professionals.”
-- **Visual Prompt**: Hyper-realistic collaborative planning scene (Omvix + Architect)
+- **Visual Prompt**: Hyper-realistic collaborative planning scene (iSwift + Architect)
 
 ---
 
@@ -62,9 +62,9 @@ Invite and engage professional collaborators by presenting Omvix as a trusted au
 ### 🔹 Section 4: MoU Download (Highlight Card)
 
 - **Heading**: “Partner With Confidence”
-- **Body**: Download Omvix’s MoU to explore collaboration terms
+- **Body**: Download iSwift’s MoU to explore collaboration terms
 - **CTA**: “Download MoU”
-- **Visual Prompt**: MoU document on a luxurious wooden desk with Omvix logo
+- **Visual Prompt**: MoU document on a luxurious wooden desk with iSwift logo
 
 ---
 
@@ -83,7 +83,7 @@ Invite and engage professional collaborators by presenting Omvix as a trusted au
 
 ### 🔹 Section 6: Testimonial
 
-> “Our collaboration with Omvix has added tremendous value to our designs. Their expertise and reliability are unmatched.”  
+> “Our collaboration with iSwift has added tremendous value to our designs. Their expertise and reliability are unmatched.”  
 — *Ms. Priya Gupta, Interior Designer, Gurgaon*
 
 ---
@@ -108,8 +108,8 @@ Invite and engage professional collaborators by presenting Omvix as a trusted au
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Omvix Smart Home Automation for Professionals | Delhi NCR
-- **Meta Description**: Omvix partners with interior designers and architects to deliver premium smart home experiences across Delhi NCR
+- **Meta Title**: iSwift Smart Home Automation for Professionals | Delhi NCR
+- **Meta Description**: iSwift partners with interior designers and architects to deliver premium smart home experiences across Delhi NCR
 - **Keywords**: smart home architect, automation partner, MoU for designers, co-branded smart home projects
 
 ---
@@ -125,6 +125,6 @@ Invite and engage professional collaborators by presenting Omvix as a trusted au
 
 ## 🛠 Technical Notes
 
-- Ensure all form elements follow Omvix’s form UI styling
+- Ensure all form elements follow iSwift’s form UI styling
 - MoU should open/download via PDF link or trigger modal
 - Icons must match style guide

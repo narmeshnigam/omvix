@@ -1,6 +1,6 @@
 # Image Assets
 
-This document lists images referenced across the Omvix website. Missing images should be collected and placed in the `assets` directory. The table includes aspect ratio hints extracted from the HTML where available.
+This document lists images referenced across the iSwift website. Missing images should be collected and placed in the `assets` directory. The table includes aspect ratio hints extracted from the HTML where available.
 
 | File Name | Aspect Ratio | Minimum Size | Prompt Source |
 |-----------|--------------|--------------|---------------|
@@ -23,7 +23,7 @@ This document lists images referenced across the Omvix website. Missing images s
 | hero-luxury-living-room.jpg | 16:9 | 1920x1080 | Home page hero: Futuristic smart home with visible devices |
 | homeowners-hero.jpg | 16:9 | 1920x1080 | Homeowners page hero: luxury home with automation |
 | hero-bg.jpg | ? | 1920x1080 | |
-| omvix_logo.png | ? | 1920x1080 | |
+| iSwift_logo.png | ? | 1920x1080 | |
 | solutions-gate-automation-example.jpg | 4:3 | 1024x768 | |
 | solutions-gate-automation-hero.jpg | 16:9 | 1920x1080 | |
 | solutions-scenes-example.jpg | 4:3 | 1024x768 | |

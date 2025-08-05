@@ -1,4 +1,4 @@
-# Omvix Website
+# iSwift Website
 
 A luxury smart home automation brand site – offering multi-brand IoT integration for homes and offices.
 
@@ -6,12 +6,12 @@ A luxury smart home automation brand site – offering multi-brand IoT integrati
 
 ## 🚀 Purpose of the Website
 
-Omvix’s website is designed to:
+iSwift’s website is designed to:
 
 - Convert high-intent visitors into consultation/demo leads
 - Educate users and build trust via real projects, blogs, and FAQs
 - Collaborate with architects and designers through dedicated partner programs
-- Present Omvix as a premium, future-ready, and reliable automation brand
+- Present iSwift as a premium, future-ready, and reliable automation brand
 
 ---
 
@@ -48,7 +48,7 @@ Refer to `README_Theme.md` for full style guide.
 ## 📁 Directory Structure (Suggested)
 
 ```
-/Omvix-Website
+/iSwift-Website
 ├── index.html
 ├── about.html
 ├── solutions/
@@ -84,8 +84,8 @@ Refer to `README_Theme.md` for full style guide.
 ### 1. Clone Repo
 
 ```bash
-git clone https://github.com/yourusername/omvix-website.git
-cd omvix-website
+git clone https://github.com/yourusername/iSwift-website.git
+cd iSwift-website
 ```
 
 ### 2. Start Coding

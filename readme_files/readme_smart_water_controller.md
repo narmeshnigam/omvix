@@ -1,6 +1,6 @@
-# Smart Water Controller – Omvix Website
+# Smart Water Controller – iSwift Website
 
-_Description: Product landing page to promote Omvix’s smart water automation system for homes and farms._
+_Description: Product landing page to promote iSwift’s smart water automation system for homes and farms._
 
 ---
 
@@ -30,7 +30,7 @@ Convert interest into demo bookings and consultations by educating visitors on a
 ### 🔹 Section 1: Hero Banner
 
 - **H1**: “Let Technology Handle Your Water Motor”
-- **Subheading**: “Automate tank filling, stop overflows, and control your motor remotely with Omvix's Smart Water Controller.”
+- **Subheading**: “Automate tank filling, stop overflows, and control your motor remotely with iSwift's Smart Water Controller.”
 - **CTA**: “Automate Your Water System”
 - **Visual Prompt**: Rooftop tank with water flow + app UI showing tank level
 
@@ -92,7 +92,7 @@ Convert interest into demo bookings and consultations by educating visitors on a
 
 ### 🔹 Section 7: Testimonial
 
-> “I used to worry about forgetting to switch off the motor—now Omvix’s system takes care of it all. My water bills are lower and my tank never overflows.”  
+> “I used to worry about forgetting to switch off the motor—now iSwift’s system takes care of it all. My water bills are lower and my tank never overflows.”  
 — *Mr. Raghav Seth, Independent Homeowner, Noida*
 
 ---
@@ -128,8 +128,8 @@ Convert interest into demo bookings and consultations by educating visitors on a
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Water Controller for Homes | Omvix Automation Delhi NCR
-- **Meta Description**: Automate your water motor and prevent overflow with Omvix’s Smart Water Control System. Available in Delhi, Gurgaon, Noida, Ghaziabad & Greater Noida.
+- **Meta Title**: Smart Water Controller for Homes | iSwift Automation Delhi NCR
+- **Meta Description**: Automate your water motor and prevent overflow with iSwift’s Smart Water Control System. Available in Delhi, Gurgaon, Noida, Ghaziabad & Greater Noida.
 - **Keywords**: smart water controller India, overflow protection, tank level monitor, borewell automation
 
 ---

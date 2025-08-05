@@ -1,4 +1,4 @@
-# Book a Demo Page – Omvix Website
+# Book a Demo Page – iSwift Website
 
 _Description: Lead-capturing page for scheduling free consultations or demos_
 
@@ -12,7 +12,7 @@ Allow visitors to schedule a free smart home demo or consultation—virtual or i
 
 ## 👥 Intended Audience
 
-- **Primary**: Homeowners and professionals ready to explore Omvix solutions
+- **Primary**: Homeowners and professionals ready to explore iSwift solutions
 - Interested in scheduling a personalized session
 
 ---
@@ -31,7 +31,7 @@ Allow visitors to schedule a free smart home demo or consultation—virtual or i
 
 - **H1**: “Book Your Free Smart Home Consultation”
 - **Subtext**: “Talk to our experts—online or on-site—for personalized guidance.”
-- **Visual Prompt**: Omvix consultant on a tablet call with a client
+- **Visual Prompt**: iSwift consultant on a tablet call with a client
 
 ---
 
@@ -41,7 +41,7 @@ Allow visitors to schedule a free smart home demo or consultation—virtual or i
 |--------------------------|-------------------------------------------------------|
 | Choose Property Type     | Apartment, villa, bungalow, or farmhouse              |
 | Pick Time & Mode         | Select slot and virtual/in-person option              |
-| Get Expert Advice        | Personalized walkthrough from Omvix consultants    |
+| Get Expert Advice        | Personalized walkthrough from iSwift consultants    |
 
 - **Icons**: House type, calendar, headset – all neon-green line icons
 
@@ -68,7 +68,7 @@ Allow visitors to schedule a free smart home demo or consultation—virtual or i
 - **Heading**: “Prefer Quick Booking on WhatsApp?”
 - **Body**: “Drop us a message and we’ll confirm your slot.”
 - **CTA**: “Book via WhatsApp”
-- **Visual Prompt**: WhatsApp interface showing a Omvix rep in conversation
+- **Visual Prompt**: WhatsApp interface showing a iSwift rep in conversation
 
 ---
 
@@ -100,9 +100,9 @@ Allow visitors to schedule a free smart home demo or consultation—virtual or i
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Schedule Smart Home Demo | Omvix – Delhi NCR
-- **Meta Description**: Book your free smart home consultation with Omvix in Delhi, Gurgaon, Noida, and NCR. Available virtually or on-site.
-- **Keywords**: smart home demo, consultation booking, schedule automation visit, Omvix Delhi
+- **Meta Title**: Schedule Smart Home Demo | iSwift – Delhi NCR
+- **Meta Description**: Book your free smart home consultation with iSwift in Delhi, Gurgaon, Noida, and NCR. Available virtually or on-site.
+- **Keywords**: smart home demo, consultation booking, schedule automation visit, iSwift Delhi
 
 ---
 
@@ -118,4 +118,4 @@ Allow visitors to schedule a free smart home demo or consultation—virtual or i
 
 - Use `wa.me` link for WhatsApp CTA with prefilled message
 - Form should show toast/in-line success message on submit
-- All inputs styled per Omvix’s form specs
+- All inputs styled per iSwift’s form specs

@@ -1,4 +1,4 @@
-# About Us Page – Omvix Website
+# About Us Page – iSwift Website
 
 _Description: Structure, messaging, and technical notes for About Us page_
 
@@ -6,20 +6,20 @@ _Description: Structure, messaging, and technical notes for About Us page_
 
 ## 🏢 Page Purpose
 
-To build trust by narrating Omvix’s brand evolution, values, and unique position in the market. The page establishes credibility with both customers and professional partners.
+To build trust by narrating iSwift’s brand evolution, values, and unique position in the market. The page establishes credibility with both customers and professional partners.
 
 ---
 
 ## 👥 Target Audience
 
 - **Primary**: Homeowners (30–70), seeking a trustworthy smart home partner
-- **Secondary**: Interior designers, architects, and builders evaluating Omvix for collaboration
+- **Secondary**: Interior designers, architects, and builders evaluating iSwift for collaboration
 
 ---
 
 ## 🔑 Key Messages
 
-- Omvix = Intelligent Luxury Living
+- iSwift = Intelligent Luxury Living
 - Proven expertise (evolved from SecureIndia Automations)
 - Full lifecycle service: from consultation to after-sales
 - Transparent, reliable, elegant solutions
@@ -30,10 +30,10 @@ To build trust by narrating Omvix’s brand evolution, values, and unique positi
 
 ### 🔹 Section 1: Hero Banner (Short Height, 60vh)
 
-- **Background**: Corporate interior with Omvix branding
+- **Background**: Corporate interior with iSwift branding
 - **Overlay**: Semi-transparent #002A22
 - **Text (Centered)**:
-  - **H1**: “The Omvix Story”
+  - **H1**: “The iSwift Story”
   - **Body**: “Where Intelligent Automation Meets Luxury Living.”
 
 ---
@@ -41,8 +41,8 @@ To build trust by narrating Omvix’s brand evolution, values, and unique positi
 ### 🔹 Section 2: Brand Story & Evolution (2-Column Highlight)
 
 - **Text Left (60%)**:
-  - **H2**: “From SecureIndia to Omvix: A Journey of Innovation”
-  - **Body**: Describes evolution from SecureIndia to Omvix, focusing on reliability and innovation.
+  - **H2**: “From SecureIndia to iSwift: A Journey of Innovation”
+  - **Body**: Describes evolution from SecureIndia to iSwift, focusing on reliability and innovation.
 - **Image Right (40%)**: Visual timeline transition with modern UI
 
 ---
@@ -71,7 +71,7 @@ To build trust by narrating Omvix’s brand evolution, values, and unique positi
 ### 🔹 Section 5: Differentiator Highlight (Horizontal Card)
 
 - **Heading**: “What Sets Us Apart?”
-- **Body**: Omvix is multi-brand, lifecycle-integrated, with strong execution across planning, installation, and support.
+- **Body**: iSwift is multi-brand, lifecycle-integrated, with strong execution across planning, installation, and support.
 - **Visual**: Expert demo at client home using digital tablet and smart UI
 
 ---
@@ -103,8 +103,8 @@ To build trust by narrating Omvix’s brand evolution, values, and unique positi
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: About Omvix | Trusted Smart Home Automation in Delhi NCR
-- **Meta Description**: Learn about Omvix’s journey from SecureIndia to a luxury smart home brand, trusted across Delhi, Gurgaon, Noida, and beyond.
+- **Meta Title**: About iSwift | Trusted Smart Home Automation in Delhi NCR
+- **Meta Description**: Learn about iSwift’s journey from SecureIndia to a luxury smart home brand, trusted across Delhi, Gurgaon, Noida, and beyond.
 - **Keywords**: smart home brand, SecureIndia evolution, luxury automation, Delhi NCR
 
 ---

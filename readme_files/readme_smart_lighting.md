@@ -1,4 +1,4 @@
-# Smart Lighting Controls – Omvix Website
+# Smart Lighting Controls – iSwift Website
 
 _Description: Showcase page for smart lighting automation that enhances ambiance, comfort, and energy efficiency._
 
@@ -30,7 +30,7 @@ Educate users on smart lighting options, inspire them with use cases, and conver
 ### 🔹 Section 1: Hero Banner
 
 - **Heading (H1)**: “Light That Matches Your Mood”
-- **Subtext**: “From morning freshness to evening calm—Omvix smart lighting adapts to your lifestyle.”
+- **Subtext**: “From morning freshness to evening calm—iSwift smart lighting adapts to your lifestyle.”
 - **CTA**: “Book Lighting Setup Demo”
 - **Visual Prompt**: Hyper-realistic luxury room with cool/warm light zones and glowing phone app UI
 
@@ -131,9 +131,9 @@ Educate users on smart lighting options, inspire them with use cases, and conver
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Lighting Control for Homes | Omvix Automation Delhi NCR
+- **Meta Title**: Smart Lighting Control for Homes | iSwift Automation Delhi NCR
 - **Meta Description**: Control your home’s lights via app, voice, or schedule. Book your smart lighting demo in Delhi, Gurgaon, Noida, Ghaziabad & Greater Noida.
-- **Keywords**: smart lighting India, lighting automation, lighting scenes, smart dimmers, voice-controlled lights, Omvix lighting control
+- **Keywords**: smart lighting India, lighting automation, lighting scenes, smart dimmers, voice-controlled lights, iSwift lighting control
 
 ---
 

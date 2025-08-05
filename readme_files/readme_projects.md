@@ -1,4 +1,4 @@
-# Projects Page – Omvix Website
+# Projects Page – iSwift Website
 
 _Description: Real-life installations, visual proof, and trust-building through smart automation project showcases_
 
@@ -6,20 +6,20 @@ _Description: Real-life installations, visual proof, and trust-building through 
 
 ## 🎯 Page Purpose
 
-Highlight Omvix’s completed smart home installations to build credibility through case studies, visual evidence, and real customer stories.
+Highlight iSwift’s completed smart home installations to build credibility through case studies, visual evidence, and real customer stories.
 
 ---
 
 ## 👥 Intended Audience
 
-- **Primary**: Homeowners evaluating Omvix based on past project success
+- **Primary**: Homeowners evaluating iSwift based on past project success
 - **Secondary**: Architects and designers looking for trustworthy execution partners
 
 ---
 
 ## 🔑 Key Messages
 
-- Omvix has successfully transformed numerous homes
+- iSwift has successfully transformed numerous homes
 - Real-life evidence helps new clients envision their own transformation
 - Visuals and testimonials build instant trust and engagement
 
@@ -29,7 +29,7 @@ Highlight Omvix’s completed smart home installations to build credibility thro
 
 ### 🔹 Section 1: Hero Banner
 
-- **H1**: “Omvix Smart Home Projects”
+- **H1**: “iSwift Smart Home Projects”
 - **Subtext**: “Explore Real-Life Transformations Powered by Smart Automation.”
 - **Visual Prompt**: Elegant dusk-lit smart interior with visible automation
 
@@ -69,7 +69,7 @@ Each project page includes:
 
 ### 🔹 Section 5: Testimonials Slider
 
-- **Testimonial 1**: “Omvix transformed our villa into an elegant, intelligent home.” — *Mr. Rajiv Arora, Gurgaon*
+- **Testimonial 1**: “iSwift transformed our villa into an elegant, intelligent home.” — *Mr. Rajiv Arora, Gurgaon*
 - **Testimonial 2**: “Daily life is seamless now with our smart apartment setup.” — *Ms. Anjali Sharma, Noida*
 
 ---
@@ -104,8 +104,8 @@ Each project page includes:
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Omvix Smart Home Projects & Gallery | Delhi NCR
-- **Meta Description**: Explore Omvix’s luxury smart home transformation projects across Delhi NCR with real-life visuals and testimonials
+- **Meta Title**: iSwift Smart Home Projects & Gallery | Delhi NCR
+- **Meta Description**: Explore iSwift’s luxury smart home transformation projects across Delhi NCR with real-life visuals and testimonials
 - **Keywords**: smart home gallery, automation examples, project showcase, Delhi smart homes
 
 ---

@@ -1,12 +1,12 @@
-# Services Page – Omvix Website
+# Services Page – iSwift Website
 
-_Description: Lifecycle service explanation, structure, and UX for Omvix's services page_
+_Description: Lifecycle service explanation, structure, and UX for iSwift's services page_
 
 ---
 
 ## 🎯 Page Purpose
 
-Present the entire smart home automation journey that Omvix delivers—from consultation and installation to support and warranty—highlighting reliability and professionalism.
+Present the entire smart home automation journey that iSwift delivers—from consultation and installation to support and warranty—highlighting reliability and professionalism.
 
 ---
 
@@ -19,7 +19,7 @@ Present the entire smart home automation journey that Omvix delivers—from cons
 
 ## 🔑 Key Messages
 
-- Omvix provides end-to-end services covering all stages of automation
+- iSwift provides end-to-end services covering all stages of automation
 - Emphasizes expertise, professionalism, and after-sales commitment
 - Offers structured support with AMC options and personal training
 
@@ -31,7 +31,7 @@ Present the entire smart home automation journey that Omvix delivers—from cons
 
 - **H1**: “End-to-End Smart Home Services”
 - **Subtext**: “Seamless Experience from Planning to Lifelong Support.”
-- **Visual Prompt**: Omvix technician professionally installing smart switches in a luxury interior
+- **Visual Prompt**: iSwift technician professionally installing smart switches in a luxury interior
 
 ---
 
@@ -62,7 +62,7 @@ Present the entire smart home automation journey that Omvix delivers—from cons
 ### 🔹 Section 4: Customer Testimonial
 
 - **Quote**:  
-  “Omvix’s installation team was incredibly professional. They walked us through every feature and ensured everything worked flawlessly. Highly recommended!”  
+  “iSwift’s installation team was incredibly professional. They walked us through every feature and ensured everything worked flawlessly. Highly recommended!”  
   — *Mr. Rohit Agarwal, Homeowner, Delhi*
 
 ---
@@ -70,7 +70,7 @@ Present the entire smart home automation journey that Omvix delivers—from cons
 ### 🔹 Section 5: Warranty & AMC Details (Text Box)
 
 - **Heading**: “Comprehensive Warranty & Maintenance Plans”
-- **Body**: “Protect your investment and enjoy complete peace of mind with Omvix’s flexible AMC options.”
+- **Body**: “Protect your investment and enjoy complete peace of mind with iSwift’s flexible AMC options.”
 - **CTA**: “Learn About AMC Options”
 
 ---
@@ -97,8 +97,8 @@ Present the entire smart home automation journey that Omvix delivers—from cons
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Omvix Smart Home Automation Services in Delhi NCR
-- **Meta Description**: Omvix provides end-to-end smart home services—consultation, installation, support—for clients across Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida.
+- **Meta Title**: iSwift Smart Home Automation Services in Delhi NCR
+- **Meta Description**: iSwift provides end-to-end smart home services—consultation, installation, support—for clients across Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida.
 - **Keywords**: smart home services, automation consultation, smart installation support, AMC plans Delhi NCR
 
 ---
@@ -115,4 +115,4 @@ Present the entire smart home automation journey that Omvix delivers—from cons
 
 - Follow all icon/image prompts precisely
 - Maintain full responsiveness across devices
-- Use Omvix’s standard hover animations for all buttons and cards
+- Use iSwift’s standard hover animations for all buttons and cards

@@ -1,4 +1,4 @@
-# Learn Page – Omvix Website
+# Learn Page – iSwift Website
 
 _Description: Educational hub to drive awareness, SEO, and trust via blogs, guides, and FAQs_
 
@@ -19,7 +19,7 @@ Educate, inform, and build credibility with customers and professionals through 
 
 ## 🔑 Key Messages
 
-- Omvix is a trustworthy, knowledgeable brand
+- iSwift is a trustworthy, knowledgeable brand
 - Smart home tech is easy to understand and enhances daily living
 - This page acts as a long-term SEO and engagement driver
 
@@ -65,7 +65,7 @@ Educate, inform, and build credibility with customers and professionals through 
 
 Categories:
 - **Product**
-  - “Does Omvix work with Alexa/Google?” → Yes
+  - “Does iSwift work with Alexa/Google?” → Yes
   - “Are smart locks retrofit?” → Most are
 - **Process**
   - “Installation time?” → 1–2 days depending on scope
@@ -96,8 +96,8 @@ Categories:
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Home Automation Blogs & FAQs | Omvix
-- **Meta Description**: Explore how smart homes improve your lifestyle. Read blogs and answers to common questions from Omvix experts.
+- **Meta Title**: Smart Home Automation Blogs & FAQs | iSwift
+- **Meta Description**: Explore how smart homes improve your lifestyle. Read blogs and answers to common questions from iSwift experts.
 - **Keywords**: smart home blog, home automation tips, FAQs, smart home Delhi NCR
 
 ---

@@ -1,25 +1,25 @@
-# Solutions Page – Omvix Website
+# Solutions Page – iSwift Website
 
-_Description: Structure and UX details for Omvix’s Smart Home Solutions page_
+_Description: Structure and UX details for iSwift’s Smart Home Solutions page_
 
 ---
 
 ## 🧭 Page Purpose
 
-Present all smart home automation categories offered by Omvix in a clear, engaging, and navigable format. Help users explore offerings and navigate deeper into specific subpages.
+Present all smart home automation categories offered by iSwift in a clear, engaging, and navigable format. Help users explore offerings and navigate deeper into specific subpages.
 
 ---
 
 ## 👥 Target Audience
 
 - **Primary**: Homeowners (30–70), exploring solutions for home upgrades
-- **Secondary**: Interior designers and architects evaluating Omvix’s capabilities
+- **Secondary**: Interior designers and architects evaluating iSwift’s capabilities
 
 ---
 
 ## 🔑 Key Messages
 
-- Omvix offers a wide range of smart automation solutions under one roof
+- iSwift offers a wide range of smart automation solutions under one roof
 - Each solution enhances comfort, safety, luxury, or connectivity
 - Users can consult with experts if unsure what to choose
 
@@ -32,7 +32,7 @@ Present all smart home automation categories offered by Omvix in a clear, engagi
 - **Background**: Hyper-realistic luxury smart home interior
 - **Overlay**: Semi-transparent #002A22
 - **Text**:
-  - **H1**: “Explore Omvix Smart Home Solutions”
+  - **H1**: “Explore iSwift Smart Home Solutions”
   - **Body**: “Smart Home Automation that Enhances Your Comfort, Security, and Lifestyle.”
 
 ---
@@ -77,7 +77,7 @@ Present all smart home automation categories offered by Omvix in a clear, engagi
 - **Heading**: “Not Sure What Fits Your Home?”
 - **Body**: Guidance for customers unsure about what to select
 - **CTA Button**: “Book a Free Consultation”
-- **Image Prompt**: Omvix consultant demonstrating solutions at a luxury home via tablet
+- **Image Prompt**: iSwift consultant demonstrating solutions at a luxury home via tablet
 
 ---
 
@@ -95,15 +95,15 @@ Present all smart home automation categories offered by Omvix in a clear, engagi
 ## 💻 Interaction & UX Notes
 
 - All solution cards are clickable and include smooth fade-in on scroll
-- Hover animations per Omvix UI Guide
+- Hover animations per iSwift UI Guide
 - Sticky WhatsApp button present on bottom-right
 
 ---
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Omvix Smart Home Solutions | Delhi NCR & Nearby
-- **Meta Description**: Discover Omvix’s smart solutions—lighting, locks, curtains, Wi-Fi, and more. Trusted across Delhi NCR.
+- **Meta Title**: iSwift Smart Home Solutions | Delhi NCR & Nearby
+- **Meta Description**: Discover iSwift’s smart solutions—lighting, locks, curtains, Wi-Fi, and more. Trusted across Delhi NCR.
 - **Keywords**: smart lighting, curtains, smart lock, smart Wi-Fi, home automation Delhi
 
 ---
@@ -120,4 +120,4 @@ Present all smart home automation categories offered by Omvix in a clear, engagi
 
 - Icons must follow neon-green futuristic line style
 - Ensure full responsiveness
-- Animations to be subtle, elegant, and aligned with Omvix’s luxury branding
+- Animations to be subtle, elegant, and aligned with iSwift’s luxury branding

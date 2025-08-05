@@ -1,12 +1,12 @@
-# Smart Gate Automation – Omvix Website
+# Smart Gate Automation – iSwift Website
 
-_Description: Website landing page showcasing Omvix’s motorized gate automation systems for villas, farmhouses, and gated communities._
+_Description: Website landing page showcasing iSwift’s motorized gate automation systems for villas, farmhouses, and gated communities._
 
 ---
 
 ## 🎯 Page Purpose
 
-Present the benefits, control options, and real installations of Omvix’s gate automation to drive demo bookings and consultations.
+Present the benefits, control options, and real installations of iSwift’s gate automation to drive demo bookings and consultations.
 
 ---
 
@@ -30,7 +30,7 @@ Present the benefits, control options, and real installations of Omvix’s gate 
 ### 🔹 Section 1: Hero Banner
 
 - **Heading (H1)**: “Open Your World With a Tap”
-- **Subtext**: “Omvix’s smart gate automation makes every entry seamless, safe, and hands-free.”
+- **Subtext**: “iSwift’s smart gate automation makes every entry seamless, safe, and hands-free.”
 - **CTA Button**: “Book Gate Automation Visit”
 - **Visual Prompt**: Gate sliding open in front of a villa, controlled from inside a car/home via app
 
@@ -141,8 +141,8 @@ Present the benefits, control options, and real installations of Omvix’s gate 
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Gate Automation for Homes | Omvix Entrance Control Delhi NCR
-- **Meta Description**: Automate your villa, farmhouse, or bungalow gate with Omvix. Remote control, app-based access, and safety systems available across Delhi NCR.
+- **Meta Title**: Smart Gate Automation for Homes | iSwift Entrance Control Delhi NCR
+- **Meta Description**: Automate your villa, farmhouse, or bungalow gate with iSwift. Remote control, app-based access, and safety systems available across Delhi NCR.
 - **Keywords**: gate automation India, smart gate opener, villa gate remote, motorized sliding gate, home entrance automation Delhi NCR
 
 ---

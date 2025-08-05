@@ -1,6 +1,6 @@
-# Smart Switches & Control Panels – Omvix Website
+# Smart Switches & Control Panels – iSwift Website
 
-_Description: Product page to showcase, educate, and convert visitors toward Omvix’s smart switch systems._
+_Description: Product page to showcase, educate, and convert visitors toward iSwift’s smart switch systems._
 
 ---
 
@@ -30,7 +30,7 @@ Introduce smart switch systems and demonstrate their value, compatibility, use c
 ### 🔹 Section 1: Hero Banner
 
 - **H1**: “Redefine the Way You Control Your Home”
-- **Subheading**: “Switch to elegance, intelligence, and control—with Omvix’s smart switch systems.”
+- **Subheading**: “Switch to elegance, intelligence, and control—with iSwift’s smart switch systems.”
 - **CTA**: “See Smart Panel Options” → scroll to features
 - **Visual Prompt**: Smart panel on dark wall in ambient-lit luxury living room
 
@@ -82,7 +82,7 @@ Introduce smart switch systems and demonstrate their value, compatibility, use c
 
 ### 🔹 Section 6: Product Gallery
 
-- Real Omvix installations
+- Real iSwift installations
 - Hover reveals scene/room
 - **CTA**: “Book a Demo to Experience Live Setup”
 
@@ -90,7 +90,7 @@ Introduce smart switch systems and demonstrate their value, compatibility, use c
 
 ### 🔹 Section 7: Testimonial Card
 
-> “The Omvix panels feel like part of our interior—responsive, luxurious, and completely smart.”  
+> “The iSwift panels feel like part of our interior—responsive, luxurious, and completely smart.”  
 — *Mr. Sahil Verma, Apartment Owner, Gurgaon*
 
 ---
@@ -127,8 +127,8 @@ Introduce smart switch systems and demonstrate their value, compatibility, use c
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Switches & Control Panels | Omvix Home Automation
-- **Meta Description**: Explore stylish smart switch panels by Omvix with voice/app control and retrofitting. Available in Delhi NCR.
+- **Meta Title**: Smart Switches & Control Panels | iSwift Home Automation
+- **Meta Description**: Explore stylish smart switch panels by iSwift with voice/app control and retrofitting. Available in Delhi NCR.
 - **Keywords**: smart switch India, retrofit touch panel, smart lighting control, home automation Delhi NCR
 
 ---

@@ -1,4 +1,4 @@
-# Smart Video Door Systems (VDPs & VDBs) – Omvix Website
+# Smart Video Door Systems (VDPs & VDBs) – iSwift Website
 
 _Description: Page to showcase smart entrance security using Video Door Phones (VDPs) and Video Door Bells (VDBs), their differences, real-life use cases, and lead conversion._
 
@@ -6,7 +6,7 @@ _Description: Page to showcase smart entrance security using Video Door Phones (
 
 ## 🎯 Page Purpose
 
-Present Omvix’s entrance security solutions, highlight the use cases of VDPs vs VDBs, and convert interested visitors via demo booking and WhatsApp interactions.
+Present iSwift’s entrance security solutions, highlight the use cases of VDPs vs VDBs, and convert interested visitors via demo booking and WhatsApp interactions.
 
 ---
 
@@ -30,7 +30,7 @@ Present Omvix’s entrance security solutions, highlight the use cases of VDPs v
 ### 🔹 Section 1: Hero Banner
 
 - **Heading**: “See, Speak, Secure—Before You Open the Door”
-- **Subtext**: “Omvix’s smart door systems let you greet visitors with confidence, even when you're not home.”
+- **Subtext**: “iSwift’s smart door systems let you greet visitors with confidence, even when you're not home.”
 - **CTA**: “Request Video Door Consultation”
 - **Visual**: Split-screen of interior monitor + exterior camera with visitor
 
@@ -137,9 +137,9 @@ Present Omvix’s entrance security solutions, highlight the use cases of VDPs v
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Video Door Phones & Door Bells | Omvix Entrance Security Delhi NCR
-- **Meta Description**: Talk to visitors, watch live video, and secure your entryway with Omvix’s VDPs and VDBs. Book your smart door system in Delhi, Gurgaon, Noida & more.
-- **Keywords**: video door phone India, smart doorbell, video intercom system, smart entrance solution, home door camera system, Omvix VDP VDB
+- **Meta Title**: Smart Video Door Phones & Door Bells | iSwift Entrance Security Delhi NCR
+- **Meta Description**: Talk to visitors, watch live video, and secure your entryway with iSwift’s VDPs and VDBs. Book your smart door system in Delhi, Gurgaon, Noida & more.
+- **Keywords**: video door phone India, smart doorbell, video intercom system, smart entrance solution, home door camera system, iSwift VDP VDB
 
 ---
 

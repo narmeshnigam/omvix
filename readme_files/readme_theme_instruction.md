@@ -1,4 +1,4 @@
-# Omvix Website Theme & UI Style Guide
+# iSwift Website Theme & UI Style Guide
 
 _Last Updated: 10 July 2025_  
 **Palette: Orange · Red · Yellow**
@@ -163,5 +163,5 @@ animation: spin 1s linear infinite;
 
 ## 📁 Assets Reference
 
-- Full implementation live in `Omvix UI Sample Webpage.html`  
+- Full implementation live in `iSwift UI Sample Webpage.html`  
 - UI behavior preview available via working prototype

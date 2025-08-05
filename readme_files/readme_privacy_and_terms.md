@@ -1,4 +1,4 @@
-# Privacy Policy & Terms Page – Omvix Website
+# Privacy Policy & Terms Page – iSwift Website
 
 _Description: Legal and compliance page detailing data practices, user rights, and WhatsApp communication policy_
 
@@ -6,7 +6,7 @@ _Description: Legal and compliance page detailing data practices, user rights, a
 
 ## 🎯 Page Purpose
 
-To meet all legal, privacy, and data collection compliance requirements for the Omvix website. This includes WhatsApp communication consent, Meta ad policy alignment, and user data handling clarity.
+To meet all legal, privacy, and data collection compliance requirements for the iSwift website. This includes WhatsApp communication consent, Meta ad policy alignment, and user data handling clarity.
 
 ---
 
@@ -19,7 +19,7 @@ To meet all legal, privacy, and data collection compliance requirements for the 
 
 ## 🔑 Key Messages
 
-- Omvix respects user privacy and data rights
+- iSwift respects user privacy and data rights
 - Data is only collected to enhance user experience
 - We are transparent in all usage, storage, and communication policies
 
@@ -37,7 +37,7 @@ To meet all legal, privacy, and data collection compliance requirements for the 
 
 ### 🔹 Section 2: Introduction
 
-- **Heading**: “Your Privacy Matters to Omvix”
+- **Heading**: “Your Privacy Matters to iSwift”
 - **Body**: Clear commitment to protecting personal information and explaining user rights
 
 ---
@@ -70,7 +70,7 @@ Each item is collapsible/expandable:
 
 6. **User Rights**
    - Request update or deletion of personal data
-   - Email: privacy@omvix.com
+   - Email: privacy@iSwift.com
 
 7. **Website Usage Terms**
    - No content redistribution or scraping allowed
@@ -86,7 +86,7 @@ Each item is collapsible/expandable:
 
 - **Heading**: “Need Clarification?”
 - **Body**: Direct users to email for data-related queries
-- **Email**: privacy@omvix.com
+- **Email**: privacy@iSwift.com
 - **Style**: Overlay box, clear and simple
 
 ---
@@ -112,9 +112,9 @@ Each item is collapsible/expandable:
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Privacy Policy & Terms | Omvix Smart Home Automation
-- **Meta Description**: Read how Omvix collects and uses data while following privacy norms and Meta ad guidelines.
-- **Keywords**: Omvix privacy, WhatsApp disclosure, smart home terms, data collection policy
+- **Meta Title**: Privacy Policy & Terms | iSwift Smart Home Automation
+- **Meta Description**: Read how iSwift collects and uses data while following privacy norms and Meta ad guidelines.
+- **Keywords**: iSwift privacy, WhatsApp disclosure, smart home terms, data collection policy
 
 ---
 
@@ -129,5 +129,5 @@ Each item is collapsible/expandable:
 ## 🚫 CTA & Conversions
 
 - No primary CTA
-- Clickable email: privacy@omvix.com
+- Clickable email: privacy@iSwift.com
 - Optional sticky “Back to Top” anchor button

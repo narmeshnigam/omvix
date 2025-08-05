@@ -1,12 +1,12 @@
-# Smart Cameras – Omvix Website
+# Smart Cameras – iSwift Website
 
-_Description: Showcase Omvix’s range of smart surveillance cameras for indoor and outdoor use, designed for real-time access, motion alerts, and peace of mind._
+_Description: Showcase iSwift’s range of smart surveillance cameras for indoor and outdoor use, designed for real-time access, motion alerts, and peace of mind._
 
 ---
 
 ## 🎯 Page Purpose
 
-Promote smart surveillance systems by Omvix through product education, practical use cases, feature highlights, and demo booking CTAs.
+Promote smart surveillance systems by iSwift through product education, practical use cases, feature highlights, and demo booking CTAs.
 
 ---
 
@@ -30,7 +30,7 @@ Promote smart surveillance systems by Omvix through product education, practical
 ### 🔹 Section 1: Hero Banner
 
 - **Heading (H1)**: “Smart Eyes on What Matters Most”
-- **Subtext**: “Omvix smart cameras keep your home secure and accessible—anytime, anywhere.”
+- **Subtext**: “iSwift smart cameras keep your home secure and accessible—anytime, anywhere.”
 - **CTA Button**: “Secure Your Home With Smart Cameras”
 - **Visual Prompt**: Evening view of driveway cam + indoor baby cam on smartphone screen
 
@@ -94,7 +94,7 @@ Promote smart surveillance systems by Omvix through product education, practical
 
 ### 🔹 Section 7: Testimonials
 
-> “We’ve installed Omvix cameras inside and outside our home. We can check on the kids, answer the gate, and even talk through the camera—all from our phone.”  
+> “We’ve installed iSwift cameras inside and outside our home. We can check on the kids, answer the gate, and even talk through the camera—all from our phone.”  
 — *Mr. & Mrs. Singh, Villa Owners, Gurgaon*
 
 ---
@@ -130,8 +130,8 @@ Promote smart surveillance systems by Omvix through product education, practical
 
 ## 🔍 SEO & Metadata
 
-- **Meta Title**: Smart Home Security Cameras | Omvix Surveillance Delhi NCR
-- **Meta Description**: Omvix smart cameras offer live video, alerts, and 2-way audio—secure your home today in Delhi, Gurgaon, Noida, Ghaziabad & Greater Noida.
+- **Meta Title**: Smart Home Security Cameras | iSwift Surveillance Delhi NCR
+- **Meta Description**: iSwift smart cameras offer live video, alerts, and 2-way audio—secure your home today in Delhi, Gurgaon, Noida, Ghaziabad & Greater Noida.
 - **Keywords**: smart home camera India, Wi-Fi security camera, night vision cam, two-way audio camera, live CCTV home, smart surveillance Delhi NCR
 
 ---

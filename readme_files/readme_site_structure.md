@@ -1,6 +1,6 @@
-# Omvix Website Structure & Content Plan
+# iSwift Website Structure & Content Plan
 
-_Description: Sitemap, audiences, and purpose of each page in the Omvix website_
+_Description: Sitemap, audiences, and purpose of each page in the iSwift website_
 
 ---
 

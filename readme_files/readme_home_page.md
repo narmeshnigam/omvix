@@ -1,19 +1,19 @@
-# Home Page – Omvix Website
+# Home Page – iSwift Website
 
-_Description: Structure, purpose, and UI/UX guidelines for the Omvix homepage_
+_Description: Structure, purpose, and UI/UX guidelines for the iSwift homepage_
 
 ---
 
 ## 🏡 Page Purpose
 
-To create a luxurious and persuasive first impression for Omvix, clearly communicating its smart home automation solutions, and guiding users toward lead conversion through demos and consultations.
+To create a luxurious and persuasive first impression for iSwift, clearly communicating its smart home automation solutions, and guiding users toward lead conversion through demos and consultations.
 
 ---
 
 ## 👥 Target Audience
 
 - **Primary**: Homeowners (30–70 years), interested in luxury, convenience, and security
-- **Secondary**: Interior designers, architects, and professionals evaluating Omvix as a partner
+- **Secondary**: Interior designers, architects, and professionals evaluating iSwift as a partner
 
 ---
 
@@ -48,7 +48,7 @@ To create a luxurious and persuasive first impression for Omvix, clearly communi
 
 ### 🔹 Section 3: Lifestyle Benefits (4-Column Icons)
 
-- **Heading**: “Why Homeowners Choose Omvix”
+- **Heading**: “Why Homeowners Choose iSwift”
 - **Layout**: 4 horizontal icons with text
 - **Icons**: Minimal neon-green icons on dark background
 
@@ -76,10 +76,10 @@ To create a luxurious and persuasive first impression for Omvix, clearly communi
 - **Auto-scroll**: 7 seconds per slide
 - **Manual Nav**: Dots below
 - **Testimonials**:
-  > "Omvix changed the way we experience our home. Luxurious, intuitive, and safe."  
+  > "iSwift changed the way we experience our home. Luxurious, intuitive, and safe."  
   — *Mrs. Shruti Kapoor, Homeowner, Gurgaon*
 
-  > "Reliable and innovative—Omvix makes automation seamlessly easy for our projects."  
+  > "Reliable and innovative—iSwift makes automation seamlessly easy for our projects."  
   — *Mr. Aniket Malhotra, Architect, Noida*
 
 - **CTA Below Slider**: “Schedule Your Consultation”
@@ -88,9 +88,9 @@ To create a luxurious and persuasive first impression for Omvix, clearly communi
 
 ### 🔹 Section 6: Partner Callout (Horizontal Highlight Card)
 
-- **Heading**: “Partner with Omvix”
+- **Heading**: “Partner with iSwift”
 - **Text**: Invite architects, designers, and builders for collaboration
-- **Image**: Elegant meeting scene with Omvix rep and architect reviewing plans
+- **Image**: Elegant meeting scene with iSwift rep and architect reviewing plans
 - **CTA**: “Become a Partner”
 
 ---
@@ -134,7 +134,7 @@ To create a luxurious and persuasive first impression for Omvix, clearly communi
 
 ## 🔍 SEO Metadata
 
-- **Meta Title**: Luxury Smart Home Automation | Omvix in Delhi NCR
-- **Meta Description**: Omvix offers premium automation for lighting, security, and comfort across Delhi NCR
+- **Meta Title**: Luxury Smart Home Automation | iSwift in Delhi NCR
+- **Meta Description**: iSwift offers premium automation for lighting, security, and comfort across Delhi NCR
 - **Keywords**: smart home, luxury automation, Delhi, Noida, Gurgaon, Wi-Fi mesh, smart locks
 
