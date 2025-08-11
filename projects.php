@@ -1,0 +1,163 @@
+<?php
+declare(strict_types=1);
+$page_title = 'iSwift Smart Home Projects & Gallery | Delhi NCR';
+$active_nav = 'Projects';
+$base_path = '';
+$body_attrs = '';
+$extra_head = <<<HTML
+<meta name="description" content="Explore iSwift’s portfolio of luxurious, real-life smart home transformations across Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida & Delhi NCR.">
+<meta name="keywords" content="smart home projects, automation gallery, luxury home automation, smart home installation examples, Delhi NCR">
+HTML;
+include __DIR__ . '/partials/header.php';
+?>
+<!-- Section 1: Hero Banner -->
+    <section style="position: relative; height: 60vh; background-image: url('/assets/projects-hero.jpg'); background-size: cover; background-position: center;">
+      <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <h1 style="font-size: 48px; font-weight: 700; color: #FF6F40; margin-bottom: 16px;">iSwift Smart Home Projects</h1>
+        <p style="font-size: 18px; font-weight: 400; max-width: 700px;">Explore Real-Life Transformations Powered by Smart Automation.</p>
+      </div>
+    </section>
+
+    <!-- Section 2: Project Filtering Tabs -->
+    <section style="padding: 48px 24px; text-align: center;">
+      <div style="display: inline-flex; gap: 16px; justify-content: center;">
+        <button class="tab active">All Projects</button>
+        <button class="tab">Residential</button>
+        <button class="tab">Commercial</button>
+      </div>
+    </section>
+
+    <!-- Section 3: Project Gallery -->
+    <section style="padding: 48px 24px;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; max-width: 1200px; margin: auto;">
+        <div class="card">
+          <img src="/assets/project-villa.jpg" alt="Smart Villa">
+          <h3>Smart Villa, Gurgaon</h3>
+          <p>Full-home automation for enhanced luxury living.</p>
+          <a href="#" class="cta">View Project →</a>
+        </div>
+        <div class="card">
+          <img src="/assets/project-apartment.jpg" alt="Automated Apartment">
+          <h3>Automated Apartment, Noida</h3>
+          <p>Compact and smart solutions in urban apartments.</p>
+          <a href="#" class="cta">View Project →</a>
+        </div>
+        <div class="card">
+          <img src="/assets/project-farmhouse.jpg" alt="Farmhouse Project">
+          <h3>Farmhouse Project, Greater Noida</h3>
+          <p>Remote-controlled security and lighting systems.</p>
+          <a href="#" class="cta">View Project →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Testimonial Slider -->
+    <section style="padding: 96px 24px; text-align: center;">
+      <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 48px;">What Our Clients Say</h2>
+      <div class="testimonial-slider" style="max-width: 800px; margin: auto;">
+        <blockquote>"iSwift transformed our villa into an elegant, intelligent home."<br>— Mr. Rajiv Arora, Villa Owner, Gurgaon</blockquote>
+        <blockquote>"The smart home setup from iSwift makes daily life seamless."<br>— Ms. Anjali Sharma, Apartment Owner, Noida</blockquote>
+      </div>
+    </section>
+
+    <!-- Section 6: CTA Highlight -->
+    <section style="padding: 96px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px; background: rgba(255,255,255,0.02);">
+      <div style="flex: 1 1 60%; min-width: 300px;">
+        <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 24px; color: #FF6F40;">Ready to Transform Your Home?</h2>
+        <p style="font-size: 16px; color: #5A4033; margin-bottom: 24px;">Let’s discuss your vision for an elegant, intelligent home powered by iSwift’s smart automation solutions.</p>
+        <a href="/book-demo.php" class="btn">Request Your Free Consultation</a>
+      </div>
+      <div style="flex: 1 1 35%; min-width: 280px;">
+        <img src="/assets/consultation.jpg" alt="Consultation" style="width: 100%; border-radius: 16px;">
+      </div>
+    </section>
+
+    <!-- Sticky WhatsApp CTA -->
+    <a href="https://wa.me/919876543210?text=Hi, I'm interested in iSwift smart home automation." target="_blank" aria-label="Chat on WhatsApp"
+       style="position: fixed; bottom: 24px; right: 24px; background-color: #FF6F40; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
+      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+    </a>
+  </main>
+
+    .tab {
+      background: transparent;
+      color: #FF6F40;
+      border: 1px solid #FF6F40;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .tab:hover, .tab.active {
+      background: #FF6F40;
+      color: #3B1F0F;
+    }
+    .project-card {
+      background: rgba(255,255,255,0.04);
+      padding: 24px;
+      border-radius: 16px;
+      transition: all 0.3s ease;
+      position: relative;
+      text-align: center;
+    }
+    .project-card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 20px rgba(103, 241, 180, 0.2);
+    }
+    .project-card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+    .project-card h3 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #FF6F40;
+      margin-bottom: 8px;
+    }
+    .project-card p {
+      color: #5A4033;
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
+    .project-card .cta {
+      display: inline-block;
+      background-color: #FFB347;
+      color: #3B1F0F;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 24px;
+    }
+    .project-card:hover .cta {
+      visibility: visible;
+      opacity: 1;
+    }
+    .btn {
+      background-color: #FFB347;
+      color: #3B1F0F;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      filter: brightness(1.1);
+      transform: scale(1.02);
+    }
+    blockquote {
+      font-size: 18px;
+      color: #5A4033;
+      margin-bottom: 16px;
+    }
+  </style>
+<?php include __DIR__ . '/partials/footer.php'; ?>

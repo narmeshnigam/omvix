@@ -1,0 +1,151 @@
+<?php
+declare(strict_types=1);
+$page_title = 'iSwift Smart Home Automation for Professionals | Delhi NCR';
+$active_nav = 'For Professionals';
+$base_path = '';
+$body_attrs = '';
+$extra_head = <<<HTML
+<meta name="description" content="iSwift partners with architects, interior designers, and builders to deliver premium smart-home automation solutions in Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida & Delhi NCR.">
+<meta name="keywords" content="smart home partnership, automation for architects, co-branded smart home projects, professional home automation Delhi NCR">
+HTML;
+include __DIR__ . '/partials/header.php';
+?>
+<!-- Section 1: Hero Banner -->
+    <section style="position: relative; height: 60vh; background-image: url('/assets/professionals-hero.jpg'); background-size: cover; background-position: center;">
+      <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <h1 style="font-size: 48px; font-weight: 700; color: #FF6F40; margin-bottom: 16px;">Your Trusted Automation Partner</h1>
+        <p style="font-size: 18px; font-weight: 400; max-width: 700px;">Reliable Smart Home Solutions Tailored for Professionals.</p>
+      </div>
+    </section>
+
+    <!-- Section 2: Benefits of Collaboration -->
+    <section style="padding: 96px 24px; max-width: 1200px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px;">
+      <div class="card">
+        <img src="/icons/support-icon.svg" alt="Support" style="height: 48px; margin-bottom: 16px;">
+        <h3>Dedicated Project Support</h3>
+        <p>Personalized support throughout your projects, from design to delivery.</p>
+      </div>
+      <div class="card">
+        <img src="/icons/partnership-icon.svg" alt="Co-branding" style="height: 48px; margin-bottom: 16px;">
+        <h3>Co-branded Project Opportunities</h3>
+        <p>Exclusive opportunities to collaborate and showcase premium projects.</p>
+      </div>
+      <div class="card">
+        <img src="/icons/technical-icon.svg" alt="Design Assistance" style="height: 48px; margin-bottom: 16px;">
+        <h3>Technical & Design Assistance</h3>
+        <p>Expert assistance with integrating smart automation into your designs.</p>
+      </div>
+    </section>
+
+    <!-- Section 3: Partner Showcase -->
+    <section style="padding: 96px 24px; text-align: center;">
+      <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 48px;">Our Partner Projects</h2>
+      <div class="slider" style="display: flex; overflow-x: auto; gap: 32px; scroll-snap-type: x mandatory;">
+        <div class="card" style="flex: 0 0 48%; scroll-snap-align: start;">
+          <img src="/assets/project-apartment.jpg" alt="Luxury Apartment" style="width: 100%; border-radius: 16px;">
+          <h3>Luxury Apartment, Gurgaon</h3>
+          <p>Smart Lighting & Curtain integration.</p>
+        </div>
+        <div class="card" style="flex: 0 0 48%; scroll-snap-align: start;">
+          <img src="/assets/project-villa.jpg" alt="Modern Villa" style="width: 100%; border-radius: 16px;">
+          <h3>Modern Villa, Greater Noida</h3>
+          <p>Full-home smart security & Wi-Fi solutions.</p>
+        </div>
+      </div>
+      <a href="/projects.php" class="btn" style="margin-top: 32px;">View All Partner Projects</a>
+    </section>
+
+    <!-- Section 4: Download MoU -->
+    <section style="padding: 96px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px; background: rgba(255,255,255,0.02);">
+      <div style="flex: 1 1 60%; min-width: 300px;">
+        <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 24px; color: #FF6F40;">Partner With Confidence</h2>
+        <p style="font-size: 16px; color: #5A4033; margin-bottom: 24px;">Download our Memorandum of Understanding (MoU) to explore partnership opportunities and see how collaboration with iSwift can enhance your projects.</p>
+        <a href="/downloads/iSwift-MoU.pdf" class="btn">Download MoU</a>
+      </div>
+      <div style="flex: 1 1 35%; min-width: 280px;">
+        <img src="/assets/mou-download.jpg" alt="MoU Document" style="width: 100%; border-radius: 16px;">
+      </div>
+    </section>
+
+    <!-- Section 5: Schedule Meeting Form -->
+    <section style="padding: 96px 24px;">
+      <div style="background: rgba(255,255,255,0.04); padding: 48px; border-radius: 16px; max-width: 800px; margin: auto;">
+        <h2 style="font-size: 32px; font-weight: 600; margin-bottom: 32px; text-align: center; color: #FF6F40;">Schedule a Technical Meeting</h2>
+        <form style="display: grid; gap: 24px;">
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="tel" placeholder="Contact Number" required>
+          <select required>
+            <option disabled selected>Profession</option>
+            <option>Architect</option>
+            <option>Interior Designer</option>
+            <option>Builder</option>
+            <option>Other</option>
+          </select>
+          <input type="date" placeholder="Preferred Date" required>
+          <textarea rows="4" placeholder="Additional Requirements"></textarea>
+          <button type="submit" class="btn">Schedule Now</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section 6: Testimonial -->
+    <section style="padding: 96px 24px; text-align: center;">
+      <div style="background: rgba(255,255,255,0.04); padding: 32px; border-radius: 16px; max-width: 800px; margin: auto;">
+        <blockquote style="font-size: 18px; line-height: 1.6;">"Our collaboration with iSwift has added tremendous value to our designs. Their expertise and reliability are unmatched."</blockquote>
+        <p style="margin-top: 16px; font-weight: 500; color: #FF6F40;">— Ms. Priya Gupta, Interior Designer, Gurgaon</p>
+      </div>
+    </section>
+
+    <!-- Sticky WhatsApp CTA -->
+    <a href="https://wa.me/919876543210?text=Hi, I'm interested in iSwift smart home automation." target="_blank" aria-label="Chat on WhatsApp"
+       style="position: fixed; bottom: 24px; right: 24px; background-color: #FF6F40; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
+      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+    </a>
+  </main>
+
+    .card {
+      background: rgba(255,255,255,0.04);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 20px rgba(103, 241, 180, 0.2);
+    }
+    .card h3 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #FF6F40;
+      margin-bottom: 8px;
+    }
+    .card p {
+      font-size: 16px;
+      color: #5A4033;
+    }
+    .btn {
+      background-color: #FFB347;
+      color: #3B1F0F;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      filter: brightness(1.1);
+      transform: scale(1.02);
+    }
+    form input, form select, form textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #FF6F40;
+      background: transparent;
+      color: #FF6F40;
+      font-family: 'Inter', sans-serif;
+    }
+    form textarea { resize: vertical; }
+  </style>
+<?php include __DIR__ . '/partials/footer.php'; ?>

@@ -1,0 +1,192 @@
+<?php
+declare(strict_types=1);
+$page_title = 'Smart Home Automation Blogs & FAQs | iSwift Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida';
+$active_nav = 'Learn';
+$base_path = '';
+$body_attrs = '';
+$extra_head = <<<HTML
+<meta name="description" content="Learn how smart home automation can improve your lifestyle. Read blogs, explore tips, and find answers to FAQs from iSwift experts in Delhi NCR.">
+<meta name="keywords" content="smart home blog, home automation tips, smart living guides, smart home FAQs, Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida">
+HTML;
+include __DIR__ . '/partials/header.php';
+?>
+<!-- Section 1: Hero Banner -->
+    <section style="position: relative; height: 60vh; background-image: url('/assets/learn-hero.jpg'); background-size: cover; background-position: center;">
+      <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <h1 style="font-size: 48px; font-weight: 700; color: #FF6F40;">Explore. Understand. Transform.</h1>
+        <p style="font-size: 18px; font-weight: 400; max-width: 700px;">Learn how smart home automation can enhance your life.</p>
+      </div>
+    </section>
+
+    <!-- Section 2: Featured Blog Carousel -->
+    <section style="padding: 96px 24px;">
+      <div style="overflow-x: auto; display: flex; gap: 24px; scroll-snap-type: x mandatory;">
+        <div class="blog-card">
+          <img src="/assets/blog-smart-benefits.jpg" alt="5 Must-Know Smart Home Benefits">
+          <h3>5 Must-Know Smart Home Benefits</h3>
+          <p>Explore how smart living simplifies everyday life.</p>
+          <a href="#" class="cta">Read More →</a>
+        </div>
+        <div class="blog-card">
+          <img src="/assets/blog-curtains.jpg" alt="Curtains That Wake You Up Naturally">
+          <h3>Curtains That Wake You Up Naturally</h3>
+          <p>How automated curtains enhance your mornings.</p>
+          <a href="#" class="cta">Read More →</a>
+        </div>
+        <div class="blog-card">
+          <img src="/assets/blog-lighting-scenes.jpg" alt="Smart Lighting Scenes Explained">
+          <h3>Smart Lighting Scenes Explained</h3>
+          <p>Control mood and efficiency with lighting presets.</p>
+          <a href="#" class="cta">Read More →</a>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 48px;">
+        <a href="#" class="btn">Browse All Articles</a>
+      </div>
+    </section>
+
+    <!-- Section 3: Automation Explainers -->
+    <section style="padding: 96px 24px; max-width: 1200px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px;">
+      <div class="info-card">
+        <img src="/icons/automation-icon.svg" alt="Home Automation">
+        <h3>What is Home Automation?</h3>
+        <p>Understand the basics and possibilities of a connected home.</p>
+        <a href="#" class="cta">Explore More →</a>
+      </div>
+      <div class="info-card">
+        <img src="/icons/mesh-icon.svg" alt="Wi-Fi Mesh vs Extenders">
+        <h3>Wi-Fi Mesh vs Extenders</h3>
+        <p>Why mesh networks offer superior coverage for smart devices.</p>
+        <a href="#" class="cta">Explore More →</a>
+      </div>
+      <div class="info-card">
+        <img src="/icons/security-icon.svg" alt="Smart Security 101">
+        <h3>Smart Security 101</h3>
+        <p>How modern sensors, locks, and cameras protect your family and property.</p>
+        <a href="#" class="cta">Explore More →</a>
+      </div>
+    </section>
+
+    <!-- Section 4: FAQs by Category -->
+    <section style="padding: 96px 24px; max-width: 900px; margin: auto;">
+      <div class="faq-tabs">
+        <button class="tab active">Product</button>
+        <button class="tab">Process</button>
+        <button class="tab">Pricing</button>
+      </div>
+      <div class="accordion">
+        <div class="faq-item">
+          <h4>Can iSwift systems work with Alexa and Google?</h4>
+          <p>Yes, iSwift solutions support Alexa, Google, and Siri integration.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Are your locks compatible with existing doors?</h4>
+          <p>Most iSwift smart locks are retrofit-compatible with Indian door types.</p>
+        </div>
+        <div class="faq-item">
+          <h4>How long does installation take?</h4>
+          <p>Standard installations complete in 1–2 days depending on the solution.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Do you offer bundled packages?</h4>
+          <p>Yes. We offer curated combinations and custom quotations.</p>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 48px;">
+        <a href="https://wa.me/919876543210?text=Hi, I have some questions about iSwift products." class="btn">Still have questions? Chat on WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- Sticky WhatsApp CTA -->
+    <a href="https://wa.me/919876543210?text=Hi, I'm interested in iSwift smart home automation." target="_blank" aria-label="Chat on WhatsApp"
+       style="position: fixed; bottom: 24px; right: 24px; background-color: #FF6F40; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
+      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+    </a>
+  </main>
+
+    .blog-card, .info-card {
+      background: rgba(255,255,255,0.04);
+      padding: 24px;
+      border-radius: 16px;
+      min-width: 280px;
+      scroll-snap-align: start;
+      transition: all 0.3s ease;
+    }
+    .blog-card:hover, .info-card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 20px rgba(103, 241, 180, 0.2);
+    }
+    .blog-card img, .info-card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
+    .blog-card h3, .info-card h3 {
+      color: #FF6F40;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .blog-card p, .info-card p {
+      font-size: 16px;
+      color: #5A4033;
+      margin-bottom: 12px;
+    }
+    .cta {
+      color: #FF6F40;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    .cta:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      background-color: #FFB347;
+      color: #3B1F0F;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      filter: brightness(1.1);
+      transform: scale(1.02);
+    }
+    .faq-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .faq-tabs .tab {
+      padding: 8px 16px;
+      border: 1px solid #FF6F40;
+      border-radius: 8px;
+      color: #FF6F40;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .faq-tabs .tab.active, .faq-tabs .tab:hover {
+      background: #FF6F40;
+      color: #3B1F0F;
+    }
+    .accordion .faq-item {
+      background: rgba(255,255,255,0.02);
+      border-radius: 12px;
+      margin-bottom: 16px;
+      padding: 16px 24px;
+      transition: all 0.3s ease;
+    }
+    .accordion h4 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #FF6F40;
+      margin-bottom: 8px;
+    }
+    .accordion p {
+      font-size: 15px;
+      color: #5A4033;
+    }
+  </style>
+<?php include __DIR__ . '/partials/footer.php'; ?>
