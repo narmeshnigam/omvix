@@ -1,17 +1,16 @@
 <?php
 declare(strict_types=1);
+require __DIR__ . '/bootstrap.php';
 $page_title = 'iSwift Smart Home Automation Services in Delhi NCR';
-$active_nav = '';
-$base_path = '';
 $body_attrs = '';
 $extra_head = <<<HTML
 <meta name="description" content="iSwift provides end-to-end luxury smart home services, from personalized consultation and professional installation to comprehensive support in Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida & Delhi NCR.">
 <meta name="keywords" content="smart home services, smart home installation, home automation consultation, AMC for home automation, warranty coverage smart home, Delhi NCR">
 HTML;
-include __DIR__ . '/partials/header.php';
+require __DIR__ . '/includes/header.php';
 ?>
 <!-- Section 1: Hero Banner -->
-    <section style="position: relative; height: 60vh; background-image: url('/assets/services-hero.jpg'); background-size: cover; background-position: center;">
+    <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/services-hero.jpg'); background-size: cover; background-position: center;">
       <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
         <h1 style="font-size: 48px; font-weight: 700; color: #FF6F40; margin-bottom: 16px;">End-to-End Smart Home Services</h1>
         <p style="font-size: 18px; font-weight: 400; max-width: 700px;">Seamless Experience from Planning to Lifelong Support.</p>
@@ -22,42 +21,42 @@ include __DIR__ . '/partials/header.php';
     <section style="padding: 96px 24px; max-width: 1000px; margin: auto;">
       <div style="display: flex; flex-direction: column; gap: 32px;">
         <div style="display: flex; align-items: flex-start; gap: 24px;">
-          <img src="/icons/consultation-icon.svg" alt="Consultation" style="height: 48px;">
+          <img src="<?= BASE_URL ?>/icons/consultation-icon.svg" alt="Consultation" style="height: 48px;">
           <div>
             <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Consultation & Custom Planning</h3>
             <p>Personalized planning sessions to choose smart solutions perfect for your home’s unique needs.</p>
           </div>
         </div>
         <div style="display: flex; align-items: flex-start; gap: 24px;">
-          <img src="/icons/installation-icon.svg" alt="Installation" style="height: 48px;">
+          <img src="<?= BASE_URL ?>/icons/installation-icon.svg" alt="Installation" style="height: 48px;">
           <div>
             <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">On-site Installation</h3>
             <p>Professional installation by expert technicians, ensuring minimal disruption.</p>
           </div>
         </div>
         <div style="display: flex; align-items: flex-start; gap: 24px;">
-          <img src="/icons/testing-icon.svg" alt="Testing" style="height: 48px;">
+          <img src="<?= BASE_URL ?>/icons/testing-icon.svg" alt="Testing" style="height: 48px;">
           <div>
             <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Device Testing & Scene Setup</h3>
             <p>Detailed testing and custom scenes programmed for effortless daily use.</p>
           </div>
         </div>
         <div style="display: flex; align-items: flex-start; gap: 24px;">
-          <img src="/icons/training-icon.svg" alt="Training" style="height: 48px;">
+          <img src="<?= BASE_URL ?>/icons/training-icon.svg" alt="Training" style="height: 48px;">
           <div>
             <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Homeowner Training</h3>
             <p>Simple training sessions to help you get the most out of your smart systems.</p>
           </div>
         </div>
         <div style="display: flex; align-items: flex-start; gap: 24px;">
-          <img src="/icons/warranty-icon.svg" alt="Warranty" style="height: 48px;">
+          <img src="<?= BASE_URL ?>/icons/warranty-icon.svg" alt="Warranty" style="height: 48px;">
           <div>
             <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Warranty Handling & AMC Options</h3>
             <p>Peace of mind with comprehensive warranty coverage and annual maintenance contracts.</p>
           </div>
         </div>
         <div style="display: flex; align-items: flex-start; gap: 24px;">
-          <img src="/icons/support-icon.svg" alt="Support" style="height: 48px;">
+          <img src="<?= BASE_URL ?>/icons/support-icon.svg" alt="Support" style="height: 48px;">
           <div>
             <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Dedicated Support</h3>
             <p>Reliable, fast, ongoing support whenever you need it.</p>
@@ -74,7 +73,7 @@ include __DIR__ . '/partials/header.php';
         <a href="/book-demo.php" style="background-color: #FFB347; color: #3B1F0F; padding: 16px 32px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Request an Installation Demo</a>
       </div>
       <div style="flex: 1 1 35%; min-width: 280px;">
-        <img src="/assets/service-installation.jpg" alt="Installation" style="width: 100%; border-radius: 16px;">
+        <img src="<?= BASE_URL ?>/assets/service-installation.jpg" alt="Installation" style="width: 100%; border-radius: 16px;">
       </div>
     </section>
 
@@ -98,7 +97,7 @@ include __DIR__ . '/partials/header.php';
     <!-- Sticky WhatsApp CTA -->
     <a href="https://wa.me/919876543210?text=Hi, I'm interested in iSwift smart home automation." target="_blank" aria-label="Chat on WhatsApp"
        style="position: fixed; bottom: 24px; right: 24px; background-color: #FF6F40; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
-      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+      <img src="<?= BASE_URL ?>/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
     </a>
   </main>
-<?php include __DIR__ . '/partials/footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

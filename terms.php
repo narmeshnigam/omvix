@@ -1,13 +1,12 @@
 <?php
 declare(strict_types=1);
+require __DIR__ . '/bootstrap.php';
 $page_title = 'Terms & Conditions | iSwift';
-$active_nav = '';
-$base_path = '';
 $body_attrs = '';
 $extra_head = <<<HTML
 <meta name="description" content="iSwift website terms and conditions." />
 HTML;
-include __DIR__ . '/partials/header.php';
+require __DIR__ . '/includes/header.php';
 ?>
 <main>
     <section class="hero-small">
@@ -19,4 +18,4 @@ include __DIR__ . '/partials/header.php';
       </div>
     </section>
   </main>
-<?php include __DIR__ . '/partials/footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

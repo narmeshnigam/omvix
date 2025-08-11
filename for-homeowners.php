@@ -1,3 +1,8 @@
+<?php
+require __DIR__ . '/bootstrap.php';
+$page_title = 'For Homeowners | Omvix';
+require __DIR__ . '/includes/header.php';
+?>
 
 <!-- Section 1: Hero Banner -->
     <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/homeowners-hero.jpg'); background-size: cover; background-position: center;">
@@ -54,7 +59,7 @@
         <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 24px; color: #FF6F40;">Start Your Smart Home Journey Today</h2>
         <p style="font-size: 16px; color: #5A4033; margin-bottom: 24px;">Explore how iSwift can transform your home, customized precisely to your needs and lifestyle.</p>
         <div style="display: flex; gap: 16px; flex-wrap: wrap;">
-          <a href="<?= BASE_URL ?>/book-demo" class="btn">Book Your Free Demo</a>
+          <a href="<?= BASE_URL ?>/book-demo.php" class="btn">Book Your Free Demo</a>
           <a href="<?= BASE_URL ?>/request-quote.php" class="btn">Request a Quote</a>
         </div>
       </div>
@@ -124,3 +129,4 @@
     }
   </style>
 
+<?php require __DIR__ . '/includes/footer.php'; ?>

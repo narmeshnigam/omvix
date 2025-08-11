@@ -1,3 +1,8 @@
+<?php
+require __DIR__ . '/bootstrap.php';
+$page_title = 'Projects | Omvix';
+require __DIR__ . '/includes/header.php';
+?>
 
 <!-- Section 1: Hero Banner -->
     <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/projects-hero.jpg'); background-size: cover; background-position: center;">
@@ -54,7 +59,7 @@
       <div style="flex: 1 1 60%; min-width: 300px;">
         <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 24px; color: #FF6F40;">Ready to Transform Your Home?</h2>
         <p style="font-size: 16px; color: #5A4033; margin-bottom: 24px;">Let’s discuss your vision for an elegant, intelligent home powered by iSwift’s smart automation solutions.</p>
-        <a href="<?= BASE_URL ?>/book-demo" class="btn">Request Your Free Consultation</a>
+        <a href="<?= BASE_URL ?>/book-demo.php" class="btn">Request Your Free Consultation</a>
       </div>
       <div style="flex: 1 1 35%; min-width: 280px;">
         <img src="<?= BASE_URL ?>/assets/consultation.jpg" alt="Consultation" style="width: 100%; border-radius: 16px;">
@@ -150,3 +155,4 @@
     }
   </style>
 
+<?php require __DIR__ . '/includes/footer.php'; ?>

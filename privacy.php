@@ -1,14 +1,13 @@
 <?php
 declare(strict_types=1);
+require __DIR__ . '/bootstrap.php';
 $page_title = 'Privacy Policy & Terms | iSwift Smart Home Automation';
-$active_nav = '';
-$base_path = '';
 $body_attrs = '';
 $extra_head = <<<HTML
 <meta name="description" content="Read iSwift’s privacy policy and terms of use. Learn how we collect, use, and protect your data while offering smart home automation in Delhi NCR.">
 <meta name="keywords" content="iSwift privacy policy, WhatsApp API disclosure, smart home terms of use, website data collection">
 HTML;
-include __DIR__ . '/partials/header.php';
+require __DIR__ . '/includes/header.php';
 ?>
 <!-- Header -->
 
@@ -113,4 +112,4 @@ include __DIR__ . '/partials/header.php';
       transform: scale(1.02);
     }
   </style>
-<?php include __DIR__ . '/partials/footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

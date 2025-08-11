@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+require __DIR__ . '/../bootstrap.php';
 $page_title = 'Smart Air Purifiers | App-Controlled HEPA Air Cleaners by iSwift';
 $active_nav = 'Solutions';
 $base_path = '../';
@@ -7,7 +8,7 @@ $body_attrs = '';
 $extra_head = <<<HTML
 <meta name="description" content="Breathe clean air at home with iSwift Smart Air Purifiers. Monitor AQI, automate purification, and enjoy silent operation—available across Delhi NCR.">
 HTML;
-include __DIR__ . '/../partials/header.php';
+require __DIR__ . '/../includes/header.php';
 ?>
 <section class="hero">
     <div>
@@ -76,4 +77,4 @@ include __DIR__ . '/../partials/header.php';
     </div>
   </section>
 </main>
-<?php include __DIR__ . '/../partials/footer.php'; ?>
+<?php require __DIR__ . '/../includes/footer.php'; ?>

@@ -1,5 +1,8 @@
-
-<!-- Header Include -->
+<?php
+require __DIR__ . '/bootstrap.php';
+$page_title = 'Book a Demo | Omvix';
+require __DIR__ . '/includes/header.php';
+?>
     <!-- Section 1: Hero Banner -->
     <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/demo-hero.jpg'); background-size: cover; background-position: center;">
       <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
@@ -140,3 +143,4 @@
     }
   </style>
 
+<?php require __DIR__ . '/includes/footer.php'; ?>

@@ -1,4 +1,9 @@
 
+<?php
+require __DIR__ . '/bootstrap.php';
+$page_title = 'Solutions | Omvix';
+require __DIR__ . '/includes/header.php';
+?>
 
     <section style="padding: 96px 24px; text-align: center;">
       <h1 style="font-size: 36px; font-weight: 600; margin-bottom: 48px;">Explore Our Solutions</h1>
@@ -19,10 +24,12 @@
       </div>  
       </div>
     </section>
+
+<?php require __DIR__ . '/includes/footer.php'; ?>
     <section style="padding: 96px 24px; text-align: center;">
       <h2 style="font-size: 32px; font-weight: 600; margin-bottom: 24px;">Need Help Choosing?</h2>
       <p style="color: #5A4033; margin-bottom: 32px;">Book a free consultation and let our experts guide you.</p>
-      <a href="<?= BASE_URL ?>/book-demo" class="btn">Book a Demo</a>
+      <a href="<?= BASE_URL ?>/book-demo.php" class="btn">Book a Demo</a>
     </section>
   
 

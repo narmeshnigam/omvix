@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+require __DIR__ . '/../bootstrap.php';
 $page_title = 'Smart Lighting Control for Homes | iSwift Automation Delhi NCR';
 $active_nav = 'Solutions';
 $base_path = '../';
@@ -7,7 +8,7 @@ $body_attrs = '';
 $extra_head = <<<HTML
 <meta name="description" content="Control your home’s lights via app, voice, or schedule. Book your smart lighting demo in Delhi, Gurgaon, Noida, Ghaziabad & Greater Noida.">
 HTML;
-include __DIR__ . '/../partials/header.php';
+require __DIR__ . '/../includes/header.php';
 ?>
 <section class="hero">
     <div class="hero-content">
@@ -83,4 +84,4 @@ include __DIR__ . '/../partials/header.php';
     </div>
   </section>
 </main>
-<?php include __DIR__ . '/../partials/footer.php'; ?>
+<?php require __DIR__ . '/../includes/footer.php'; ?>
