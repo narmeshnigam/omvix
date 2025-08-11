@@ -1,17 +1,6 @@
-<?php
-declare(strict_types=1);
-$page_title = 'Contact iSwift | Smart Home Experts in Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida';
-$active_nav = 'Contact';
-$base_path = '';
-$body_attrs = '';
-$extra_head = <<<HTML
-<meta name="description" content="Connect with iSwift for consultations, demos, and smart home queries. Call, email, WhatsApp, or visit us in Delhi NCR.">
-<meta name="keywords" content="smart home contact, automation consultation, contact iSwift, Noida smart home office, Delhi NCR automation team">
-HTML;
-include __DIR__ . '/partials/header.php';
-?>
+
 <!-- Section 1: Hero Banner -->
-  <section style="position: relative; height: 60vh; background-image: url('/assets/contact-hero.jpg'); background-size: cover; background-position: center;">
+  <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/contact-hero.jpg'); background-size: cover; background-position: center;">
     <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; padding-left: 5%;">
       <h1 style="font-size: 48px; font-weight: 700; color: #FF6F40;">Let’s Connect</h1>
       <p style="font-size: 18px; max-width: 500px;">Reach out for queries, guidance, or on-ground assistance.</p>
@@ -50,25 +39,25 @@ include __DIR__ . '/partials/header.php';
   <!-- Section 4: Additional Contact Options -->
   <section style="padding: 96px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; max-width: 1200px; margin: auto;">
     <div class="card">
-      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 48px;">
+      <img src="<?= BASE_URL ?>/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 48px;">
       <h4>Chat on WhatsApp</h4>
       <p>Reach us instantly through WhatsApp for quick queries.</p>
       <a href="https://wa.me/919876543210?text=Hi, I’d like to inquire about smart home solutions." class="btn">Start Chat</a>
     </div>
     <div class="card">
-      <img src="/icons/calendar-icon.svg" alt="Book Demo" style="height: 48px;">
+      <img src="<?= BASE_URL ?>/icons/calendar-icon.svg" alt="Book Demo" style="height: 48px;">
       <h4>Book a Consultation</h4>
       <p>Schedule a session with our experts—online or in-person.</p>
-      <a href="/book-demo.php" class="btn">Book Demo</a>
+      <a href="<?= BASE_URL ?>/book-demo" class="btn">Book Demo</a>
     </div>
     <div class="card">
-      <img src="/icons/phone-icon.svg" alt="Call" style="height: 48px;">
+      <img src="<?= BASE_URL ?>/icons/phone-icon.svg" alt="Call" style="height: 48px;">
       <h4>Call Us</h4>
       <p>Speak directly with our consultant team during working hours.</p>
       <a href="tel:+919876543210" class="btn">Call Now</a>
     </div>
     <div class="card">
-      <img src="/icons/mail-icon.svg" alt="Email" style="height: 48px;">
+      <img src="<?= BASE_URL ?>/icons/mail-icon.svg" alt="Email" style="height: 48px;">
       <h4>Email Support</h4>
       <p>Drop your message and we’ll respond within 24 hours.</p>
       <a href="mailto:contact@iswift.in" class="btn">Email Us</a>
@@ -78,16 +67,16 @@ include __DIR__ . '/partials/header.php';
   <!-- Section 5: FAQ Redirect -->
   <section style="padding: 48px 24px; background: rgba(255,255,255,0.02); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; max-width: 1200px; margin: auto;">
     <p style="font-size: 16px; color: #5A4033;">Have questions about our services? Explore our FAQs and Learn page.</p>
-    <a href="/learn.php" class="btn">Visit Learn Page →</a>
+    <a href="<?= BASE_URL ?>/learn" class="btn">Visit Learn Page →</a>
   </section>
 
   <!-- Sticky WhatsApp CTA -->
   <a href="https://wa.me/919876543210?text=Hi, I’d like to inquire about smart home solutions." target="_blank" aria-label="Chat on WhatsApp"
      style="position: fixed; bottom: 24px; right: 24px; background-color: #FF6F40; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
-    <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+    <img src="<?= BASE_URL ?>/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
   </a>
 
-</main>
+
 
   .btn {
     background-color: #FFB347;
@@ -124,4 +113,4 @@ include __DIR__ . '/partials/header.php';
     font-family: 'Inter', sans-serif;
   }
 </style>
-<?php include __DIR__ . '/partials/footer.php'; ?>
+

@@ -1,17 +1,6 @@
-<?php
-declare(strict_types=1);
-$page_title = 'Smart Home Automation Blogs & FAQs | iSwift Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida';
-$active_nav = 'Learn';
-$base_path = '';
-$body_attrs = '';
-$extra_head = <<<HTML
-<meta name="description" content="Learn how smart home automation can improve your lifestyle. Read blogs, explore tips, and find answers to FAQs from iSwift experts in Delhi NCR.">
-<meta name="keywords" content="smart home blog, home automation tips, smart living guides, smart home FAQs, Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida">
-HTML;
-include __DIR__ . '/partials/header.php';
-?>
+
 <!-- Section 1: Hero Banner -->
-    <section style="position: relative; height: 60vh; background-image: url('/assets/learn-hero.jpg'); background-size: cover; background-position: center;">
+    <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/learn-hero.jpg'); background-size: cover; background-position: center;">
       <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
         <h1 style="font-size: 48px; font-weight: 700; color: #FF6F40;">Explore. Understand. Transform.</h1>
         <p style="font-size: 18px; font-weight: 400; max-width: 700px;">Learn how smart home automation can enhance your life.</p>
@@ -22,19 +11,19 @@ include __DIR__ . '/partials/header.php';
     <section style="padding: 96px 24px;">
       <div style="overflow-x: auto; display: flex; gap: 24px; scroll-snap-type: x mandatory;">
         <div class="blog-card">
-          <img src="/assets/blog-smart-benefits.jpg" alt="5 Must-Know Smart Home Benefits">
+          <img src="<?= BASE_URL ?>/assets/blog-smart-benefits.jpg" alt="5 Must-Know Smart Home Benefits">
           <h3>5 Must-Know Smart Home Benefits</h3>
           <p>Explore how smart living simplifies everyday life.</p>
           <a href="#" class="cta">Read More →</a>
         </div>
         <div class="blog-card">
-          <img src="/assets/blog-curtains.jpg" alt="Curtains That Wake You Up Naturally">
+          <img src="<?= BASE_URL ?>/assets/blog-curtains.jpg" alt="Curtains That Wake You Up Naturally">
           <h3>Curtains That Wake You Up Naturally</h3>
           <p>How automated curtains enhance your mornings.</p>
           <a href="#" class="cta">Read More →</a>
         </div>
         <div class="blog-card">
-          <img src="/assets/blog-lighting-scenes.jpg" alt="Smart Lighting Scenes Explained">
+          <img src="<?= BASE_URL ?>/assets/blog-lighting-scenes.jpg" alt="Smart Lighting Scenes Explained">
           <h3>Smart Lighting Scenes Explained</h3>
           <p>Control mood and efficiency with lighting presets.</p>
           <a href="#" class="cta">Read More →</a>
@@ -48,19 +37,19 @@ include __DIR__ . '/partials/header.php';
     <!-- Section 3: Automation Explainers -->
     <section style="padding: 96px 24px; max-width: 1200px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px;">
       <div class="info-card">
-        <img src="/icons/automation-icon.svg" alt="Home Automation">
+        <img src="<?= BASE_URL ?>/icons/automation-icon.svg" alt="Home Automation">
         <h3>What is Home Automation?</h3>
         <p>Understand the basics and possibilities of a connected home.</p>
         <a href="#" class="cta">Explore More →</a>
       </div>
       <div class="info-card">
-        <img src="/icons/mesh-icon.svg" alt="Wi-Fi Mesh vs Extenders">
+        <img src="<?= BASE_URL ?>/icons/mesh-icon.svg" alt="Wi-Fi Mesh vs Extenders">
         <h3>Wi-Fi Mesh vs Extenders</h3>
         <p>Why mesh networks offer superior coverage for smart devices.</p>
         <a href="#" class="cta">Explore More →</a>
       </div>
       <div class="info-card">
-        <img src="/icons/security-icon.svg" alt="Smart Security 101">
+        <img src="<?= BASE_URL ?>/icons/security-icon.svg" alt="Smart Security 101">
         <h3>Smart Security 101</h3>
         <p>How modern sensors, locks, and cameras protect your family and property.</p>
         <a href="#" class="cta">Explore More →</a>
@@ -100,9 +89,9 @@ include __DIR__ . '/partials/header.php';
     <!-- Sticky WhatsApp CTA -->
     <a href="https://wa.me/919876543210?text=Hi, I'm interested in iSwift smart home automation." target="_blank" aria-label="Chat on WhatsApp"
        style="position: fixed; bottom: 24px; right: 24px; background-color: #FF6F40; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
-      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+      <img src="<?= BASE_URL ?>/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
     </a>
-  </main>
+  
 
     .blog-card, .info-card {
       background: rgba(255,255,255,0.04);
@@ -189,4 +178,4 @@ include __DIR__ . '/partials/header.php';
       color: #5A4033;
     }
   </style>
-<?php include __DIR__ . '/partials/footer.php'; ?>
+

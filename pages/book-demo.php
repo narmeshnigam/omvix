@@ -1,18 +1,7 @@
-<?php
-declare(strict_types=1);
-$page_title = 'Schedule Smart Home Demo | iSwift - Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida & NCR';
-$active_nav = '';
-$base_path = '';
-$body_attrs = '';
-$extra_head = <<<HTML
-<meta name="description" content="Book your free smart home consultation with iSwift. Available virtually or in-person in Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida & Delhi NCR.">
-<meta name="keywords" content="smart home demo, free consultation home automation, book smart home visit, home automation Delhi NCR">
-HTML;
-include __DIR__ . '/partials/header.php';
-?>
+
 <!-- Header Include -->
     <!-- Section 1: Hero Banner -->
-    <section style="position: relative; height: 60vh; background-image: url('/assets/demo-hero.jpg'); background-size: cover; background-position: center;">
+    <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/demo-hero.jpg'); background-size: cover; background-position: center;">
       <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
         <h1 style="font-size: 48px; font-weight: 700; color: #FF6F40;">Book Your Free Smart Home Consultation</h1>
         <p style="font-size: 18px; font-weight: 400; max-width: 700px;">Talk to our experts—online or on-site—for personalized guidance.</p>
@@ -22,17 +11,17 @@ include __DIR__ . '/partials/header.php';
     <!-- Section 2: What to Expect -->
     <section style="padding: 96px 24px; max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; gap: 32px; justify-content: center;">
       <div class="step-card">
-        <img src="/icons/property-type-icon.svg" alt="Choose Property" style="height: 48px;">
+        <img src="<?= BASE_URL ?>/icons/property-type-icon.svg" alt="Choose Property" style="height: 48px;">
         <h3>1. Choose Property Type</h3>
         <p>Let us know if it’s an apartment, villa, bungalow or farmhouse.</p>
       </div>
       <div class="step-card">
-        <img src="/icons/calendar-icon.svg" alt="Pick Time" style="height: 48px;">
+        <img src="<?= BASE_URL ?>/icons/calendar-icon.svg" alt="Pick Time" style="height: 48px;">
         <h3>2. Pick Time & Mode</h3>
         <p>Book a convenient slot—virtual or in-person visit.</p>
       </div>
       <div class="step-card">
-        <img src="/icons/advice-icon.svg" alt="Get Advice" style="height: 48px;">
+        <img src="<?= BASE_URL ?>/icons/advice-icon.svg" alt="Get Advice" style="height: 48px;">
         <h3>3. Get Expert Advice</h3>
         <p>Our consultant walks you through options based on your needs.</p>
       </div>
@@ -73,7 +62,7 @@ include __DIR__ . '/partials/header.php';
         <a href="https://wa.me/919876543210?text=Hi, I’d like to book a demo with iSwift." target="_blank" class="btn">Book via WhatsApp</a>
       </div>
       <div style="flex: 1 1 35%; min-width: 280px;">
-        <img src="/assets/whatsapp-booking.jpg" alt="WhatsApp Booking" style="width: 100%; border-radius: 16px;">
+        <img src="<?= BASE_URL ?>/assets/whatsapp-booking.jpg" alt="WhatsApp Booking" style="width: 100%; border-radius: 16px;">
       </div>
     </section>
 
@@ -81,23 +70,23 @@ include __DIR__ . '/partials/header.php';
     <section style="padding: 48px 24px; text-align: center;">
       <p style="font-size: 16px; color: #5A4033; margin-bottom: 16px;">Trusted by Homeowners and Professionals in Delhi NCR</p>
       <div style="display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;">
-        <img src="/logos/yale.svg" alt="Yale" class="brand-logo">
-        <img src="/logos/godrej.svg" alt="Godrej" class="brand-logo">
-        <img src="/logos/qubo.svg" alt="Qubo" class="brand-logo">
-        <img src="/logos/tplink.svg" alt="TP-Link" class="brand-logo">
-        <img src="/logos/netgear.svg" alt="Netgear" class="brand-logo">
-        <img src="/logos/alexa.svg" alt="Alexa" class="brand-logo">
-        <img src="/logos/google-home.svg" alt="Google Home" class="brand-logo">
-        <img src="/logos/siri.svg" alt="Siri" class="brand-logo">
+        <img src="<?= BASE_URL ?>/logos/yale.svg" alt="Yale" class="brand-logo">
+        <img src="<?= BASE_URL ?>/logos/godrej.svg" alt="Godrej" class="brand-logo">
+        <img src="<?= BASE_URL ?>/logos/qubo.svg" alt="Qubo" class="brand-logo">
+        <img src="<?= BASE_URL ?>/logos/tplink.svg" alt="TP-Link" class="brand-logo">
+        <img src="<?= BASE_URL ?>/logos/netgear.svg" alt="Netgear" class="brand-logo">
+        <img src="<?= BASE_URL ?>/logos/alexa.svg" alt="Alexa" class="brand-logo">
+        <img src="<?= BASE_URL ?>/logos/google-home.svg" alt="Google Home" class="brand-logo">
+        <img src="<?= BASE_URL ?>/logos/siri.svg" alt="Siri" class="brand-logo">
       </div>
     </section>
 
     <!-- Sticky WhatsApp CTA -->
     <a href="https://wa.me/919876543210?text=Hi, I’d like to book a demo with iSwift." target="_blank" aria-label="Chat on WhatsApp"
        style="position: fixed; bottom: 24px; right: 24px; background-color: #FF6F40; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
-      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+      <img src="<?= BASE_URL ?>/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
     </a>
-  </main>
+  
 
   <!-- Footer Include -->
     .step-card {
@@ -150,4 +139,4 @@ include __DIR__ . '/partials/header.php';
       opacity: 1;
     }
   </style>
-<?php include __DIR__ . '/partials/footer.php'; ?>
+
