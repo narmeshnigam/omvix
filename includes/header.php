@@ -35,12 +35,12 @@ $extra_head = $extra_head ?? '';
     <nav class="desktop-nav" role="navigation" aria-label="Main menu" style="display: flex; gap: 32px; font-weight: 600; font-size: 18px; flex: 1; min-width: 0; overflow: visible;">
       <div class="nav-links" style="display: flex; gap: 32px; white-space: nowrap; flex: 1; min-width: 0; overflow: hidden; margin-left: 2%;">
         <a href="<?= BASE_URL ?>/">Home</a>
-        <a href="<?= BASE_URL ?>/solutions">Solutions</a>
-        <a href="<?= BASE_URL ?>/projects">Projects</a>
-        <a href="<?= BASE_URL ?>/learn">Learn</a>
-        <a href="<?= BASE_URL ?>/for-homeowners">For Homeowners</a>
-        <a href="<?= BASE_URL ?>/for-professionals">For Professionals</a>
-        <a href="<?= BASE_URL ?>/contact">Contact</a>
+        <a href="<?= BASE_URL ?>/solutions.php">Solutions</a>
+        <a href="<?= BASE_URL ?>/projects.php">Projects</a>
+        <a href="<?= BASE_URL ?>/learn.php">Learn</a>
+        <a href="<?= BASE_URL ?>/for-homeowners.php">For Homeowners</a>
+        <a href="<?= BASE_URL ?>/for-professionals.php">For Professionals</a>
+        <a href="<?= BASE_URL ?>/contact.php">Contact</a>
       </div>
       <div class="more-dropdown" style="position: relative; display: none;">
         <button style="background: none; border: none; font-weight: 600; cursor: pointer; color: #E25822;">More ▾</button>
@@ -50,7 +50,7 @@ $extra_head = $extra_head ?? '';
 
     <!-- CTA Buttons -->
     <div class="cta-buttons" style="display: flex; align-items: center; gap: 16px;">
-      <a href="<?= BASE_URL ?>/book-demo" class="btn cta-desktop" style="background: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Book a Demo</a>
+      <a href="<?= BASE_URL ?>/book-demo.php" class="btn cta-desktop" style="background: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Book a Demo</a>
       <a class="cta-desktop" href="https://wa.me/919654640101?text=Hi, I'm interested in iSwift smart home automation." target="_blank" aria-label="WhatsApp Contact">
         <img src="<?= BASE_URL ?>/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px; width: 24px;">
       </a>
@@ -70,13 +70,13 @@ $extra_head = $extra_head ?? '';
 <div id="mobile-drawer" role="navigation" aria-label="Mobile menu" style="position: fixed; top: 0; right: 0; width: 280px; height: 100vh; background-color: #FFF8F0; padding: 24px; font-size: 18px; color: #E25822; z-index: 9999; transform: translateX(100%); transition: transform 0.3s ease-in-out; overflow-y: auto;">
   <nav style="display: flex; flex-direction: column; gap: 16px;">
     <a href="<?= BASE_URL ?>/">Home</a>
-    <a href="<?= BASE_URL ?>/solutions">Solutions</a>
-    <a href="<?= BASE_URL ?>/projects">Projects</a>
-    <a href="<?= BASE_URL ?>/learn">Learn</a>
-    <a href="<?= BASE_URL ?>/for-homeowners">For Homeowners</a>
-    <a href="<?= BASE_URL ?>/for-professionals">For Professionals</a>
-    <a href="<?= BASE_URL ?>/contact">Contact</a>
-    <a href="<?= BASE_URL ?>/book-demo" class="btn" style="margin-top: 16px; background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; text-align: center; text-decoration: none; font-weight: 600;">Book a Demo</a>
+    <a href="<?= BASE_URL ?>/solutions.php">Solutions</a>
+    <a href="<?= BASE_URL ?>/projects.php">Projects</a>
+    <a href="<?= BASE_URL ?>/learn.php">Learn</a>
+    <a href="<?= BASE_URL ?>/for-homeowners.php">For Homeowners</a>
+    <a href="<?= BASE_URL ?>/for-professionals.php">For Professionals</a>
+    <a href="<?= BASE_URL ?>/contact.php">Contact</a>
+    <a href="<?= BASE_URL ?>/book-demo.php" class="btn" style="margin-top: 16px; background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; text-align: center; text-decoration: none; font-weight: 600;">Book a Demo</a>
     <a href="https://wa.me/919654640101?text=Hi, I'm interested in iSwift smart home automation." target="_blank" aria-label="Chat on WhatsApp" style="margin-top: auto;">
       <img src="<?= BASE_URL ?>/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px; width: 24px;">
     </a>

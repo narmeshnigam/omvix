@@ -1,13 +1,12 @@
 <?php
 declare(strict_types=1);
+require __DIR__ . '/bootstrap.php';
 $page_title = 'Request a Quote | iSwift';
-$active_nav = '';
-$base_path = '';
 $body_attrs = '';
 $extra_head = <<<HTML
 <meta name="description" content="Request a custom quotation for iSwift smart home solutions in Delhi NCR.">
 HTML;
-include __DIR__ . '/partials/header.php';
+require __DIR__ . '/includes/header.php';
 ?>
 <main style="padding:96px 24px; max-width:800px; margin:auto; text-align:center;">
     <h1 style="font-size:36px; margin-bottom:24px;">Request a Quote</h1>
@@ -20,4 +19,4 @@ include __DIR__ . '/partials/header.php';
       <button type="submit" class="btn">Submit Request</button>
     </form>
   </main>
-<?php include __DIR__ . '/partials/footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

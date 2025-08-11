@@ -1,3 +1,8 @@
+<?php
+require __DIR__ . '/bootstrap.php';
+$page_title = 'Learn | Omvix';
+require __DIR__ . '/includes/header.php';
+?>
 
 <!-- Section 1: Hero Banner -->
     <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/learn-hero.jpg'); background-size: cover; background-position: center;">
@@ -179,3 +184,4 @@
     }
   </style>
 
+<?php require __DIR__ . '/includes/footer.php'; ?>

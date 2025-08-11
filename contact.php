@@ -1,3 +1,8 @@
+<?php
+require __DIR__ . '/bootstrap.php';
+$page_title = 'Contact | Omvix';
+require __DIR__ . '/includes/header.php';
+?>
 
 <!-- Section 1: Hero Banner -->
   <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/contact-hero.jpg'); background-size: cover; background-position: center;">
@@ -48,7 +53,7 @@
       <img src="<?= BASE_URL ?>/icons/calendar-icon.svg" alt="Book Demo" style="height: 48px;">
       <h4>Book a Consultation</h4>
       <p>Schedule a session with our experts—online or in-person.</p>
-      <a href="<?= BASE_URL ?>/book-demo" class="btn">Book Demo</a>
+      <a href="<?= BASE_URL ?>/book-demo.php" class="btn">Book Demo</a>
     </div>
     <div class="card">
       <img src="<?= BASE_URL ?>/icons/phone-icon.svg" alt="Call" style="height: 48px;">
@@ -67,7 +72,7 @@
   <!-- Section 5: FAQ Redirect -->
   <section style="padding: 48px 24px; background: rgba(255,255,255,0.02); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; max-width: 1200px; margin: auto;">
     <p style="font-size: 16px; color: #5A4033;">Have questions about our services? Explore our FAQs and Learn page.</p>
-    <a href="<?= BASE_URL ?>/learn" class="btn">Visit Learn Page →</a>
+    <a href="<?= BASE_URL ?>/learn.php" class="btn">Visit Learn Page →</a>
   </section>
 
   <!-- Sticky WhatsApp CTA -->
@@ -114,3 +119,4 @@
   }
 </style>
 
+<?php require __DIR__ . '/includes/footer.php'; ?>

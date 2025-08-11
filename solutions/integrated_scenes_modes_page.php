@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+require __DIR__ . '/../bootstrap.php';
 $page_title = 'Smart Home Scenes & Modes | iSwift Automation Integration Delhi NCR';
 $active_nav = 'Solutions';
 $base_path = '../';
@@ -7,7 +8,7 @@ $body_attrs = '';
 $extra_head = <<<HTML
 <meta name="description" content="Automate lighting, curtains, locks, and sensors into powerful scenes with iSwift. Explore smart home scenes in Delhi, Gurgaon, Noida & Greater Noida.">
 HTML;
-include __DIR__ . '/../partials/header.php';
+require __DIR__ . '/../includes/header.php';
 ?>
 <section class="hero">
     <div class="hero-content">
@@ -91,4 +92,4 @@ include __DIR__ . '/../partials/header.php';
     </div>
   </section>
 </main>
-<?php include __DIR__ . '/../partials/footer.php'; ?>
+<?php require __DIR__ . '/../includes/footer.php'; ?>

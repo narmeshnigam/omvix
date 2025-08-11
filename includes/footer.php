@@ -8,7 +8,7 @@ declare(strict_types=1);
     <h3 style="font-weight: 500; margin-bottom: 12px; font-size: 22px;">Need Help Choosing the Right Smart Solutions?</h3>
     <p style="font-size: 14px; margin-bottom: 20px;">Book a free consultation or message us directly—our experts are ready to help.</p>
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
-      <a href="<?= BASE_URL ?>/book-demo" style="background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease; width: 200px;;">Book Demo</a>
+      <a href="<?= BASE_URL ?>/book-demo.php" style="background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease; width: 200px;;">Book Demo</a>
       <a href="https://wa.me/919654640101?text=Hi, I'm interested in iSwift smart home automation." target="_blank" style="background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease; width: 200px;;">Chat on WhatsApp</a>
     </div>
   </div>
@@ -40,13 +40,13 @@ declare(strict_types=1);
       <h4 style="font-size: 16px; margin-bottom: 16px;">Quick Links</h4>
       <ul style="list-style: none; padding: 0; margin: 0;">
         <li><a href="<?= BASE_URL ?>/" style="color: #5A4033; text-decoration: none; transition: all 0.3s ease;">Home</a></li>
-        <li><a href="<?= BASE_URL ?>/solutions" style="color: #5A4033; text-decoration: none;">Solutions</a></li>
-        <li><a href="<?= BASE_URL ?>/projects" style="color: #5A4033; text-decoration: none;">Projects</a></li>
-        <li><a href="<?= BASE_URL ?>/learn" style="color: #5A4033; text-decoration: none;">Learn</a></li>
-        <li><a href="<?= BASE_URL ?>/for-homeowners" style="color: #5A4033; text-decoration: none;">For Homeowners</a></li>
-        <li><a href="<?= BASE_URL ?>/for-professionals" style="color: #5A4033; text-decoration: none;">For Professionals</a></li>
-        <li><a href="<?= BASE_URL ?>/contact" style="color: #5A4033; text-decoration: none;">Contact Us</a></li>
-        <li><a href="<?= BASE_URL ?>/book-demo" style="color: #5A4033; text-decoration: none;">Book a Demo</a></li>
+        <li><a href="<?= BASE_URL ?>/solutions.php" style="color: #5A4033; text-decoration: none;">Solutions</a></li>
+        <li><a href="<?= BASE_URL ?>/projects.php" style="color: #5A4033; text-decoration: none;">Projects</a></li>
+        <li><a href="<?= BASE_URL ?>/learn.php" style="color: #5A4033; text-decoration: none;">Learn</a></li>
+        <li><a href="<?= BASE_URL ?>/for-homeowners.php" style="color: #5A4033; text-decoration: none;">For Homeowners</a></li>
+        <li><a href="<?= BASE_URL ?>/for-professionals.php" style="color: #5A4033; text-decoration: none;">For Professionals</a></li>
+        <li><a href="<?= BASE_URL ?>/contact.php" style="color: #5A4033; text-decoration: none;">Contact Us</a></li>
+        <li><a href="<?= BASE_URL ?>/book-demo.php" style="color: #5A4033; text-decoration: none;">Book a Demo</a></li>
       </ul>
     </div>
 

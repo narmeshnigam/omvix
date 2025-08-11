@@ -1,47 +1,196 @@
 <?php
-declare(strict_types=1);
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
+require __DIR__ . '/bootstrap.php';
+$page_title = 'Omvix';
+require __DIR__ . '/includes/header.php';
+?>
 
-define('BASE_PATH', __DIR__);
-define('BASE_URL', '/omvix'); // change if folder differs
 
-// Autoload/boot file if present:
-$boot = BASE_PATH . '/bootstrap.php';
-if (file_exists($boot)) require_once $boot;
+<!-- Section 1: Hero Banner -->
+  <section
+    style="position: relative; height: 100vh; background-image: url('<?= BASE_URL ?>/assets/images/hero-luxury-living-room.png'); background-size: cover; background-position: center;">
+    <div
+      style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(255,248,240,0.7), rgba(255,248,240,0.95)); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 24px;">
+      <h1 style="font-size: 64px; font-weight: 700; color: #FF6F40; margin-bottom: 24px;">Transform Your Home, Elevate
+        Your Life</h1>
+      <p style="font-size: 20px; font-weight: 400; max-width: 720px; margin-bottom: 32px;">Luxury Smart Home Automation
+        for Convenience, Security, and Elegance.</p>
+      <a href="<?= BASE_URL ?>/book-demo.php"
+        style="background-color: #FFB347; color: #3B1F0F; padding: 16px 32px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Book
+        Your Free Demo</a>
+    </div>
+  </section>
 
-$uri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?? '/';
-$uri = preg_replace('#^/omvix#', '', $uri); // subfolder-aware
-$uri = trim($uri, '/');
+  <!-- Section 2: Quick Overview of Solutions -->
+  <section style="padding: 96px 24px; text-align: center;">
+    <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 48px; color: #FF6F40;">Explore Smart Home Solutions
+    </h2>
+    <div
+      style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 32px; max-width: 1000px; margin: auto;">
+      <!-- Cards Start -->
+      <a href="<?= BASE_URL ?>/solutions/smart_lighting_control_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-smart-lighting.png" alt="Lighting">
+        <h3>Smart Lighting</h3>
+        <p>Ambiance and energy savings.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/smart_curtains_blinds_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-smart-curtains.png" alt="Curtains">
+        <h3>Smart Curtains & Blinds</h3>
+        <p>Privacy and comfort automated.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/smart_switches_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-smart-switches.png" alt="Switches">
+        <h3>Smart Switches & Panels</h3>
+        <p>Control appliances intelligently.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/smart_door_locks_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-smart-locks.png" alt="Door Locks">
+        <h3>Smart Door Locks</h3>
+        <p>Secure keyless entry.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/video_door_systems_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-video-door-phone.png" alt="Door Systems">
+        <h3>Video Door Systems</h3>
+        <p>Talk to visitors safely.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/smart_cameras_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-smart-cameras.png" alt="Cameras">
+        <h3>Smart Cameras</h3>
+        <p>Real-time monitoring.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/smart_sensors_alarms_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-sensors-alarms.png" alt="Sensors">
+        <h3>Sensors & Alarms</h3>
+        <p>Instant safety alerts.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/smart_gate_automation_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-smart-gate.png" alt="Gate Automation">
+        <h3>Smart Gate Automation</h3>
+        <p>Automated entry/exit.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/wifi_mesh_network_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-wifi-mesh.png" alt="Wi-Fi">
+        <h3>Wi-Fi Mesh Networks</h3>
+        <p>Stable connectivity.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/smart_water_controller_page.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-water-controller.png" alt="Water Controller">
+        <h3>Smart Water Controller</h3>
+        <p>Prevent overflow.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/integrated_scenes_modes_page.php" class="card"
+        style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-integrated-scenes.png" alt="Scenes">
+        <h3>Integrated Scenes & Modes</h3>
+        <p>Personalized automation.</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+      <a href="<?= BASE_URL ?>/solutions/smart-air-purifier.php" class="card" style="text-decoration: none; color: inherit;">
+        <img src="<?= BASE_URL ?>/assets/images/icon-air-purifier.png" alt="Scenes">
+        <h3>Smart Air Purifier</h3>
+        <p>Breathe Pure</p>
+        <span style="color: #C45A34; font-weight: 500;">Know More</span>
+      </a>
+    </div>
+  </section>
 
-$map = [
-  ''               => 'pages/home.php',
-  'index.php'      => 'pages/home.php',
-  'solutions'      => 'pages/solutions.php',
-  'projects'       => 'pages/projects.php',
-  'learn'          => 'pages/learn.php',
-  'for-homeowners' => 'pages/for-homeowners.php',
-  'for-professionals' => 'pages/for-professionals.php',
-  'contact'        => 'pages/contact.php',
-  'book-demo'      => 'pages/book-demo.php',
-];
+  <!-- Section 3: Lifestyle-driven Benefits -->
+  <section style="padding: 96px 24px; text-align: center;">
+    <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 48px; color: #FF6F40;">Why Homeowners Choose iSwift</h2>
+    <div
+      style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; max-width: 1000px; margin: auto;">
+      <div class="card"><img src="<?= BASE_URL ?>/assets/images/icon-convenience.png" alt="Convenience" style="height: 48px;">
+        <h3>Convenience</h3>
+        <p>Control lighting, security, curtains—all from one app or voice.</p>
+      </div>
+      <div class="card"><img src="<?= BASE_URL ?>/assets/images/icon-security.png" alt="Security">
+        <h3>Security</h3>
+        <p>Know your home is always safe, even when you’re away.</p>
+      </div>
+      <div class="card"><img src="<?= BASE_URL ?>/assets/images/icon-energy-efficiency.png" alt="Energy">
+        <h3>Energy Efficiency</h3>
+        <p>Intelligent systems reduce energy usage and costs automatically.</p>
+      </div>
+      <div class="card"><img src="<?= BASE_URL ?>/assets/images/icon-luxury-comfort.png" alt="Luxury">
+        <h3>Luxury & Comfort</h3>
+        <p>Elegantly integrate technology for a refined living experience.</p>
+      </div>
+    </div>
+  </section>
 
-$file = $map[$uri] ?? null;
-if ($file && file_exists(BASE_PATH . '/' . $file)) {
-  require BASE_PATH . '/includes/header.php';
-  require BASE_PATH . '/' . $file;
-  require BASE_PATH . '/includes/footer.php';
-  exit;
-}
+  <!-- Section 4: Before/After Slider -->
+  <section style="padding: 96px 24px; text-align: center;">
+    <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 48px; color: #FF6F40;">See the Smart Transformation
+    </h2>
+    <div style="max-width: 1000px; margin: auto;">
+      <img src="<?= BASE_URL ?>/assets/images/transformation-before-after-combined.png" alt="Before and After Smart Home"
+        style="width: 100%; border-radius: 16px;">
+    </div>
+  </section>
 
-// fallback to physical php if someone hits /something.php directly
-if (preg_match('#\\.php$#', $uri) && file_exists(BASE_PATH . '/' . $uri)) {
-  require BASE_PATH . '/includes/header.php';
-  require BASE_PATH . '/' . $uri;
-  require BASE_PATH . '/includes/footer.php';
-  exit;
-}
+  <!-- Section 5: Testimonials -->
+  <section style="padding: 96px 24px; text-align: center;">
+    <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 48px; color: #FF6F40;">What Our Clients Say</h2>
+    <div style="max-width: 800px; margin: auto;">
+      <blockquote style="margin-bottom: 32px;">"iSwift changed the way we experience our home. Luxurious, intuitive, and
+        safe."<br>— Mrs. Shruti Kapoor, Homeowner, Gurgaon</blockquote>
+      <br>
+      <blockquote>"Reliable and innovative—iSwift makes automation seamlessly easy for our projects."<br>— Mr. Aniket
+        Malhotra, Architect, Noida</blockquote>
+    </div>
+    <a href="<?= BASE_URL ?>/book-demo.php"
+      style="margin-top: 32px; background-color: #FFB347; color: #3B1F0F; padding: 16px 32px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease; display: inline-block;">Schedule
+      Your Consultation</a>
+  </section>
 
-// 404
-http_response_code(404);
-require BASE_PATH . '/pages/404.php';
+  <!-- Section 6: Partner Callout -->
+  <section style="padding: 96px 24px; width: 75%; margin: auto;">
+    <div
+      style="display: flex; flex-wrap: wrap; gap: 32px; align-items: center; background: rgba(255,255,255,0.04); border-radius: 16px; padding: 32px;">
+      <img src="<?= BASE_URL ?>/assets/images/partner-callout.png" alt="Partner Meeting"
+        style="width: 100%; max-width: 400px; border-radius: 12px;">
+      <div style="flex: 1 1 300px;">
+        <h2 style="font-size: 28px; font-weight: 600; margin-bottom: 16px; color: #FF6F40;">Partner with iSwift</h2>
+        <p style="font-size: 16px; margin-bottom: 24px;">Architects, interior designers, and builders trust iSwift for
+          high-quality smart home integrations. Collaborate for seamless project execution and dedicated support.</p>
+        <a href="<?= BASE_URL ?>/for-professionals.php"
+          style="background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Become
+          a Partner</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Featured Blog -->
+  <section style="padding: 96px 24px; text-align: center;">
+    <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 48px; color: #FF6F40;">Discover Insights on Smart
+      Living</h2>
+    <div style="position: relative; max-width: 1000px; margin: auto;">
+      <a href="#">
+        <img src="<?= BASE_URL ?>/assets/images/featured-blog.png" alt="Smart Home Trends" style="width: 100%; border-radius: 16px;">
+        <div
+          style="position: absolute; bottom: 16px; left: 16px; background: rgba(0,0,0,0.4); padding: 12px 16px; border-radius: 8px; color: white; font-size: 16px;">
+          5 Essential Smart Home Trends in 2025<br><span style="text-decoration: underline; color: #FF6F40;">Read More
+            →</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Sticky WhatsApp CTA -->
+  <a href="https://wa.me/919876543210?text=Hi, I'm interested in iSwift smart home automation." target="_blank"
+    aria-label="Chat on WhatsApp"
+    style="position: fixed; bottom: 24px; right: 24px; background-color: #FFB347; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
+    <img src="<?= BASE_URL ?>/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+  </a>
+  
+
+<?php require __DIR__ . '/includes/footer.php';
+?>
