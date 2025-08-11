@@ -1,3 +1,7 @@
+<?php
+declare(strict_types=1);
+$base_path = $base_path ?? '';
+?>
 <!-- iSwift Website Footer -->
 <footer role="contentinfo" style="background-color: #FFF8F0; color: #5A4033; font-family: 'Inter', sans-serif; padding: 48px 24px;">
   <!-- Section A: Top CTA Strip -->
@@ -5,7 +9,7 @@
     <h3 style="font-weight: 500; margin-bottom: 12px; font-size: 22px;">Need Help Choosing the Right Smart Solutions?</h3>
     <p style="font-size: 14px; margin-bottom: 20px;">Book a free consultation or message us directly—our experts are ready to help.</p>
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
-      <a href="/book-demo.html" style="background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease; width: 200px;;">Book Demo</a>
+      <a href="/book-demo.php" style="background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease; width: 200px;;">Book Demo</a>
       <a href="https://wa.me/919654640101?text=Hi, I'm interested in iSwift smart home automation." target="_blank" style="background-color: #FFB347; color: #3B1F0F; padding: 12px 24px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease; width: 200px;;">Chat on WhatsApp</a>
     </div>
   </div>
@@ -36,14 +40,14 @@
     <div style="flex: 1 1 200px; min-width: 200px;">
       <h4 style="font-size: 16px; margin-bottom: 16px;">Quick Links</h4>
       <ul style="list-style: none; padding: 0; margin: 0;">
-        <li><a href="/index.html" style="color: #5A4033; text-decoration: none; transition: all 0.3s ease;">Home</a></li>
-        <li><a href="/solutions.html" style="color: #5A4033; text-decoration: none;">Solutions</a></li>
-        <li><a href="/projects.html" style="color: #5A4033; text-decoration: none;">Projects</a></li>
-        <li><a href="/learn.html" style="color: #5A4033; text-decoration: none;">Learn</a></li>
-        <li><a href="/homeowners.html" style="color: #5A4033; text-decoration: none;">For Homeowners</a></li>
-        <li><a href="/professionals.html" style="color: #5A4033; text-decoration: none;">For Professionals</a></li>
-        <li><a href="/contact.html" style="color: #5A4033; text-decoration: none;">Contact Us</a></li>
-        <li><a href="/book-demo.html" style="color: #5A4033; text-decoration: none;">Book a Demo</a></li>
+        <li><a href="/index.php" style="color: #5A4033; text-decoration: none; transition: all 0.3s ease;">Home</a></li>
+        <li><a href="/solutions.php" style="color: #5A4033; text-decoration: none;">Solutions</a></li>
+        <li><a href="/projects.php" style="color: #5A4033; text-decoration: none;">Projects</a></li>
+        <li><a href="/learn.php" style="color: #5A4033; text-decoration: none;">Learn</a></li>
+        <li><a href="/homeowners.php" style="color: #5A4033; text-decoration: none;">For Homeowners</a></li>
+        <li><a href="/professionals.php" style="color: #5A4033; text-decoration: none;">For Professionals</a></li>
+        <li><a href="/contact.php" style="color: #5A4033; text-decoration: none;">Contact Us</a></li>
+        <li><a href="/book-demo.php" style="color: #5A4033; text-decoration: none;">Book a Demo</a></li>
       </ul>
     </div>
 
@@ -62,9 +66,9 @@
   <div style="border-top: 1px solid rgba(255,255,255,0.05); padding: 16px 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; text-align: center; font-size: 14px;">
     <p style="margin: 8px 0;">© 2025 iSwift. All rights reserved.</p>
     <div style="display: flex; gap: 12px;">
-      <a href="/privacy.html" style="color: #FF6F40; text-decoration: underline;">Privacy Policy</a>
+      <a href="/privacy.php" style="color: #FF6F40; text-decoration: underline;">Privacy Policy</a>
       <span>|</span>
-      <a href="/terms.html" style="color: #FF6F40; text-decoration: underline;">Terms of Use</a>
+      <a href="/terms.php" style="color: #FF6F40; text-decoration: underline;">Terms of Use</a>
     </div>
   </div>
 </footer>
@@ -82,3 +86,6 @@
     }
   }
 </style>
+<script defer src="<?= $base_path ?>js/main.js"></script>
+</body>
+</html>

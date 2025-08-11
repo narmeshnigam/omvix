@@ -1,0 +1,104 @@
+<?php
+declare(strict_types=1);
+$page_title = 'iSwift Smart Home Automation Services in Delhi NCR';
+$active_nav = '';
+$base_path = '';
+$body_attrs = '';
+$extra_head = <<<HTML
+<meta name="description" content="iSwift provides end-to-end luxury smart home services, from personalized consultation and professional installation to comprehensive support in Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida & Delhi NCR.">
+<meta name="keywords" content="smart home services, smart home installation, home automation consultation, AMC for home automation, warranty coverage smart home, Delhi NCR">
+HTML;
+include __DIR__ . '/partials/header.php';
+?>
+<!-- Section 1: Hero Banner -->
+    <section style="position: relative; height: 60vh; background-image: url('/assets/services-hero.jpg'); background-size: cover; background-position: center;">
+      <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <h1 style="font-size: 48px; font-weight: 700; color: #FF6F40; margin-bottom: 16px;">End-to-End Smart Home Services</h1>
+        <p style="font-size: 18px; font-weight: 400; max-width: 700px;">Seamless Experience from Planning to Lifelong Support.</p>
+      </div>
+    </section>
+
+    <!-- Section 2: Service Lifecycle -->
+    <section style="padding: 96px 24px; max-width: 1000px; margin: auto;">
+      <div style="display: flex; flex-direction: column; gap: 32px;">
+        <div style="display: flex; align-items: flex-start; gap: 24px;">
+          <img src="/icons/consultation-icon.svg" alt="Consultation" style="height: 48px;">
+          <div>
+            <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Consultation & Custom Planning</h3>
+            <p>Personalized planning sessions to choose smart solutions perfect for your home’s unique needs.</p>
+          </div>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 24px;">
+          <img src="/icons/installation-icon.svg" alt="Installation" style="height: 48px;">
+          <div>
+            <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">On-site Installation</h3>
+            <p>Professional installation by expert technicians, ensuring minimal disruption.</p>
+          </div>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 24px;">
+          <img src="/icons/testing-icon.svg" alt="Testing" style="height: 48px;">
+          <div>
+            <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Device Testing & Scene Setup</h3>
+            <p>Detailed testing and custom scenes programmed for effortless daily use.</p>
+          </div>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 24px;">
+          <img src="/icons/training-icon.svg" alt="Training" style="height: 48px;">
+          <div>
+            <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Homeowner Training</h3>
+            <p>Simple training sessions to help you get the most out of your smart systems.</p>
+          </div>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 24px;">
+          <img src="/icons/warranty-icon.svg" alt="Warranty" style="height: 48px;">
+          <div>
+            <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Warranty Handling & AMC Options</h3>
+            <p>Peace of mind with comprehensive warranty coverage and annual maintenance contracts.</p>
+          </div>
+        </div>
+        <div style="display: flex; align-items: flex-start; gap: 24px;">
+          <img src="/icons/support-icon.svg" alt="Support" style="height: 48px;">
+          <div>
+            <h3 style="font-size: 22px; font-weight: 600; color: #FF6F40;">Dedicated Support</h3>
+            <p>Reliable, fast, ongoing support whenever you need it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Featured Service Highlight -->
+    <section style="padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center; background: rgba(255,255,255,0.02);">
+      <div style="flex: 1 1 60%; min-width: 300px;">
+        <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 24px; color: #FF6F40;">Hassle-Free Installation Experience</h2>
+        <p style="font-size: 16px; color: #5A4033; margin-bottom: 24px;">From careful planning to precise installation, our professional team ensures your smart home solutions are seamlessly integrated into your home, respecting your time and comfort.</p>
+        <a href="/book-demo.php" style="background-color: #FFB347; color: #3B1F0F; padding: 16px 32px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Request an Installation Demo</a>
+      </div>
+      <div style="flex: 1 1 35%; min-width: 280px;">
+        <img src="/assets/service-installation.jpg" alt="Installation" style="width: 100%; border-radius: 16px;">
+      </div>
+    </section>
+
+    <!-- Section 4: Testimonial -->
+    <section style="padding: 96px 24px; text-align: center;">
+      <div style="background: rgba(255,255,255,0.04); padding: 32px; border-radius: 16px; max-width: 800px; margin: auto;">
+        <blockquote style="font-size: 18px; line-height: 1.6;">"iSwift’s installation team was incredibly professional. They walked us through every feature and ensured everything worked flawlessly. Highly recommended!"</blockquote>
+        <p style="margin-top: 16px; font-weight: 500; color: #FF6F40;">— Mr. Rohit Agarwal, Homeowner, Delhi</p>
+      </div>
+    </section>
+
+    <!-- Section 5: Warranty Info -->
+    <section style="padding: 96px 24px; text-align: center;">
+      <div style="background: rgba(255,255,255,0.04); padding: 48px 24px; border-radius: 16px; max-width: 800px; margin: auto;">
+        <h2 style="font-size: 32px; font-weight: 600; color: #FF6F40; margin-bottom: 24px;">Comprehensive Warranty & Maintenance Plans</h2>
+        <p style="font-size: 16px; margin-bottom: 32px;">Enjoy complete peace of mind with iSwift’s robust warranty coverage and flexible Annual Maintenance Contracts (AMC). Protect your smart home investment, ensuring your systems function perfectly for years to come.</p>
+        <a href="/services/amc.php" style="background-color: #FFB347; color: #3B1F0F; padding: 16px 32px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: all 0.3s ease;">Learn About AMC Options</a>
+      </div>
+    </section>
+
+    <!-- Sticky WhatsApp CTA -->
+    <a href="https://wa.me/919876543210?text=Hi, I'm interested in iSwift smart home automation." target="_blank" aria-label="Chat on WhatsApp"
+       style="position: fixed; bottom: 24px; right: 24px; background-color: #FF6F40; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
+      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+    </a>
+  </main>
+<?php include __DIR__ . '/partials/footer.php'; ?>
