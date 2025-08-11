@@ -1,17 +1,6 @@
-<?php
-declare(strict_types=1);
-$page_title = 'iSwift Smart Home Projects & Gallery | Delhi NCR';
-$active_nav = 'Projects';
-$base_path = '';
-$body_attrs = '';
-$extra_head = <<<HTML
-<meta name="description" content="Explore iSwift’s portfolio of luxurious, real-life smart home transformations across Delhi, Gurgaon, Noida, Ghaziabad, Greater Noida & Delhi NCR.">
-<meta name="keywords" content="smart home projects, automation gallery, luxury home automation, smart home installation examples, Delhi NCR">
-HTML;
-include __DIR__ . '/partials/header.php';
-?>
+
 <!-- Section 1: Hero Banner -->
-    <section style="position: relative; height: 60vh; background-image: url('/assets/projects-hero.jpg'); background-size: cover; background-position: center;">
+    <section style="position: relative; height: 60vh; background-image: url('<?= BASE_URL ?>/assets/projects-hero.jpg'); background-size: cover; background-position: center;">
       <div style="position: absolute; inset: 0; background: rgba(0,42,34,0.75); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
         <h1 style="font-size: 48px; font-weight: 700; color: #FF6F40; margin-bottom: 16px;">iSwift Smart Home Projects</h1>
         <p style="font-size: 18px; font-weight: 400; max-width: 700px;">Explore Real-Life Transformations Powered by Smart Automation.</p>
@@ -31,19 +20,19 @@ include __DIR__ . '/partials/header.php';
     <section style="padding: 48px 24px;">
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; max-width: 1200px; margin: auto;">
         <div class="card">
-          <img src="/assets/project-villa.jpg" alt="Smart Villa">
+          <img src="<?= BASE_URL ?>/assets/project-villa.jpg" alt="Smart Villa">
           <h3>Smart Villa, Gurgaon</h3>
           <p>Full-home automation for enhanced luxury living.</p>
           <a href="#" class="cta">View Project →</a>
         </div>
         <div class="card">
-          <img src="/assets/project-apartment.jpg" alt="Automated Apartment">
+          <img src="<?= BASE_URL ?>/assets/project-apartment.jpg" alt="Automated Apartment">
           <h3>Automated Apartment, Noida</h3>
           <p>Compact and smart solutions in urban apartments.</p>
           <a href="#" class="cta">View Project →</a>
         </div>
         <div class="card">
-          <img src="/assets/project-farmhouse.jpg" alt="Farmhouse Project">
+          <img src="<?= BASE_URL ?>/assets/project-farmhouse.jpg" alt="Farmhouse Project">
           <h3>Farmhouse Project, Greater Noida</h3>
           <p>Remote-controlled security and lighting systems.</p>
           <a href="#" class="cta">View Project →</a>
@@ -65,19 +54,19 @@ include __DIR__ . '/partials/header.php';
       <div style="flex: 1 1 60%; min-width: 300px;">
         <h2 style="font-size: 36px; font-weight: 600; margin-bottom: 24px; color: #FF6F40;">Ready to Transform Your Home?</h2>
         <p style="font-size: 16px; color: #5A4033; margin-bottom: 24px;">Let’s discuss your vision for an elegant, intelligent home powered by iSwift’s smart automation solutions.</p>
-        <a href="/book-demo.php" class="btn">Request Your Free Consultation</a>
+        <a href="<?= BASE_URL ?>/book-demo" class="btn">Request Your Free Consultation</a>
       </div>
       <div style="flex: 1 1 35%; min-width: 280px;">
-        <img src="/assets/consultation.jpg" alt="Consultation" style="width: 100%; border-radius: 16px;">
+        <img src="<?= BASE_URL ?>/assets/consultation.jpg" alt="Consultation" style="width: 100%; border-radius: 16px;">
       </div>
     </section>
 
     <!-- Sticky WhatsApp CTA -->
     <a href="https://wa.me/919876543210?text=Hi, I'm interested in iSwift smart home automation." target="_blank" aria-label="Chat on WhatsApp"
        style="position: fixed; bottom: 24px; right: 24px; background-color: #FF6F40; border-radius: 50%; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3); z-index: 9999;">
-      <img src="/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
+      <img src="<?= BASE_URL ?>/assets/images/whatsapp.svg" alt="WhatsApp" style="height: 24px;">
     </a>
-  </main>
+  
 
     .tab {
       background: transparent;
@@ -160,4 +149,4 @@ include __DIR__ . '/partials/header.php';
       margin-bottom: 16px;
     }
   </style>
-<?php include __DIR__ . '/partials/footer.php'; ?>
+

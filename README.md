@@ -38,8 +38,19 @@ iSwift’s website is designed to:
 - **Background**: `#002A22`
 - **Accent Color**: `#67F1B4`
 - **Font**: Inter
+
 - **Buttons**: `#A4F4CB` with hover effect (brightness ↑, scale ↑)
 - **Components**: Card overlays, testimonial sliders, highlight sections
+
+### Apache configuration
+
+For pretty URLs to work under XAMPP, edit `C:/xampp/apache/conf/httpd.conf` and ensure the `<Directory "C:/xampp/htdocs">` block contains:
+
+```
+AllowOverride All
+```
+
+Without this change Apache will ignore the project's `.htaccess` file and requests like `/solutions` will result in 404 responses.
 
 Refer to `README_Theme.md` for full style guide.
 
